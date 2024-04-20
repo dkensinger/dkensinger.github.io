@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on d.kens</title>
+    <link>//localhost:1313/en/tags/</link>
+    <description>Recent content in Tags on d.kens</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en-us</language>
+    <copyright>blue oak model license 1.0</copyright>
+    <lastBuildDate>Sun, 16 Aug 2020 21:21:00 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta</title>
+      <link>//localhost:1313/en/tags/meta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/meta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>//localhost:1313/en/tags/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>//localhost:1313/en/tags/tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>//localhost:1313/en/tags/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apps</title>
+      <link>//localhost:1313/en/tags/apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>//localhost:1313/en/tags/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/code/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

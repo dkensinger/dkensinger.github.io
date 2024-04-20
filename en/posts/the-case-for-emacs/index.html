@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow">
+<meta name="revisit-after" content="15 days"><link rel="author" href="/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="[Dave Kensinger]">
+
+  <meta itemprop="name" content="The Case for EMACS">
+  <meta itemprop="description" content="I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&rsquo;ve got Day One as a journaling app but now I use org-mode.">
+  <meta itemprop="datePublished" content="2019-06-24T13:14:00+02:00">
+  <meta itemprop="dateModified" content="2019-06-24T13:14:00+02:00">
+  <meta itemprop="wordCount" content="1521">
+  <meta itemprop="keywords" content="Meta,Apps,Tech"><meta property="og:url" content="//localhost:1313/en/posts/the-case-for-emacs/">
+  <meta property="og:site_name" content="d.kens">
+  <meta property="og:title" content="The Case for EMACS">
+  <meta property="og:description" content="I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&amp;rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&amp;rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&amp;rsquo;ve got Day One as a journaling app but now I use org-mode.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-06-24T13:14:00+02:00">
+    <meta property="article:modified_time" content="2019-06-24T13:14:00+02:00">
+    <meta property="article:tag" content="Meta">
+    <meta property="article:tag" content="Apps">
+    <meta property="article:tag" content="Tech">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="The Case for EMACS">
+<meta name="twitter:description" content="I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&rsquo;ve got Day One as a journaling app but now I use org-mode.">
+<title>The Case for EMACS</title>
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="//localhost:1313/css/style.min.7a77082c23cf9986ded70d1ff914c48855c3e127584b80f3cb4c800bfe6e93ef.css" integrity="sha256-encILCPPmYbe1w0f+RTEiFXD4SdYS4Dzy0yAC/5uk+8=" crossorigin="anonymous">
+	</head>
+<body id="page">
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="//localhost:1313/">d.kens</a>
+				</div>
+				<nav class="site-nav hide-in-mobile"><a href="//localhost:1313/en/posts/">Posts</a><a href="//localhost:1313/en/about/">About</a></nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://joinmastodon.org/" target="_blank" rel="noopener me" title="Mastodon"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m 21.474,13.998 c -0.296,1.526 -2.655,3.194 -5.365,3.519 -1.413,0.168 -2.804,0.323 -4.287,0.255 -2.426,-0.111 -4.34,-0.579 -4.34,-0.579 0,0.236 0.015,0.461 0.044,0.672 0.316,2.394 2.373,2.537 4.323,2.604 1.968,0.067 3.721,-0.486 3.721,-0.486 l 0.081,1.779 c 0,0 -1.377,0.739 -3.829,0.875 -1.352,0.075 -3.031,-0.034 -4.987,-0.551 C 2.594,20.963 1.865,16.442 1.752,11.855 1.719,10.493 1.741,9.209 1.741,8.134 1.741,3.443 4.814,2.069 4.814,2.069 6.363,1.356 9.022,1.056 11.787,1.035 h 0.067 c 2.764,0.022 5.426,0.322 6.975,1.033 0,0 3.073,1.375 3.073,6.066 0,0 0.039,3.461 -0.428,5.864"/><path d="M 6.464,13.231 V 7.973 c 0,-1.002 0.549,-2.613 2.613,-2.613 2.064,0 2.741,1.793 2.741,3.484 0,1.692 0,2.23 0,2.23"/><path d="M 17.173,13.231 V 7.973 c 0,-1.002 -0.549,-2.613 -2.613,-2.613 -2.064,0 -2.741,1.793 -2.741,3.484 0,1.692 -0,2.23 -0,2.23"/></svg></a><a href="https://twitter.com/" target="_blank" rel="noopener me" title="X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6"/></svg></a><a href="https://github.com/" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="share-btn" class="hdr-btn" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+ 
+<div id="share-links" class="animated fast">
+    
+    
+    
+    
+    <ul>
+        <li>
+            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=%2f%2flocalhost%3a1313%2fen%2fposts%2fthe-case-for-emacs%2f&amp;text=The%20Case%20for%20EMACS" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6"/></svg></a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=%2f%2flocalhost%3a1313%2fen%2fposts%2fthe-case-for-emacs%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </li>
+        <li>
+            <a href="mailto:?subject=The%20Case%20for%20EMACS&amp;body=%2f%2flocalhost%3a1313%2fen%2fposts%2fthe-case-for-emacs%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f%2flocalhost%3a1313%2fen%2fposts%2fthe-case-for-emacs%2f&amp;source=%2f%2flocalhost%3a1313%2f&amp;title=The%20Case%20for%20EMACS&amp;summary=The%20Case%20for%20EMACS%2c%20by%20%5bDave%20Kensinger%5d%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        </li>
+        <li>
+            <a href="#" onclick="linkShare(&#34;The Case for EMACS&#34;,&#34;//localhost:1313/en/posts/the-case-for-emacs/&#34;,&#34;The Case for EMACS, by [Dave Kensinger]\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
+        </li>
+    </ul>
+</div><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="//localhost:1313/en/posts/">Posts</a></li>
+			<li><a href="//localhost:1313/en/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jun 24, 2019</span></div>
+				<h1>The Case for EMACS</h1>
+			</header>
+			<div class="post-info"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg><a href="/en/about/about-me/" target="_blank">[Dave Kensinger]</a></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="//localhost:1313/en/tags/meta">meta</a></span><span class="tag"><a href="//localhost:1313/en/tags/apps">apps</a></span><span class="tag"><a href="//localhost:1313/en/tags/tech">tech</a></span></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1521 Words
+    ⏳
+    
+    
+    
+    6 Minutes, 54 Seconds</p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-06-24 13:14 &#43;0200</p></div>
+			<hr class="post-end">
+			<div class="content">
+				<p>I use a mac. I use <a href="https://www.gnu.org/software/emacs/manual/html_mono/calc.html">EMACS</a>. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&rsquo;ve tried the venerable <a href="https://www.omnigroup.com/omnifocus">OmniFocus</a> and <a href="https://culturedcode.com/things/">Things</a> apps for to-do lists and projects. Now I use org-mode in EMACS. I&rsquo;ve got <a href="https://dayoneapp.com">Day One</a> as a journaling app but now I use org-mode. I have <a href="https://www.acqualia.com/soulver/">Soulver</a> and the standard Calc app but I use the built-in EMACS calculator more and more. I use <a href="https://getdrafts.com">Drafts</a> and <a href="https://ulysses.app">Ulysses</a> but I prefer EMACS now. I use Git to track changes but I rarely (if ever) use the command line, rather, I use the excellent magit package in EMACS. I have tried blogging with Wordpress but now I use <a href="https://gohugo.io">Hugo</a> and EMACS instead. On the other hand, I have tried doing email in EMACS with mu4e but I still prefer the standard mac mail app (less hassle with settings). I&rsquo;ve played with primitive spreadsheets in org-mode but I still prefer Excel as my goto spreadsheet app. I still use Messages, Slack and Limechat for chatting and newsgroups&mdash;but I&rsquo;m tempted to give EMACS another try with packages that support all those protocols.</p>
+<p>In short, EMACS has become my default for much of my computing day. It&rsquo;s powerful, consistent, flexible and forgiving. But it&rsquo;s also finicky and complicated&mdash;and it demands some effort to learn. But it&rsquo;s worth it if you&rsquo;re willing to meet it half way.</p>
+<h2 id="compromises">Compromises<a href="#compromises" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Embracing EMACS requires a few compromises. The first is that you must be fully invested in using a <strong>keyboard</strong> as your primary input device. Mouse, trackpad, dictation, gestures, eye-tracking, etc. are considered secondary inputs. The keyboard is king and in EMACS world, key-chords are <em>the</em> primary way of doing things. If you&rsquo;re willing to learn dozens of keyboard combinations&mdash;some easy to remember, others diabolically difficult&mdash;then you&rsquo;re ready to move on to the next compromise: it&rsquo;s all about text.</p>
+<p>Pure <strong>text</strong>. No graphics, no buttons, no sliders, graphs, images&hellip; nothing but plain text. The compromise is: trading away a graphical user interface for a pure text interface. It&rsquo;s all text, all the time. For some, especially writers, pure text editing is enjoying a kind of renaissance. For most others, pure text feels like an unnecessary step back in time.</p>
+<p>One more compromise I&rsquo;ll mention is: a willingness to open the hood and tinker with the guts of EMACS. You could think of it as a preference pane on steroids&mdash;except that doesn&rsquo;t even do this idea justice. You see, if you are willing to learn the language that EMACS is built with, namely <strong>Elisp</strong>, then you could modify EMACS itself or create any new application you desire.</p>
+<p>From the source (<a href="https://www.gnu.org">www.gnu.org</a>):</p>
+<blockquote>
+<p>GNU Emacs, describes [EMACS] as &ldquo;the extensible, customizable, self-documenting, real-time display editor&rdquo;</p>
+</blockquote>
+<h2 id="the-keyboard-is-king">The keyboard is king<a href="#the-keyboard-is-king" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>In the beginning, there was the typewriter<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Modern computers adopted the typewriter concept and used a keyboard for input. In combination with punch-cards, the keyboard was the primary interface with a computer. Since EMACS was born in the early days of computing, the keyboard was and remains central in it&rsquo;s design and philosophy. Modern EMACS is friendly (tolerant?) of pointing device input, but the keyboard rules the interface.</p>
+<p>To access the features of EMACS, one must use key combinations to invoke the hundreds (thousands?) of available commands. An example is &ldquo;SPC x t w&rdquo; which means press SPACEBAR followed by &ldquo;x&rdquo; then &ldquo;t&rdquo; then &ldquo;w&rdquo; in that order. In my setup<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, this will transpose two words. Another example is &ldquo;g g&rdquo; which jumps the cursor to the top of your current window.</p>
+<p>However, I won&rsquo;t lie, EMACS (at least in it&rsquo;s initial pristine state) is a <em>strange</em> application compared to Word or TextEditor or any other writing application you may be used to. After some customization it can begin to look and behave more like your writing applications. But to truly unleash the power of EMACS you must &ldquo;let go and trust the <del>force</del> keyboard&rdquo;. Not that you can&rsquo;t still use the mouse and arrow keys to move around. But the more you accept the keyboard way of doing things, the easier and more powerful EMACS becomes.</p>
+<p>I&rsquo;m not a touch typist (yet) and I don&rsquo;t even use the default EMACS key combinations (called key <em>bindings</em>) for many things. I use an alternate editing mode based on VIM which uses a modal editing concept. I won&rsquo;t get into it here but I will say that when you see an expert who edits using VIM commands, you&rsquo;ll be amazed and inspired to learn it&rsquo;s secrets. Compared to the WYSIWYG writing apps, with all their pointing and clicking and dragging and scrolling, writing in a pure text editor like EMACS feels more focused and more powerful.</p>
+<h2 id="it-s-all-text">It&rsquo;s all text<a href="#it-s-all-text" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Not really. There&rsquo;s more to life than text. But in the digital writing world it&rsquo;s pretty true. Text is only a few steps up from bits, bytes and hexadecimals. It&rsquo;s the basic connection between a computer and human language.</p>
+<p>For writers, text is the essence of expression. Not the font, the color, the margin space, the italics. That&rsquo;s not to say those things are not important; they are. But plain text seems to clarify writing. Formatting features while I&rsquo;m writing tend to distract me anyway. I&rsquo;d prefer to save the layout and typography for the right time&mdash;which should normally be <em>after</em> the text is finished.</p>
+<p>Plain text in many applications looks, well, plain. Often a little rough around the edges, using monospaced font and looking unpolished compared to a desktop publishing app. But with a little customization, even EMACS can look and feel like a flashy word processor while remaining true to its plain text nature.</p>
+<h2 id="the-possibilities-are-endless">The possibilities are endless<a href="#the-possibilities-are-endless" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Now it&rsquo;s time to mention the real power behind EMACS as a text editor. It turns out that EMACS is actually a Lisp interpreter that happens to also be a darn good text editor. In fact, many people joke about EMACS being a replacement for their operating system while running most of their basic apps within EMACS as well.</p>
+<p>Under the hood, EMACS uses a dialect of Lisp called Elisp (EMACS Lisp). It is the language used to construct all the features found in the EMACS text editor. It also allows anyone to create or modify <em>anything</em> in EMACS. Any. Thing.</p>
+<p>This programming language is like a superpower once you begin to tap into its power. It&rsquo;s what makes EMACS <em>infinitely</em> customizable. And the extensions and features that others have developed over the last 40+ years is pretty amazing.</p>
+<p>Seriously, you can customize anything. Want to change the keyboard shortcut for a command? Use an Elisp command. Want to change the way a feature works? Modify the Elisp function(s) behind the feature. Want an extention that displays sunset and phase of the moon in the status bar? there&rsquo;s a package for that.</p>
+<p>Those are just the minor league. The majors include things like:</p>
+<ul>
+<li>an integrated fully functioning programmable <a href="https://www.gnu.org/software/emacs/manual/html_mono/calc.html">calculator</a></li>
+<li><a href="https://magit.vc">magit</a>: a user friendly front end to Git</li>
+<li><a href="https://orgmode.org">org-mode</a>: think of Markdown but many times more powerful and capable</li>
+</ul>
+<p>Those are just three out of the hundreds of packages that can extend the usefulness of EMACS. And those last two, magit and org-mode, are often cited as reason enough to use EMACS even if you don&rsquo;t use it as a text editor.</p>
+<h2 id="the-thermonuclear-word-processor">The thermonuclear word processor<a href="#the-thermonuclear-word-processor" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>EMACS isn&rsquo;t for everybody. Some people can&rsquo;t (or won&rsquo;t) work without a mouse or trackpad. Some people prefer the desktop publishing features of Word over a bare bones text editor. Some people don&rsquo;t like tinkering under the hood of an application.</p>
+<p>But if you&rsquo;re willing to give EMACS a try, it can be transformative. It can become your superpower when using a computer. In the right hands, it can perform feats of magic that will amaze and astound even seasoned computer experts. I&rsquo;ll finish with this excellent summary:</p>
+<blockquote>
+<p>I use emacs, which might be thought of as a thermonuclear word processor. It was created by Richard Stallman; enough said. It is written in Lisp, which is the only computer language that is beautiful. It is colossal, and yet it only edits straight ASCII text files, which is to say, no fonts, no boldface, no underlining. In other words, the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer—i.e., if someone else is getting paid to worry about how your words are formatted and printed—emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish. &mdash;Neal Stephenson (1999)</p>
+</blockquote>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Ok. Maybe not the &ldquo;beginning of recorded history&rdquo; but the beginning of the modern office era?&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I use <a href="http://spacemacs.org">Spacemacs</a> which is a custom configuration of EMACS.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+			</div>
+
+<div class="related-posts thin">
+	<h2>See Also</h2>
+	<ul>
+	
+	<li><a href="/en/posts/why-the-name-dave-2-dot-1/">  Why the name &#34;Dave 2.1&#34;?
+  </a></li>
+	
+	</ul>
+</div>
+
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="//localhost:1313/en/posts/programming-languages-i-use/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Programming Languages I use</span>
+			</a>
+			<a class="prev-post" href="//localhost:1313/en/posts/why-the-name-dave-2-dot-1/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>  Why the name &#34;Dave 2.1&#34;?
+  </span>
+			</a>
+		</div>
+		<div id="comments" class="thin"></div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>
+		&copy; 2024 <a href="//localhost:1313/">Dave Kensinger</a>
+		&#183; blue oak model license 1.0.0
+		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a></p>
+
+</footer>
+<script async src="//localhost:1313/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="//localhost:1313/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
+</body>
+
+</html>
