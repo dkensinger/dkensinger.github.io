@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on d.kens</title>
-    <link>//localhost:1313/en/tags/programming/</link>
+    <link>https://dkensinger.github.io/en/tags/programming/</link>
     <description>Recent content in Programming on d.kens</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
     <copyright>blue oak model license 1.0</copyright>
     <lastBuildDate>Wed, 26 Jun 2019 11:17:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/en/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/en/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming Languages I use</title>
-      <link>//localhost:1313/en/posts/programming-languages-i-use/</link>
+      <link>https://dkensinger.github.io/en/posts/programming-languages-i-use/</link>
       <pubDate>Wed, 26 Jun 2019 11:17:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/programming-languages-i-use/</guid>
+      <guid>https://dkensinger.github.io/en/posts/programming-languages-i-use/</guid>
       <description>Here is an annotated list of the programming languages I use (or have used). Listed in the order I first used them:&#xA;MS BASIC ran on my first computer, an IBM PC with an 8088 processor (1981?) used to copy programs from computer magazines first learned the concept of subroutines with GOSUB command PASCAL my first formal computer course used this language had to share a central compiler at school had to take turns on a limited set of terminals don&amp;rsquo;t think I ever got an entire program to run correctly (as intended) hated the whole experience!</description>
     </item>
     <item>
       <title>Just a Hobby</title>
-      <link>//localhost:1313/en/posts/just-a-hobby/</link>
+      <link>https://dkensinger.github.io/en/posts/just-a-hobby/</link>
       <pubDate>Sun, 16 Jun 2019 15:24:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/just-a-hobby/</guid>
+      <guid>https://dkensinger.github.io/en/posts/just-a-hobby/</guid>
       <description>(original article written in December 2016)&#xA;The Start Programming. It’s my new hobby. Well, also reading about programming. Hacker News, Reddit, all kinds of blogs and other sites. Also computer science. Also a hobby. Algorithms, big O notation, functional versus imperative languages, searching, sorting, data structures, strong versus weak typed languages, operator overloading, etc. Ad infinitum. I think it’s fascinating. Not terribly fun sometimes, not easy to grasp most of the time.</description>
     </item>
   </channel>

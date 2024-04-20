@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>You don&#39;t start out writing good stuff on d.kens</title>
-    <link>//localhost:1313/en/</link>
+    <link>https://dkensinger.github.io/en/</link>
     <description>Recent content in You don&#39;t start out writing good stuff on d.kens</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
     <copyright>blue oak model license 1.0</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 21:21:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Racket, Pollen and Fossil… oh my!</title>
-      <link>//localhost:1313/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
+      <link>https://dkensinger.github.io/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
       <pubDate>Sun, 16 Aug 2020 21:21:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
+      <guid>https://dkensinger.github.io/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
       <description>A tale of me discovering, learning and playing with a new set of toys for my blog&amp;hellip;&#xA;Racket Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation.</description>
     </item>
     <item>
       <title>Anatomy of a Blog</title>
-      <link>//localhost:1313/en/posts/anatomy-of-a-blog/</link>
+      <link>https://dkensinger.github.io/en/posts/anatomy-of-a-blog/</link>
       <pubDate>Sat, 15 Aug 2020 22:42:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/anatomy-of-a-blog/</guid>
+      <guid>https://dkensinger.github.io/en/posts/anatomy-of-a-blog/</guid>
       <description>Originally published on 25-06-2019&#xA;updated: switched from using Netlify to Github.io&#xA;Blogs are a thing&amp;hellip; again. I&amp;rsquo;ve tried doing them over the years with little success. I think it&amp;rsquo;s because I found it more interesting to fiddle with the blog back-end rather than the actual blog itself. This time it&amp;rsquo;s different! (I hope)&#xA;This is how my words get to the site:&#xA;In EMACS I open my blog file called &amp;ldquo;all-posts.</description>
     </item>
     <item>
       <title>The things you learn</title>
-      <link>//localhost:1313/en/posts/the-things-you-learn/</link>
+      <link>https://dkensinger.github.io/en/posts/the-things-you-learn/</link>
       <pubDate>Fri, 13 Sep 2019 17:51:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/the-things-you-learn/</guid>
+      <guid>https://dkensinger.github.io/en/posts/the-things-you-learn/</guid>
       <description>Various things I&amp;rsquo;ve learned working at my present job:&#xA;Databases My first contribution to the Press was to create a working database to track and store all the book projects. I used Filemaker and created a working application. During this project I learned about:&#xA;relational databases database theory structured query language installing and maintaining server and client applications training people to use unfamiliar software Subscriptions A major project I was involved in was creating a subscription service for several book series.</description>
     </item>
     <item>
       <title>Finding Patterns in Data</title>
-      <link>//localhost:1313/en/posts/finding-patterns-in-data/</link>
+      <link>https://dkensinger.github.io/en/posts/finding-patterns-in-data/</link>
       <pubDate>Sun, 07 Jul 2019 18:01:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/finding-patterns-in-data/</guid>
+      <guid>https://dkensinger.github.io/en/posts/finding-patterns-in-data/</guid>
       <description>The Photos app in macOS has a feature that can recognize faces of the people in your photo library. It&amp;rsquo;s pretty remarkable. It doesn&amp;rsquo;t do a perfect job but you can correct it and train it to be better and better over time. It can also recognize the faces of my kids as they grow older. Amazing. My phone looks for and recognizes my face to unlock it. Netflix recommends shows I might enjoy based on what I&amp;rsquo;ve already watched.</description>
     </item>
     <item>
       <title>Programming Languages I use</title>
-      <link>//localhost:1313/en/posts/programming-languages-i-use/</link>
+      <link>https://dkensinger.github.io/en/posts/programming-languages-i-use/</link>
       <pubDate>Wed, 26 Jun 2019 11:17:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/programming-languages-i-use/</guid>
+      <guid>https://dkensinger.github.io/en/posts/programming-languages-i-use/</guid>
       <description>Here is an annotated list of the programming languages I use (or have used). Listed in the order I first used them:&#xA;MS BASIC ran on my first computer, an IBM PC with an 8088 processor (1981?) used to copy programs from computer magazines first learned the concept of subroutines with GOSUB command PASCAL my first formal computer course used this language had to share a central compiler at school had to take turns on a limited set of terminals don&amp;rsquo;t think I ever got an entire program to run correctly (as intended) hated the whole experience!</description>
     </item>
     <item>
       <title>The Case for EMACS</title>
-      <link>//localhost:1313/en/posts/the-case-for-emacs/</link>
+      <link>https://dkensinger.github.io/en/posts/the-case-for-emacs/</link>
       <pubDate>Mon, 24 Jun 2019 13:14:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/the-case-for-emacs/</guid>
+      <guid>https://dkensinger.github.io/en/posts/the-case-for-emacs/</guid>
       <description>I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&amp;rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&amp;rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&amp;rsquo;ve got Day One as a journaling app but now I use org-mode.</description>
     </item>
     <item>
       <title>  Why the name &#34;Dave 2.1&#34;?
   </title>
-      <link>//localhost:1313/en/posts/why-the-name-dave-2-dot-1/</link>
+      <link>https://dkensinger.github.io/en/posts/why-the-name-dave-2-dot-1/</link>
       <pubDate>Mon, 17 Jun 2019 17:28:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/why-the-name-dave-2-dot-1/</guid>
+      <guid>https://dkensinger.github.io/en/posts/why-the-name-dave-2-dot-1/</guid>
       <description>Dave 0.5 was me in school. Kindergarten through College. Mostly Northern Virginia. Finished at the University of Virginia with a BS in Aerospace Engineering.&#xA;Dave 1.0 was my first profession. 20 years as a US Air Force Officer, fighter-pilot, instructor. Saw the world. Been there, done that.&#xA;Dave 2.0 was my second professional life. Family, tech industry, then IT support and professional services. Mostly family. Wife, three kids and a dog.</description>
     </item>
     <item>
       <title>Just a Hobby</title>
-      <link>//localhost:1313/en/posts/just-a-hobby/</link>
+      <link>https://dkensinger.github.io/en/posts/just-a-hobby/</link>
       <pubDate>Sun, 16 Jun 2019 15:24:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/just-a-hobby/</guid>
+      <guid>https://dkensinger.github.io/en/posts/just-a-hobby/</guid>
       <description>(original article written in December 2016)&#xA;The Start Programming. It’s my new hobby. Well, also reading about programming. Hacker News, Reddit, all kinds of blogs and other sites. Also computer science. Also a hobby. Algorithms, big O notation, functional versus imperative languages, searching, sorting, data structures, strong versus weak typed languages, operator overloading, etc. Ad infinitum. I think it’s fascinating. Not terribly fun sometimes, not easy to grasp most of the time.</description>
     </item>
     <item>
       <title>Colophon</title>
-      <link>//localhost:1313/en/about/colophon/</link>
+      <link>https://dkensinger.github.io/en/about/colophon/</link>
       <pubDate>Sun, 24 Feb 2019 19:17:00 +0100</pubDate>
-      <guid>//localhost:1313/en/about/colophon/</guid>
+      <guid>https://dkensinger.github.io/en/about/colophon/</guid>
       <description>This site is written and edited in Emacs.&#xA;But that&amp;rsquo;s not the whole story&amp;hellip;&#xA;Here&amp;rsquo;s a list of stuff I use to make this site:&#xA;Emacs 29.3 Doom emacs Org mode ox-hugo (org → markdown → hugo exporter) hugo (static site generator) git/github/magit (for version control) github.io (for website hosting) Once all those pieces and parts are linked together1, I just write entries in a text file using org mode in Emacs.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>//localhost:1313/en/about/about-me/</link>
+      <link>https://dkensinger.github.io/en/about/about-me/</link>
       <pubDate>Thu, 24 Jan 2019 19:18:00 +0100</pubDate>
-      <guid>//localhost:1313/en/about/about-me/</guid>
+      <guid>https://dkensinger.github.io/en/about/about-me/</guid>
       <description>Some stuff about me here1.&#xA;yet another footnote&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
   </channel>

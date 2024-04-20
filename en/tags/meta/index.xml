@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meta on d.kens</title>
-    <link>//localhost:1313/en/tags/meta/</link>
+    <link>https://dkensinger.github.io/en/tags/meta/</link>
     <description>Recent content in Meta on d.kens</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
     <copyright>blue oak model license 1.0</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 21:21:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/en/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/en/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Racket, Pollen and Fossil… oh my!</title>
-      <link>//localhost:1313/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
+      <link>https://dkensinger.github.io/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
       <pubDate>Sun, 16 Aug 2020 21:21:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
+      <guid>https://dkensinger.github.io/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
       <description>A tale of me discovering, learning and playing with a new set of toys for my blog&amp;hellip;&#xA;Racket Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation.</description>
     </item>
     <item>
       <title>Anatomy of a Blog</title>
-      <link>//localhost:1313/en/posts/anatomy-of-a-blog/</link>
+      <link>https://dkensinger.github.io/en/posts/anatomy-of-a-blog/</link>
       <pubDate>Sat, 15 Aug 2020 22:42:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/anatomy-of-a-blog/</guid>
+      <guid>https://dkensinger.github.io/en/posts/anatomy-of-a-blog/</guid>
       <description>Originally published on 25-06-2019&#xA;updated: switched from using Netlify to Github.io&#xA;Blogs are a thing&amp;hellip; again. I&amp;rsquo;ve tried doing them over the years with little success. I think it&amp;rsquo;s because I found it more interesting to fiddle with the blog back-end rather than the actual blog itself. This time it&amp;rsquo;s different! (I hope)&#xA;This is how my words get to the site:&#xA;In EMACS I open my blog file called &amp;ldquo;all-posts.</description>
     </item>
     <item>
       <title>The Case for EMACS</title>
-      <link>//localhost:1313/en/posts/the-case-for-emacs/</link>
+      <link>https://dkensinger.github.io/en/posts/the-case-for-emacs/</link>
       <pubDate>Mon, 24 Jun 2019 13:14:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/the-case-for-emacs/</guid>
+      <guid>https://dkensinger.github.io/en/posts/the-case-for-emacs/</guid>
       <description>I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&amp;rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&amp;rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&amp;rsquo;ve got Day One as a journaling app but now I use org-mode.</description>
     </item>
     <item>
       <title>  Why the name &#34;Dave 2.1&#34;?
   </title>
-      <link>//localhost:1313/en/posts/why-the-name-dave-2-dot-1/</link>
+      <link>https://dkensinger.github.io/en/posts/why-the-name-dave-2-dot-1/</link>
       <pubDate>Mon, 17 Jun 2019 17:28:00 +0200</pubDate>
-      <guid>//localhost:1313/en/posts/why-the-name-dave-2-dot-1/</guid>
+      <guid>https://dkensinger.github.io/en/posts/why-the-name-dave-2-dot-1/</guid>
       <description>Dave 0.5 was me in school. Kindergarten through College. Mostly Northern Virginia. Finished at the University of Virginia with a BS in Aerospace Engineering.&#xA;Dave 1.0 was my first profession. 20 years as a US Air Force Officer, fighter-pilot, instructor. Saw the world. Been there, done that.&#xA;Dave 2.0 was my second professional life. Family, tech industry, then IT support and professional services. Mostly family. Wife, three kids and a dog.</description>
     </item>
   </channel>
