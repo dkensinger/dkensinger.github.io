@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on d.kens</title>
-    <link>http://localhost:1313/en/tags/</link>
+    <link>https://dkensinger.github.io/en/tags/</link>
     <description>Recent content in Tags on d.kens</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <copyright>blue oak model license 1.0</copyright>
+    <copyright>blue oak model license 1.0.0</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 21:21:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meta</title>
-      <link>http://localhost:1313/en/tags/meta/</link>
+      <link>https://dkensinger.github.io/en/tags/meta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/meta/</guid>
+      <guid>https://dkensinger.github.io/en/tags/meta/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>http://localhost:1313/en/tags/education/</link>
+      <link>https://dkensinger.github.io/en/tags/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/education/</guid>
+      <guid>https://dkensinger.github.io/en/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>http://localhost:1313/en/tags/tech/</link>
+      <link>https://dkensinger.github.io/en/tags/tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/tech/</guid>
+      <guid>https://dkensinger.github.io/en/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/en/tags/programming/</link>
+      <link>https://dkensinger.github.io/en/tags/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/programming/</guid>
+      <guid>https://dkensinger.github.io/en/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Apps</title>
-      <link>http://localhost:1313/en/tags/apps/</link>
+      <link>https://dkensinger.github.io/en/tags/apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/apps/</guid>
+      <guid>https://dkensinger.github.io/en/tags/apps/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>http://localhost:1313/en/tags/code/</link>
+      <link>https://dkensinger.github.io/en/tags/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/code/</guid>
+      <guid>https://dkensinger.github.io/en/tags/code/</guid>
       <description></description>
     </item>
   </channel>

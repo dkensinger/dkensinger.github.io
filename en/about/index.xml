@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on d.kens</title>
-    <link>http://localhost:1313/en/about/</link>
+    <link>https://dkensinger.github.io/en/about/</link>
     <description>Recent content in Abouts on d.kens</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <copyright>blue oak model license 1.0</copyright>
+    <copyright>blue oak model license 1.0.0</copyright>
     <lastBuildDate>Sun, 24 Feb 2019 19:17:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/en/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Colophon</title>
-      <link>http://localhost:1313/en/about/colophon/</link>
+      <link>https://dkensinger.github.io/en/about/colophon/</link>
       <pubDate>Sun, 24 Feb 2019 19:17:00 +0100</pubDate>
-      <guid>http://localhost:1313/en/about/colophon/</guid>
+      <guid>https://dkensinger.github.io/en/about/colophon/</guid>
       <description>This site is written and edited in Emacs.&#xA;But that&amp;rsquo;s not the whole story&amp;hellip;&#xA;Here&amp;rsquo;s a list of stuff I use to make this site:&#xA;Emacs 29.3 Doom emacs Org mode ox-hugo (org → markdown → hugo exporter) hugo (static site generator) git/github/magit (for version control) github.io (for website hosting) Once all those pieces and parts are linked together1, I just write entries in a text file using org mode in Emacs.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/en/about/about-me/</link>
+      <link>https://dkensinger.github.io/en/about/about-me/</link>
       <pubDate>Thu, 24 Jan 2019 19:18:00 +0100</pubDate>
-      <guid>http://localhost:1313/en/about/about-me/</guid>
+      <guid>https://dkensinger.github.io/en/about/about-me/</guid>
       <description>Some stuff about me here1.&#xA;yet another footnote&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
   </channel>

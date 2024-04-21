@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on d.kens</title>
-    <link>http://localhost:1313/en/tags/code/</link>
+    <link>https://dkensinger.github.io/en/tags/code/</link>
     <description>Recent content in Code on d.kens</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <copyright>blue oak model license 1.0</copyright>
+    <copyright>blue oak model license 1.0.0</copyright>
     <lastBuildDate>Fri, 13 Jul 2018 19:16:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/en/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download data from the web</title>
-      <link>http://localhost:1313/en/posts/download-data-from-the-web/</link>
+      <link>https://dkensinger.github.io/en/posts/download-data-from-the-web/</link>
       <pubDate>Fri, 13 Jul 2018 19:16:00 +0200</pubDate>
-      <guid>http://localhost:1313/en/posts/download-data-from-the-web/</guid>
+      <guid>https://dkensinger.github.io/en/posts/download-data-from-the-web/</guid>
       <description>Task A colleague of mine has been entering meta-data for books through a web-based portal (let&amp;rsquo;s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing.</description>
     </item>
     <item>
       <title>Fizz-Buzz: deluxe edition</title>
-      <link>http://localhost:1313/en/posts/fizz-buzz-deluxe-edition/</link>
+      <link>https://dkensinger.github.io/en/posts/fizz-buzz-deluxe-edition/</link>
       <pubDate>Fri, 12 May 2017 23:17:00 +0200</pubDate>
-      <guid>http://localhost:1313/en/posts/fizz-buzz-deluxe-edition/</guid>
+      <guid>https://dkensinger.github.io/en/posts/fizz-buzz-deluxe-edition/</guid>
       <description>Origin story I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall.</description>
     </item>
   </channel>

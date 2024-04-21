@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/tags/meta/</loc>
+    <loc>https://dkensinger.github.io/en/tags/meta/</loc>
     <lastmod>2020-08-16T21:21:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>https://dkensinger.github.io/en/posts/</loc>
     <lastmod>2020-08-16T21:21:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</loc>
+    <loc>https://dkensinger.github.io/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</loc>
     <lastmod>2020-08-16T21:21:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://dkensinger.github.io/en/tags/</loc>
     <lastmod>2020-08-16T21:21:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://dkensinger.github.io/en/</loc>
     <lastmod>2020-08-16T21:21:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/anatomy-of-a-blog/</loc>
+    <loc>https://dkensinger.github.io/en/posts/anatomy-of-a-blog/</loc>
     <lastmod>2020-08-15T22:42:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/education/</loc>
+    <loc>https://dkensinger.github.io/en/tags/education/</loc>
     <lastmod>2019-09-13T17:51:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/tech/</loc>
+    <loc>https://dkensinger.github.io/en/tags/tech/</loc>
     <lastmod>2019-09-13T17:51:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/the-things-you-learn/</loc>
+    <loc>https://dkensinger.github.io/en/posts/the-things-you-learn/</loc>
     <lastmod>2019-09-13T17:51:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/finding-patterns-in-data/</loc>
+    <loc>https://dkensinger.github.io/en/posts/finding-patterns-in-data/</loc>
     <lastmod>2019-07-07T18:01:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/programming/</loc>
+    <loc>https://dkensinger.github.io/en/tags/programming/</loc>
     <lastmod>2019-06-26T11:17:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/programming-languages-i-use/</loc>
+    <loc>https://dkensinger.github.io/en/posts/programming-languages-i-use/</loc>
     <lastmod>2019-06-26T11:17:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/apps/</loc>
+    <loc>https://dkensinger.github.io/en/tags/apps/</loc>
     <lastmod>2019-06-24T13:14:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/the-case-for-emacs/</loc>
+    <loc>https://dkensinger.github.io/en/posts/the-case-for-emacs/</loc>
     <lastmod>2019-06-24T13:14:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/why-the-name-dave-2-dot-1/</loc>
+    <loc>https://dkensinger.github.io/en/posts/why-the-name-dave-2-dot-1/</loc>
     <lastmod>2019-06-17T17:28:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/just-a-hobby/</loc>
+    <loc>https://dkensinger.github.io/en/posts/just-a-hobby/</loc>
     <lastmod>2019-06-16T15:24:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://dkensinger.github.io/en/about/</loc>
     <lastmod>2019-02-24T19:17:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/about/colophon/</loc>
+    <loc>https://dkensinger.github.io/en/about/colophon/</loc>
     <lastmod>2019-02-24T19:17:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/about/about-me/</loc>
+    <loc>https://dkensinger.github.io/en/about/about-me/</loc>
     <lastmod>2019-01-24T19:18:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/code/</loc>
+    <loc>https://dkensinger.github.io/en/tags/code/</loc>
     <lastmod>2018-07-13T19:16:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/download-data-from-the-web/</loc>
+    <loc>https://dkensinger.github.io/en/posts/download-data-from-the-web/</loc>
     <lastmod>2018-07-13T19:16:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/fizz-buzz-deluxe-edition/</loc>
+    <loc>https://dkensinger.github.io/en/posts/fizz-buzz-deluxe-edition/</loc>
     <lastmod>2017-05-12T23:17:00+02:00</lastmod>
   </url>
 </urlset>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apps on d.kens</title>
-    <link>http://localhost:1313/en/tags/apps/</link>
+    <link>https://dkensinger.github.io/en/tags/apps/</link>
     <description>Recent content in Apps on d.kens</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <copyright>blue oak model license 1.0</copyright>
+    <copyright>blue oak model license 1.0.0</copyright>
     <lastBuildDate>Mon, 24 Jun 2019 13:14:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/en/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Case for EMACS</title>
-      <link>http://localhost:1313/en/posts/the-case-for-emacs/</link>
+      <link>https://dkensinger.github.io/en/posts/the-case-for-emacs/</link>
       <pubDate>Mon, 24 Jun 2019 13:14:00 +0200</pubDate>
-      <guid>http://localhost:1313/en/posts/the-case-for-emacs/</guid>
+      <guid>https://dkensinger.github.io/en/posts/the-case-for-emacs/</guid>
       <description>I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&amp;rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&amp;rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&amp;rsquo;ve got Day One as a journaling app but now I use org-mode.</description>
     </item>
   </channel>
