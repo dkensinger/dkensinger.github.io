@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on d.kens</title>
-    <link>https://dkensinger.github.io/en/tags/education/</link>
+    <link>http://localhost:1313/en/tags/education/</link>
     <description>Recent content in Education on d.kens</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
     <copyright>blue oak model license 1.0</copyright>
     <lastBuildDate>Fri, 13 Sep 2019 17:51:00 +0200</lastBuildDate>
-    <atom:link href="https://dkensinger.github.io/en/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The things you learn</title>
-      <link>https://dkensinger.github.io/en/posts/the-things-you-learn/</link>
+      <link>http://localhost:1313/en/posts/the-things-you-learn/</link>
       <pubDate>Fri, 13 Sep 2019 17:51:00 +0200</pubDate>
-      <guid>https://dkensinger.github.io/en/posts/the-things-you-learn/</guid>
+      <guid>http://localhost:1313/en/posts/the-things-you-learn/</guid>
       <description>Various things I&amp;rsquo;ve learned working at my present job:&#xA;Databases My first contribution to the Press was to create a working database to track and store all the book projects. I used Filemaker and created a working application. During this project I learned about:&#xA;relational databases database theory structured query language installing and maintaining server and client applications training people to use unfamiliar software Subscriptions A major project I was involved in was creating a subscription service for several book series.</description>
     </item>
     <item>
       <title>Finding Patterns in Data</title>
-      <link>https://dkensinger.github.io/en/posts/finding-patterns-in-data/</link>
+      <link>http://localhost:1313/en/posts/finding-patterns-in-data/</link>
       <pubDate>Sun, 07 Jul 2019 18:01:00 +0200</pubDate>
-      <guid>https://dkensinger.github.io/en/posts/finding-patterns-in-data/</guid>
+      <guid>http://localhost:1313/en/posts/finding-patterns-in-data/</guid>
       <description>The Photos app in macOS has a feature that can recognize faces of the people in your photo library. It&amp;rsquo;s pretty remarkable. It doesn&amp;rsquo;t do a perfect job but you can correct it and train it to be better and better over time. It can also recognize the faces of my kids as they grow older. Amazing. My phone looks for and recognizes my face to unlock it. Netflix recommends shows I might enjoy based on what I&amp;rsquo;ve already watched.</description>
     </item>
   </channel>

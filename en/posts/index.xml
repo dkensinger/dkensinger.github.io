@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on d.kens</title>
-		<link>https://dkensinger.github.io/en/posts/</link>
+		<link>http://localhost:1313/en/posts/</link>
 		<description>Recent content in Posts on d.kens</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>blue oak model license 1.0</copyright>
 		<lastBuildDate>Sun, 16 Aug 2020 21:21:00 +0200</lastBuildDate>
-		<atom:link href="https://dkensinger.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Racket, Pollen and Fossil… oh my!</title>
-			<link>https://dkensinger.github.io/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
+			<link>http://localhost:1313/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
 			<pubDate>Sun, 16 Aug 2020 21:21:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
+			<guid>http://localhost:1313/en/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>A tale of me discovering, learning and playing with a new set of toys for my blog&hellip;</p>
 <h2 id="racket">Racket</h2>
@@ -60,10 +60,10 @@
 		
 		<item>
 			<title>Anatomy of a Blog</title>
-			<link>https://dkensinger.github.io/en/posts/anatomy-of-a-blog/</link>
+			<link>http://localhost:1313/en/posts/anatomy-of-a-blog/</link>
 			<pubDate>Sat, 15 Aug 2020 22:42:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/anatomy-of-a-blog/</guid>
+			<guid>http://localhost:1313/en/posts/anatomy-of-a-blog/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p><em>Originally published on 25-06-2019</em></p>
 <p><em>updated: switched from using Netlify to Github.io</em></p>
@@ -98,10 +98,10 @@
 		
 		<item>
 			<title>The things you learn</title>
-			<link>https://dkensinger.github.io/en/posts/the-things-you-learn/</link>
+			<link>http://localhost:1313/en/posts/the-things-you-learn/</link>
 			<pubDate>Fri, 13 Sep 2019 17:51:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/the-things-you-learn/</guid>
+			<guid>http://localhost:1313/en/posts/the-things-you-learn/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Various things I&rsquo;ve learned working at my present job:</p>
 <h2 id="databases">Databases</h2>
@@ -137,10 +137,10 @@
 		
 		<item>
 			<title>Finding Patterns in Data</title>
-			<link>https://dkensinger.github.io/en/posts/finding-patterns-in-data/</link>
+			<link>http://localhost:1313/en/posts/finding-patterns-in-data/</link>
 			<pubDate>Sun, 07 Jul 2019 18:01:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/finding-patterns-in-data/</guid>
+			<guid>http://localhost:1313/en/posts/finding-patterns-in-data/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<ul>
 <li>The Photos app in macOS has a feature that can recognize faces of the people in your photo library. It&rsquo;s pretty remarkable. It doesn&rsquo;t do a perfect job but you can correct it and train it to be better and better over time. It can also recognize the faces of my kids <em>as they grow older</em>. Amazing.</li>
@@ -216,10 +216,10 @@
 		
 		<item>
 			<title>Programming Languages I use</title>
-			<link>https://dkensinger.github.io/en/posts/programming-languages-i-use/</link>
+			<link>http://localhost:1313/en/posts/programming-languages-i-use/</link>
 			<pubDate>Wed, 26 Jun 2019 11:17:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/programming-languages-i-use/</guid>
+			<guid>http://localhost:1313/en/posts/programming-languages-i-use/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Here is an annotated list of the programming languages I use (or have used). Listed in the order I first used them:</p>
 <ul>
@@ -306,10 +306,10 @@
 		
 		<item>
 			<title>The Case for EMACS</title>
-			<link>https://dkensinger.github.io/en/posts/the-case-for-emacs/</link>
+			<link>http://localhost:1313/en/posts/the-case-for-emacs/</link>
 			<pubDate>Mon, 24 Jun 2019 13:14:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/the-case-for-emacs/</guid>
+			<guid>http://localhost:1313/en/posts/the-case-for-emacs/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>I use a mac. I use <a href="https://www.gnu.org/software/emacs/manual/html_mono/calc.html">EMACS</a>. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&rsquo;ve tried the venerable <a href="https://www.omnigroup.com/omnifocus">OmniFocus</a> and <a href="https://culturedcode.com/things/">Things</a> apps for to-do lists and projects. Now I use org-mode in EMACS. I&rsquo;ve got <a href="https://dayoneapp.com">Day One</a> as a journaling app but now I use org-mode. I have <a href="https://www.acqualia.com/soulver/">Soulver</a> and the standard Calc app but I use the built-in EMACS calculator more and more. I use <a href="https://getdrafts.com">Drafts</a> and <a href="https://ulysses.app">Ulysses</a> but I prefer EMACS now. I use Git to track changes but I rarely (if ever) use the command line, rather, I use the excellent magit package in EMACS. I have tried blogging with Wordpress but now I use <a href="https://gohugo.io">Hugo</a> and EMACS instead. On the other hand, I have tried doing email in EMACS with mu4e but I still prefer the standard mac mail app (less hassle with settings). I&rsquo;ve played with primitive spreadsheets in org-mode but I still prefer Excel as my goto spreadsheet app. I still use Messages, Slack and Limechat for chatting and newsgroups&mdash;but I&rsquo;m tempted to give EMACS another try with packages that support all those protocols.</p>
 <p>In short, EMACS has become my default for much of my computing day. It&rsquo;s powerful, consistent, flexible and forgiving. But it&rsquo;s also finicky and complicated&mdash;and it demands some effort to learn. But it&rsquo;s worth it if you&rsquo;re willing to meet it half way.</p>
@@ -365,10 +365,10 @@
 		<item>
 			<title>  Why the name &#34;Dave 2.1&#34;?
   </title>
-			<link>https://dkensinger.github.io/en/posts/why-the-name-dave-2-dot-1/</link>
+			<link>http://localhost:1313/en/posts/why-the-name-dave-2-dot-1/</link>
 			<pubDate>Mon, 17 Jun 2019 17:28:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/why-the-name-dave-2-dot-1/</guid>
+			<guid>http://localhost:1313/en/posts/why-the-name-dave-2-dot-1/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Dave 0.5 was me in school. Kindergarten through College. Mostly Northern Virginia. Finished at the University of Virginia with a BS in Aerospace Engineering.</p>
 <p>Dave 1.0 was my first profession. 20 years as a US Air Force Officer, fighter-pilot, instructor. Saw the world. Been there, done that.</p>
@@ -381,10 +381,10 @@
 		
 		<item>
 			<title>Just a Hobby</title>
-			<link>https://dkensinger.github.io/en/posts/just-a-hobby/</link>
+			<link>http://localhost:1313/en/posts/just-a-hobby/</link>
 			<pubDate>Sun, 16 Jun 2019 15:24:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/just-a-hobby/</guid>
+			<guid>http://localhost:1313/en/posts/just-a-hobby/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>(original article written in December 2016)</p>
 <h2 id="the-start">The Start</h2>
@@ -445,10 +445,10 @@
 		
 		<item>
 			<title>Download data from the web</title>
-			<link>https://dkensinger.github.io/en/posts/download-data-from-the-web/</link>
+			<link>http://localhost:1313/en/posts/download-data-from-the-web/</link>
 			<pubDate>Fri, 13 Jul 2018 19:16:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/download-data-from-the-web/</guid>
+			<guid>http://localhost:1313/en/posts/download-data-from-the-web/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<h2 id="task">Task</h2>
 <p>A colleague of mine has been entering meta-data for books through a web-based portal (let&rsquo;s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing. In order to complete the transfer, we needed a way to add the missing data. If we had only 20-50 titles it would be feasible to copy-paste the missing fields into the summary export. But there were 962 titles! This would have taken a long time and would also be prone to errors.
@@ -616,10 +616,10 @@ My task:</p>
 		
 		<item>
 			<title>Fizz-Buzz: deluxe edition</title>
-			<link>https://dkensinger.github.io/en/posts/fizz-buzz-deluxe-edition/</link>
+			<link>http://localhost:1313/en/posts/fizz-buzz-deluxe-edition/</link>
 			<pubDate>Fri, 12 May 2017 23:17:00 +0200</pubDate>
 			
-			<guid>https://dkensinger.github.io/en/posts/fizz-buzz-deluxe-edition/</guid>
+			<guid>http://localhost:1313/en/posts/fizz-buzz-deluxe-edition/</guid>
 			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<h2 id="origin-story">Origin story</h2>
 <p>I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall. It would look something like this:</p>
