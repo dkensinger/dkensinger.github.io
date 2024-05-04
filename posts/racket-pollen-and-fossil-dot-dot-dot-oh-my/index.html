@@ -1,0 +1,173 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow">
+<meta name="revisit-after" content="15 days"><link rel="author" href="/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="[Dave Kensinger]">
+
+  <meta itemprop="name" content="Racket, Pollen and Fossil… oh my!">
+  <meta itemprop="description" content="A tale of me discovering, learning and playing with a new set of toys for my blog&hellip;
+Racket Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation.">
+  <meta itemprop="datePublished" content="2020-08-16T21:21:00+02:00">
+  <meta itemprop="dateModified" content="2020-08-16T21:21:00+02:00">
+  <meta itemprop="wordCount" content="455">
+  <meta itemprop="keywords" content="Meta"><meta property="og:url" content="http://localhost:1313/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/">
+  <meta property="og:site_name" content="d.kens">
+  <meta property="og:title" content="Racket, Pollen and Fossil… oh my!">
+  <meta property="og:description" content="A tale of me discovering, learning and playing with a new set of toys for my blog…
+Racket Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-08-16T21:21:00+02:00">
+    <meta property="article:modified_time" content="2020-08-16T21:21:00+02:00">
+    <meta property="article:tag" content="Meta">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Racket, Pollen and Fossil… oh my!">
+<meta name="twitter:description" content="A tale of me discovering, learning and playing with a new set of toys for my blog&hellip;
+Racket Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation.">
+<title>Racket, Pollen and Fossil… oh my!</title>
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="http://localhost:1313/css/style.min.b9b0196180ada2f18e02576d3cdb3bc8754a548453d05e24e7edba2a7084e3ae.css" integrity="sha256-ubAZYYCtovGOAldtPNs7yHVKVIRT0F4k5+26KnCE464=" crossorigin="anonymous">
+	</head>
+<body id="page">
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="http://localhost:1313/">d.kens</a>
+				</div>
+				<nav class="site-nav hide-in-mobile"><a href="http://localhost:1313/posts/">Posts</a><a href="http://localhost:1313/about/">About</a></nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<button id="share-btn" class="hdr-btn" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+ 
+<div id="share-links" class="animated fast">
+    
+    
+    
+    
+    <ul>
+        <li>
+            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fracket-pollen-and-fossil-dot-dot-dot-oh-my%2f&amp;text=Racket%2c%20Pollen%20and%20Fossil%e2%80%a6%20oh%20my%21" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6"/></svg></a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fracket-pollen-and-fossil-dot-dot-dot-oh-my%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </li>
+        <li>
+            <a href="mailto:?subject=Racket%2c%20Pollen%20and%20Fossil%e2%80%a6%20oh%20my%21&amp;body=http%3a%2f%2flocalhost%3a1313%2fposts%2fracket-pollen-and-fossil-dot-dot-dot-oh-my%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fracket-pollen-and-fossil-dot-dot-dot-oh-my%2f&amp;source=http%3a%2f%2flocalhost%3a1313%2f&amp;title=Racket%2c%20Pollen%20and%20Fossil%e2%80%a6%20oh%20my%21&amp;summary=Racket%2c%20Pollen%20and%20Fossil%e2%80%a6%20oh%20my%21%2c%20by%20%5bDave%20Kensinger%5d%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        </li>
+        <li>
+            <a href="#" onclick="linkShare(&#34;Racket, Pollen and Fossil… oh my!&#34;,&#34;http://localhost:1313/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/&#34;,&#34;Racket, Pollen and Fossil… oh my!, by [Dave Kensinger]\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
+        </li>
+    </ul>
+</div><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="http://localhost:1313/posts/">Posts</a></li>
+			<li><a href="http://localhost:1313/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Aug 16, 2020</span></div>
+				<h1>Racket, Pollen and Fossil… oh my!</h1>
+			</header>
+			<div class="post-info"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg><a href="/about/about-me/" target="_blank">[Dave Kensinger]</a></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://localhost:1313/tags/meta">meta</a></span></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>455 Words
+    ⏳
+    
+    
+    
+    2 Minutes, 4 Seconds</p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-08-16 21:21 &#43;0200</p></div>
+			<hr class="post-end">
+			<div class="content">
+				<p>A tale of me discovering, learning and playing with a new set of toys for my blog&hellip;</p>
+<h2 id="racket">Racket<a href="#racket" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation. A short hop away led me to discover Pollen.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="pollen">Pollen<a href="#pollen" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Once I began exploring Pollen I began to imagine re    -tooling my blog to take complete control over <em>every</em> aspect of the blog. From the writing to the layout to the typography to the version control&hellip; wait version control? That actually didn&rsquo;t enter the picture until I stumbled upon a series of youtube videos demonstrating Pollen. I followed the trail to a site under construction by the video author&hellip; which led me to an example of a version control system called Fossil.</p>
+<h2 id="fossil">Fossil<a href="#fossil" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Fossil, like Git, is made <em>by</em> software developers <em>for</em> software developers. Fossil has a few more features that may be worth using behind a blog. Trying out this version control system (application?) will be a parallel effort while I experiment with Pollen and Racket. I expect I will follow the efforts of the developer while he slowly tweaks his new site into existence.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> I like many of the features he has planned for his blog such as adding comments that appear in the main blog feed and the old-fashioned index.</p>
+<h2 id="roadmap">Roadmap<a href="#roadmap" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>The final destination looks like this:</p>
+<ul>
+<li>Writing of blog entries, comments, links, articles is all done in Emacs</li>
+<li>org-mode is easiest but will require some ox-magic to help with syntax translation</li>
+<li>pollen-mode would be harder but will give me more control over the site</li>
+<li>Publishing of the static site is done using either Racket or Hugo</li>
+<li>Racket will give me more control of the site and it&rsquo;s features (e.g. hand crafted theme)</li>
+<li>Hugo will trade ease of use for features (e.g. 3rd party theme<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>)</li>
+<li>Version control uses Git or Fossil</li>
+<li>Hosting is free using Github or something similar</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The short hop included a detour into <a href="https://practicaltypography.com">Typography</a> , a well written intro to the Racket language (written in Pollen) by Matthew Butterick.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://thelocalyarn.com/code/doc/trunk/repo-www/home.wiki">The Local Yarn</a> by Joel Dueck is a hand-crafted blog (published with Textpattern) slowly morphing into a Pollen/Racket run blog.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>However, using an app like Hugo requires keeping <em>it</em> up-to-date along with <em>its</em> underlying dependencies (e.g. go). I would be trading Racket/Pollen for Hugo/go. In the former I would learn and know how it all works. The latter is just a black-box for me; just an application I depend on.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+			</div>
+
+<div class="related-posts thin">
+	<h2>See Also</h2>
+	<ul>
+	
+	<li><a href="/posts/anatomy-of-a-blog/">Anatomy of a Blog</a></li>
+	
+	<li><a href="/posts/the-case-for-emacs/">The Case for EMACS</a></li>
+	
+	</ul>
+</div>
+
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="http://localhost:1313/posts/dune-revisited/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Dune 2024</span>
+			</a>
+			<a class="prev-post" href="http://localhost:1313/posts/anatomy-of-a-blog/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Anatomy of a Blog</span>
+			</a>
+		</div>
+		<div id="comments" class="thin"></div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>
+		&copy; 2024 <a href="http://localhost:1313/">Dave Kensinger</a>
+		&#183; blue oak model license 1.0.0
+		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a></p>
+
+</footer>
+<script async src="http://localhost:1313/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="http://localhost:1313/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
+</body>
+
+</html>

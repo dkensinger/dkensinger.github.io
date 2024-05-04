@@ -1,0 +1,1126 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on d.kens</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on d.kens</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>blue oak model license 1.0.0</copyright>
+		<lastBuildDate>Thu, 02 May 2024 13:33:00 +0200</lastBuildDate>
+		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Anatomy of a Blog - update</title>
+			<link>http://localhost:1313/posts/anatomy-of-a-blog-update/</link>
+			<pubDate>Thu, 02 May 2024 13:33:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/anatomy-of-a-blog-update/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>Here&rsquo;s how I make this site:</p>
+<ol>
+<li>I write and edit posts in one text file</li>
+<li>I use Hugo to build the site</li>
+<li>I use github.io to host the site</li>
+</ol>
+<p>That&rsquo;s it!</p>
+<p>Here&rsquo;s a bit more detail of the steps above:</p>
+<ol>
+<li>I use <a href="https://github.com/doomemacs/doomemacs/blob/master/README.md">Doom Emacs</a> as my text editor. I write in one <code>.org</code> text file.</li>
+<li>I use an application called <a href="https://gohugo.io/">Hugo</a> to build the site. I use a package within Emacs called <a href="https://ox-hugo.scripter.co/">ox-hugo</a> that automatically builds and refreshes the site when I make any changes. I use (and sometimes change) the theme of the site using a hugo-based theme. Currently I use one called <a href="https://github.com/danielroelfs/hugo-theme-typography/blob/main/README.md">typography</a>.</li>
+<li>Finally, I update the site on github. I use <a href="https://git-scm.com/">Git</a> and <a href="https://magit.vc/">Magit</a> within Emacs to commit and push changes to the site.</li>
+</ol>
+<p>The common thread above is <a href="https://www.gnu.org/software/emacs/">Emacs</a>. Aside from using Emacs for email, news, note taking, calendar, TODO lists, calculator, version control, time tracking and more&hellip; this blog is just another thing I can do within <strong>Emacs</strong>. It&rsquo;s great.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Trump&#39;s First Criminal Trial</title>
+			<link>http://localhost:1313/posts/trump-s-first-criminal-trial/</link>
+			<pubDate>Thu, 02 May 2024 10:39:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/trump-s-first-criminal-trial/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>At last.</p>
+<p>Donald Trump is now in his third week of a criminal trial in New York. So far, none of the terrible things his MAGA followers predicted has come true. There are no riots in the streets, no mass protests, no stock market crash&hellip; nothing. Instead, there has been an orderly proceeding overseen by an experienced trial judge. Trump has predictably ranted and raved at the &ldquo;unfairness&rdquo; of it all. Calling the judge <em>comprimised</em>, <em>crooked</em>, and the tired &ldquo;no person has been treated as unfairly as I have&rdquo; trope is wearing thin.</p>
+<p>While his conviction isn&rsquo;t certain, the narrative surrounding this trial is certainly against him. His daily blustering in front of court cameras is tired and repetitive. The stories of him falling asleep everyday during trial undermine his &ldquo;Sleepy Joe&rdquo; strategy. He&rsquo;s looking older and weaker than he has in months. Accounts of him farting in court make him a laughing stock. In short, this is all bad for his <em>image</em>.</p>
+<p>The trial, so far, is worse. The testimony and evidence describe a corrupt scheme to influence an election. And we haven&rsquo;t even heard from the principle players yet. Unless there is a biased juror or two that can hang the jury, Trump will be found guilty. Trump will be a convicted felon. The presumptive GOP nominee for the 2024 presidential election will be a convicted felon. Not only will he be an adjudicated <em>rapist</em> and <em>financial fraud</em>, he will be a <em>convicted felon</em>.</p>
+<p>His only play is to claim the system is <em>rigged</em>, Biden is behind this <em>witch-hunt</em>, everyone is against him.</p>
+<p>Pathetic.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Dune 2024</title>
+			<link>http://localhost:1313/posts/dune-revisited/</link>
+			<pubDate>Wed, 03 Apr 2024 17:30:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/dune-revisited/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>My boys loved the two <em>Dune</em> movies by Denis Villeneuve. We saw the second one in 70mm IMAX at the Chinese theater in Hollywood on our family vacation. Quite the spectacle.</p>
+<p>I&rsquo;m impressed they understood the conflict of the main hero, Paul, and his struggle with accepting his destiny. Once they realized this was only the beginning of a much longer story, they were inspired to read the book. I wonder if this will be the spark that ignites their desire to read more.</p>
+<p>Thank you Denis for making some truly fine adaptations of a difficult story. And thank you Frank Herbert for giving us this rich Dune universe.</p>
+<p>I read Dune and many (all?) of its sequels when I was a teenager. I honestly can&rsquo;t remember much about the sequels so I must not have absorbed them the way I did the first book. The first book is an amazing blend of world building, religion, politics and survival. These two movies did a great job of capturing the mood and feel of the book. I hope the next movie <em>Dune Messiah</em> will be as good. I&rsquo;ve reread Dune and am beginning the sequel now. Maybe this time I will remember what happens.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Racket, Pollen and Fossil… oh my!</title>
+			<link>http://localhost:1313/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
+			<pubDate>Sun, 16 Aug 2020 21:21:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>A tale of me discovering, learning and playing with a new set of toys for my blog&hellip;</p>
+<h2 id="racket">Racket</h2>
+<p>Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation. A short hop away led me to discover Pollen.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="pollen">Pollen</h2>
+<p>Once I began exploring Pollen I began to imagine re    -tooling my blog to take complete control over <em>every</em> aspect of the blog. From the writing to the layout to the typography to the version control&hellip; wait version control? That actually didn&rsquo;t enter the picture until I stumbled upon a series of youtube videos demonstrating Pollen. I followed the trail to a site under construction by the video author&hellip; which led me to an example of a version control system called Fossil.</p>
+<h2 id="fossil">Fossil</h2>
+<p>Fossil, like Git, is made <em>by</em> software developers <em>for</em> software developers. Fossil has a few more features that may be worth using behind a blog. Trying out this version control system (application?) will be a parallel effort while I experiment with Pollen and Racket. I expect I will follow the efforts of the developer while he slowly tweaks his new site into existence.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> I like many of the features he has planned for his blog such as adding comments that appear in the main blog feed and the old-fashioned index.</p>
+<h2 id="roadmap">Roadmap</h2>
+<p>The final destination looks like this:</p>
+<ul>
+<li>Writing of blog entries, comments, links, articles is all done in Emacs</li>
+<li>org-mode is easiest but will require some ox-magic to help with syntax translation</li>
+<li>pollen-mode would be harder but will give me more control over the site</li>
+<li>Publishing of the static site is done using either Racket or Hugo</li>
+<li>Racket will give me more control of the site and it&rsquo;s features (e.g. hand crafted theme)</li>
+<li>Hugo will trade ease of use for features (e.g. 3rd party theme<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>)</li>
+<li>Version control uses Git or Fossil</li>
+<li>Hosting is free using Github or something similar</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The short hop included a detour into <a href="https://practicaltypography.com">Typography</a> , a well written intro to the Racket language (written in Pollen) by Matthew Butterick.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://thelocalyarn.com/code/doc/trunk/repo-www/home.wiki">The Local Yarn</a> by Joel Dueck is a hand-crafted blog (published with Textpattern) slowly morphing into a Pollen/Racket run blog.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>However, using an app like Hugo requires keeping <em>it</em> up-to-date along with <em>its</em> underlying dependencies (e.g. go). I would be trading Racket/Pollen for Hugo/go. In the former I would learn and know how it all works. The latter is just a black-box for me; just an application I depend on.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Anatomy of a Blog</title>
+			<link>http://localhost:1313/posts/anatomy-of-a-blog/</link>
+			<pubDate>Sat, 15 Aug 2020 22:42:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/anatomy-of-a-blog/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p><em>Originally published on 25-06-2019</em></p>
+<p><em>updated: switched from using Netlify to Github.io</em></p>
+<p>Blogs are a thing&hellip; again. I&rsquo;ve tried doing them over the years with little success. I think it&rsquo;s because I found it more interesting to fiddle with the blog back-end rather than the actual blog itself. This time it&rsquo;s different! (I hope)</p>
+<p>This is how my words get to the site:</p>
+<ol>
+<li>In EMACS I open my blog file called &ldquo;all-posts.org&rdquo; I can edit this file using all the EMACS and org-mode features at my fingertips. Pretty awesome. Using a package called <code>ox-hugo</code> I can use the TODO and DONE features of org-mode<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> to mark entries as DRAFT and PUBLISHED. I also use an org-capture template to start a new blog entry when I need it. Finally, I can export the file which automatically creates the proper file structure and corresponding markdown files used by the <a href="https://gohugo.io">Hugo</a> blog engine.</li>
+<li>In order to keep track of changes and history, I use magit to commit changes locally.</li>
+<li>Then I push those commits to my Github account.</li>
+<li><del>I picked <a href="https://www.netlify.com">Netlify</a> to host my site<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. The cool thing is that Netlify will automatically see the changes on my Github site and rebuild my site automatically. Once it&rsquo;s built&mdash;which only takes a few seconds&mdash;it&rsquo;s super fast and responsive since it is a static site.</del> I have switched to using github.io as the host. It&rsquo;s a bit simpler to setup and use and the Hugo site has good instructions on how to set it up.</li>
+</ol>
+<p>There&rsquo;s few extra notes to fill in the picture:</p>
+<ul>
+<li>The combination of EMACS, <a href="https://orgmode.org">org-mode</a> and <a href="https://ox-hugo.scripter.co">ox-hugo</a> is <em>really</em> nice. Since I&rsquo;m using EMACS and org-mode most of the day anyway, it&rsquo;s really nice to drop in and write in the blog file whenever the mood strikes. And it&rsquo;s one less program to buy, update, and learn to use.</li>
+<li>Using <a href="https://magit.vc">magit</a> (and Github) means there is only <em>one</em> set of source files. This was always a problem with other blog systems I had. I would write something, import it into the blog system (like Wordpress) and maybe edit it again <em>in the blog system</em> (in some web editor that I didn&rsquo;t like). That meant the latest version was always <em>in the blog system</em> and not in my local file. Not a <em>terrible</em> thing but I never liked that disconnect.</li>
+<li>Setting up the Hugo → Github → Netlify connection is not as easy as something like Wordpress. In fact, it&rsquo;s kind of complicated. But once it&rsquo;s done, it&rsquo;s done. And I understand a lot more of how things work rather than letting something else do it all for me. I still get to choose a theme, or create my own if I wish (also not as easy as Wordpress). I also control <em>all</em> the content in every step from creation to publication. I can migrate my data at any time&mdash;because it&rsquo;s mine.</li>
+</ul>
+<p>Bottom line: Now that writing a blog is as easy as open file → write → commit changes, I&rsquo;m only limited by my imagination (and my discipline).</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Normally TODO and DONE are used as task management keywords. In this case they are repurposed for this blogging tool.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><del>I could have just used Github&rsquo;s blog hosting but I wanted to give Hugo a try since it works inside of EMACS and Netlify supports it natively.</del> (note: I now use Github.io as the host)&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+		<item>
+			<title>The things you learn</title>
+			<link>http://localhost:1313/posts/the-things-you-learn/</link>
+			<pubDate>Fri, 13 Sep 2019 17:51:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/the-things-you-learn/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>Various things I&rsquo;ve learned working at my present job:</p>
+<h2 id="databases">Databases</h2>
+<p>My first contribution to the Press was to create a working database to track and store all the book projects. I used Filemaker and created a working application. During this project I learned about:</p>
+<ul>
+<li>relational databases</li>
+<li>database theory</li>
+<li>structured query language</li>
+<li>installing and maintaining server and client applications</li>
+<li>training people to use unfamiliar software</li>
+</ul>
+<h2 id="subscriptions">Subscriptions</h2>
+<p>A major project I was involved in was creating a subscription service for several book series. I had to integrate several things to bring this to life:</p>
+<ul>
+<li>choose and learn a subscriber/payment backend system (Iteras.dk)</li>
+<li>create a new subsite under the main Press website</li>
+<li>modify sections of the main site</li>
+<li>choose an online server for the digital content (AWS S3)</li>
+<li>choose a new email service for bulk marketing (Mailchimp.com)</li>
+</ul>
+<h2 id="digital-content">Digital content</h2>
+<p>Since I process many of the digital content for subscriptions and direct sales, I had to learn about how the digital content is made and how to modify it if required. Therefore I learned about:</p>
+<ul>
+<li>ebook formats such as ePub, pdf, mobi and their associated metadata</li>
+<li>audio formats and tagging</li>
+<li>ftp transfer applications</li>
+<li>XML and ONIX formatting and metadata transfer to distributors</li>
+</ul>
+<h2 id="english-grammar-and-punctuation">English grammar and punctuation</h2>
+<p>As the only native english speaker in the office, I am frequently asked about proper english formatting, grammar, spelling, etc. Because of this, my english language skills have markedly improved over the years. My primary sources are: <em>Oxford English Dictionary</em>, <em>Elements of Style</em>, and <em>Garner&rsquo;s Modern English Usage</em>.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Finding Patterns in Data</title>
+			<link>http://localhost:1313/posts/finding-patterns-in-data/</link>
+			<pubDate>Sun, 07 Jul 2019 18:01:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/finding-patterns-in-data/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<ul>
+<li>The Photos app in macOS has a feature that can recognize faces of the people in your photo library. It&rsquo;s pretty remarkable. It doesn&rsquo;t do a perfect job but you can correct it and train it to be better and better over time. It can also recognize the faces of my kids <em>as they grow older</em>. Amazing.</li>
+<li>My phone looks for and recognizes my face to unlock it.</li>
+<li>Netflix recommends shows I might enjoy based on what I&rsquo;ve already watched.</li>
+<li>Occasionally I will get a warning from my bank about possible fraud on my credit card account.</li>
+<li>I have an app on my phone that can look at a hand written math formula on a piece of paper and attempt to solve it (if it can). Amazing.</li>
+</ul>
+<p>These examples are simple applications of machine learning (or ML for short). I&rsquo;m learning the fundamentals of ML today and I think it&rsquo;s worth writing down what I&rsquo;m discovering.</p>
+<h2 id="what-is-machine-learning">What is machine learning?</h2>
+<p>I understand machine learning (ML) as a way for machines (computers) to build models of data in order to predict or categorize new data they haven&rsquo;t seen before. In essence, <em>learn</em> what it can about the data, see connections and correlations that may not be obvious to us<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. We have many clever techniques and algorithms to find patterns, similarities, or trends in data. Those techniques are improving every day and the amount of data we collect is increasing.</p>
+<p>These are early days in this area of computer science. It looks like every small advance we make in ML brings us closer to real artificial intelligence. We have machines today that can:</p>
+<ul>
+<li>autonomously drive vehicles in city traffic</li>
+<li>discover planets in far away solar systems</li>
+<li>beat grand masters in Chess and Go</li>
+<li>play video games</li>
+<li>create lifelike images and video of people who have never existed</li>
+</ul>
+<h2 id="ml-skill-set">ML skill-set</h2>
+<p>Any ML course today can introduce and explain the basic concepts and techniques involved in applying machine learning. Here is an annotated list of resources I have used so far:</p>
+<ul>
+<li><em>Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow</em> (<a href="https://smile.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=dp_ob_image_bk">O&rsquo;Reilly</a>): A decent intro and plenty of code examples showing many of the popular ML methods</li>
+<li><a href="http://course18.fast.ai/ml">Fast.ai</a> online courses on Machine Learning and Deep Learning by Jeremy Howard: Really good video series covering lots of basics and code examples.
+<ul>
+<li>uses a library developed by Jeremy called fast.ai written in python</li>
+<li>Jeremy gives a <em>lot</em> of practical advice during the classes (e.g. data wrangling, python techniques, choosing hyper-parameters)</li>
+<li>covers both theory and application of several important ML techniques</li>
+</ul>
+</li>
+<li><em>Machine Learning</em> course on <a href="https://www.coursera.org/learn/machine-learning">Coursera</a> by Andrew Ng: Good video series covering theory and application of Deep Learning using Neural Networks.
+<ul>
+<li>uses Octave as code base</li>
+<li>solid theory and lots of code practice</li>
+</ul>
+</li>
+</ul>
+<p>My main learning points so far are:</p>
+<ul>
+<li>hardest part of ML is framing the intent
+<ul>
+<li>what do you want to answer and why?</li>
+<li>how can your predictions be put to practical use?</li>
+<li>what data do you have&mdash;what data can you get?</li>
+</ul>
+</li>
+<li>wrangling data takes most of the effort
+<ul>
+<li>clean the data</li>
+<li>format the data to be useful to ML algorithms</li>
+<li>properly splitting the data for research and testing is hard</li>
+</ul>
+</li>
+<li>choosing the right ML algorithm is important
+<ul>
+<li>also choosing the right hyper-parameters is important</li>
+<li>over or under fitting a model is hard to detect</li>
+</ul>
+</li>
+</ul>
+<p>Learning by doing works best for me. And Jeremy Howard encourages students to practice in <a href="https://www.kaggle.com">Kaggle</a>. Kaggle also provides lots of data sets for practice and research&mdash;as well as forums and such. Reddit has a few subreddits that cover ML and are very helpful for beginners.</p>
+<p>So, that&rsquo;s what I&rsquo;ve been playing with lately. Maybe I&rsquo;ll post a ML problem of my own (for practice) and see what I can do.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>or would take us a long time to discover&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Programming Languages I know</title>
+			<link>http://localhost:1313/posts/programming-languages-i-know/</link>
+			<pubDate>Wed, 26 Jun 2019 11:17:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/programming-languages-i-know/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>Here is an annotated list of the programming languages I know (or have used). Listed in the order I first used them:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_BASIC">MS BASIC</a>
+<ul>
+<li>ran on my first computer, an IBM PC with an 8088 processor (1981?)</li>
+<li>used to copy programs from computer magazines</li>
+<li>first learned the concept of subroutines with GOSUB command</li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)">PASCAL</a>
+<ul>
+<li>my first formal computer course used this language
+<ul>
+<li>had to share a central compiler at school</li>
+<li>had to take turns on a limited set of terminals</li>
+<li>don&rsquo;t think I ever got an entire program to run correctly (as intended)</li>
+<li><em>hated</em> the whole experience!</li>
+</ul>
+</li>
+<li>very expensive purchase for personal computer</li>
+<li>compiler was very slow and error messages were gibberish</li>
+<li>TurboPASCAL came out <em>after</em> my programming class by one year. If it had been available for that class, who knows which direction my education would have taken<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>?</li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/True_BASIC">TrueBASIC</a>
+<ul>
+<li>a variant of BASIC but without line numbers</li>
+<li>I used this language for my senior thesis in jet engine design (1985&ndash;1986)</li>
+</ul>
+</li>
+<li><a href="https://www.python.org">Python</a>
+<ul>
+<li>first <em>serious</em> programming language I learned</li>
+<li>took my first <em>real</em> online programming course using Python</li>
+<li>my primary language of choice (although I hardly ever use the OOP style)</li>
+<li>most useful in learning new fields like ML<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and AI</li>
+<li>has an <em>enormous</em> library and lots of frameworks and tutorials</li>
+</ul>
+</li>
+<li><a href="https://julialang.org">Julia</a>
+<ul>
+<li>very Python-like but tuned for math intensive work</li>
+<li>I stay current in its development but use it infrequently</li>
+<li>shows great promise and could be a replacement for Python in some cases</li>
+</ul>
+</li>
+<li><a href="https://www.haskell.org">Haskell</a>
+<ul>
+<li>my first (and only) pure functional language</li>
+<li>still learning the basics but I can create simple programs with it</li>
+<li>I find myself asking &ldquo;How could I do this in Haskell?&rdquo; <em>before</em> I try other languages</li>
+</ul>
+</li>
+<li><a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/">ELisp</a>
+<ul>
+<li>my first taste of a Lisp language</li>
+<li>a direct result of my using EMACS (a side effect?)</li>
+<li>only use it or modify it when I specifically need to do something in EMACS</li>
+</ul>
+</li>
+<li><a href="https://racket-lang.org">Racket</a>
+<ul>
+<li>another dialect of Lisp</li>
+<li>most user friendly version of Lisp I&rsquo;ve encountered</li>
+<li>comes with a nice IDE (DrRacket) and excellent documentation</li>
+<li>think of it as a functional language but not quite as pure as Haskell</li>
+</ul>
+</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I ended up with a BS in aerospace engineering but my interests clearly migrated towards computer science in my later years. I&rsquo;m not sure I had the aptitude for it then, but I surely would tell my younger self to consider switching majors.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I&rsquo;m writing about Machine Learning (ML) in another post. For me, Python has the most useful libraries and tutorials for learning and experimenting with ML.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+		<item>
+			<title>The Case for EMACS</title>
+			<link>http://localhost:1313/posts/the-case-for-emacs/</link>
+			<pubDate>Mon, 24 Jun 2019 13:14:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/the-case-for-emacs/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>I use a mac. I use <a href="https://www.gnu.org/software/emacs/manual/html_mono/calc.html">EMACS</a>. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&rsquo;ve tried the venerable <a href="https://www.omnigroup.com/omnifocus">OmniFocus</a> and <a href="https://culturedcode.com/things/">Things</a> apps for to-do lists and projects. Now I use org-mode in EMACS. I&rsquo;ve got <a href="https://dayoneapp.com">Day One</a> as a journaling app but now I use org-mode. I have <a href="https://www.acqualia.com/soulver/">Soulver</a> and the standard Calc app but I use the built-in EMACS calculator more and more. I use <a href="https://getdrafts.com">Drafts</a> and <a href="https://ulysses.app">Ulysses</a> but I prefer EMACS now. I use Git to track changes but I rarely (if ever) use the command line, rather, I use the excellent magit package in EMACS. I have tried blogging with Wordpress but now I use <a href="https://gohugo.io">Hugo</a> and EMACS instead. On the other hand, I have tried doing email in EMACS with mu4e but I still prefer the standard mac mail app (less hassle with settings). I&rsquo;ve played with primitive spreadsheets in org-mode but I still prefer Excel as my goto spreadsheet app. I still use Messages, Slack and Limechat for chatting and newsgroups&mdash;but I&rsquo;m tempted to give EMACS another try with packages that support all those protocols.</p>
+<p>In short, EMACS has become my default for much of my computing day. It&rsquo;s powerful, consistent, flexible and forgiving. But it&rsquo;s also finicky and complicated&mdash;and it demands some effort to learn. But it&rsquo;s worth it if you&rsquo;re willing to meet it half way.</p>
+<h2 id="compromises">Compromises</h2>
+<p>Embracing EMACS requires a few compromises. The first is that you must be fully invested in using a <strong>keyboard</strong> as your primary input device. Mouse, trackpad, dictation, gestures, eye-tracking, etc. are considered secondary inputs. The keyboard is king and in EMACS world, key-chords are <em>the</em> primary way of doing things. If you&rsquo;re willing to learn dozens of keyboard combinations&mdash;some easy to remember, others diabolically difficult&mdash;then you&rsquo;re ready to move on to the next compromise: it&rsquo;s all about text.</p>
+<p>Pure <strong>text</strong>. No graphics, no buttons, no sliders, graphs, images&hellip; nothing but plain text. The compromise is: trading away a graphical user interface for a pure text interface. It&rsquo;s all text, all the time. For some, especially writers, pure text editing is enjoying a kind of renaissance. For most others, pure text feels like an unnecessary step back in time.</p>
+<p>One more compromise I&rsquo;ll mention is: a willingness to open the hood and tinker with the guts of EMACS. You could think of it as a preference pane on steroids&mdash;except that doesn&rsquo;t even do this idea justice. You see, if you are willing to learn the language that EMACS is built with, namely <strong>Elisp</strong>, then you could modify EMACS itself or create any new application you desire.</p>
+<p>From the source (<a href="https://www.gnu.org">www.gnu.org</a>):</p>
+<blockquote>
+<p>GNU Emacs, describes [EMACS] as &ldquo;the extensible, customizable, self-documenting, real-time display editor&rdquo;</p>
+</blockquote>
+<h2 id="the-keyboard-is-king">The keyboard is king</h2>
+<p>In the beginning, there was the typewriter<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Modern computers adopted the typewriter concept and used a keyboard for input. In combination with punch-cards, the keyboard was the primary interface with a computer. Since EMACS was born in the early days of computing, the keyboard was and remains central in it&rsquo;s design and philosophy. Modern EMACS is friendly (tolerant?) of pointing device input, but the keyboard rules the interface.</p>
+<p>To access the features of EMACS, one must use key combinations to invoke the hundreds (thousands?) of available commands. An example is &ldquo;SPC x t w&rdquo; which means press SPACEBAR followed by &ldquo;x&rdquo; then &ldquo;t&rdquo; then &ldquo;w&rdquo; in that order. In my setup<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, this will transpose two words. Another example is &ldquo;g g&rdquo; which jumps the cursor to the top of your current window.</p>
+<p>However, I won&rsquo;t lie, EMACS (at least in it&rsquo;s initial pristine state) is a <em>strange</em> application compared to Word or TextEditor or any other writing application you may be used to. After some customization it can begin to look and behave more like your writing applications. But to truly unleash the power of EMACS you must &ldquo;let go and trust the <del>force</del> keyboard&rdquo;. Not that you can&rsquo;t still use the mouse and arrow keys to move around. But the more you accept the keyboard way of doing things, the easier and more powerful EMACS becomes.</p>
+<p>I&rsquo;m not a touch typist (yet) and I don&rsquo;t even use the default EMACS key combinations (called key <em>bindings</em>) for many things. I use an alternate editing mode based on VIM which uses a modal editing concept. I won&rsquo;t get into it here but I will say that when you see an expert who edits using VIM commands, you&rsquo;ll be amazed and inspired to learn it&rsquo;s secrets. Compared to the WYSIWYG writing apps, with all their pointing and clicking and dragging and scrolling, writing in a pure text editor like EMACS feels more focused and more powerful.</p>
+<h2 id="it-s-all-text">It&rsquo;s all text</h2>
+<p>Not really. There&rsquo;s more to life than text. But in the digital writing world it&rsquo;s pretty true. Text is only a few steps up from bits, bytes and hexadecimals. It&rsquo;s the basic connection between a computer and human language.</p>
+<p>For writers, text is the essence of expression. Not the font, the color, the margin space, the italics. That&rsquo;s not to say those things are not important; they are. But plain text seems to clarify writing. Formatting features while I&rsquo;m writing tend to distract me anyway. I&rsquo;d prefer to save the layout and typography for the right time&mdash;which should normally be <em>after</em> the text is finished.</p>
+<p>Plain text in many applications looks, well, plain. Often a little rough around the edges, using monospaced font and looking unpolished compared to a desktop publishing app. But with a little customization, even EMACS can look and feel like a flashy word processor while remaining true to its plain text nature.</p>
+<h2 id="the-possibilities-are-endless">The possibilities are endless</h2>
+<p>Now it&rsquo;s time to mention the real power behind EMACS as a text editor. It turns out that EMACS is actually a Lisp interpreter that happens to also be a darn good text editor. In fact, many people joke about EMACS being a replacement for their operating system while running most of their basic apps within EMACS as well.</p>
+<p>Under the hood, EMACS uses a dialect of Lisp called Elisp (EMACS Lisp). It is the language used to construct all the features found in the EMACS text editor. It also allows anyone to create or modify <em>anything</em> in EMACS. Any. Thing.</p>
+<p>This programming language is like a superpower once you begin to tap into its power. It&rsquo;s what makes EMACS <em>infinitely</em> customizable. And the extensions and features that others have developed over the last 40+ years is pretty amazing.</p>
+<p>Seriously, you can customize anything. Want to change the keyboard shortcut for a command? Use an Elisp command. Want to change the way a feature works? Modify the Elisp function(s) behind the feature. Want an extention that displays sunset and phase of the moon in the status bar? there&rsquo;s a package for that.</p>
+<p>Those are just the minor league. The majors include things like:</p>
+<ul>
+<li>an integrated fully functioning programmable <a href="https://www.gnu.org/software/emacs/manual/html_mono/calc.html">calculator</a></li>
+<li><a href="https://magit.vc">magit</a>: a user friendly front end to Git</li>
+<li><a href="https://orgmode.org">org-mode</a>: think of Markdown but many times more powerful and capable</li>
+</ul>
+<p>Those are just three out of the hundreds of packages that can extend the usefulness of EMACS. And those last two, magit and org-mode, are often cited as reason enough to use EMACS even if you don&rsquo;t use it as a text editor.</p>
+<h2 id="the-thermonuclear-word-processor">The thermonuclear word processor</h2>
+<p>EMACS isn&rsquo;t for everybody. Some people can&rsquo;t (or won&rsquo;t) work without a mouse or trackpad. Some people prefer the desktop publishing features of Word over a bare bones text editor. Some people don&rsquo;t like tinkering under the hood of an application.</p>
+<p>But if you&rsquo;re willing to give EMACS a try, it can be transformative. It can become your superpower when using a computer. In the right hands, it can perform feats of magic that will amaze and astound even seasoned computer experts. I&rsquo;ll finish with this excellent summary:</p>
+<blockquote>
+<p>I use emacs, which might be thought of as a thermonuclear word processor. It was created by Richard Stallman; enough said. It is written in Lisp, which is the only computer language that is beautiful. It is colossal, and yet it only edits straight ASCII text files, which is to say, no fonts, no boldface, no underlining. In other words, the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer—i.e., if someone else is getting paid to worry about how your words are formatted and printed—emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish. &mdash;Neal Stephenson (1999)</p>
+</blockquote>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Ok. Maybe not the &ldquo;beginning of recorded history&rdquo; but the beginning of the modern office era?&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I use <a href="http://spacemacs.org">Spacemacs</a> which is a custom configuration of EMACS.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Just a Hobby</title>
+			<link>http://localhost:1313/posts/just-a-hobby/</link>
+			<pubDate>Sun, 16 Jun 2019 15:24:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/just-a-hobby/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>(original article written in December 2016)</p>
+<h2 id="the-start">The Start</h2>
+<p>Programming. It’s my new hobby. Well, also <em>reading about</em> programming. Hacker News, Reddit, all kinds of blogs and other sites. Also computer science. Also a hobby. Algorithms, big O notation, functional versus imperative languages, searching, sorting, data structures, strong versus weak typed languages, operator overloading, etc. Ad infinitum. I think it’s fascinating. Not terribly fun sometimes, not easy to grasp most of the time. But still… it’s fascinating. And empowering.</p>
+<p>I grew up at the start of the personal computer era. My neighbor worked at a local IBM facility and had an Apple II in his basement (was that disloyal?). Another one down the street built his own (I think a Heathkit H8?) My first computer was an IBM PC with an 8088 processor (yes, before the 8086, 286, 386, 486, pentium… etc.) with a green CRT monitor just like you’d imagine. It was an incredibly expensive toy for a kid to play with. I took it to college and never did much more than write papers and play with spreadsheets. Actually, I did my senior project on it… wrote my senior thesis and wrote some very basic programs in TrueBasic. I even used Lotus 1-2-3 and began using spreadsheets for some basic engineering work. Yes, I’m that old.</p>
+<p>I never really learned to program though. I took one semester of Pascal… hated the whole process. Hated the waiting in line at the computer lab to sit in front of a terminal to debug a 150 line program. I recall we were to use 3D matrix transformations on basic images. Rotate, resize, translate. It never clicked with me and I didn’t have the patience for it. I never felt like I knew how to even approach the task. I just wrestled with syntax. And Pascal wasn’t forgiving. I wonder if things would have been different if Turbo-Pascal had come out just a few years earlier. What took us hours could have been done in seconds. Who knows?</p>
+<p>That was 1986. Fast forward to 2014.</p>
+<p>My first reaction to that temporal jump is: holy cow! Almost thirty years! What I hold in my hand does more than the entire computer lab at my university could do. I can actually write powerful code… in minutes!.. on my phone!.. It used to take me days to struggle with code that never even worked in the end. Sigh.</p>
+<p>What changed? Everything.</p>
+<h2 id="the-journey">The Journey</h2>
+<p>After my first steps in high school and college, I spent many years in the world of Microsoft; starting with DOS 6.2 and progressing through windows 3, 3.1, 3.11, windows 95, 98, NT, 2000, then to windows ME and XP… I saw it all. I saw the MS Office suite take over and dominate the world. I always had some sort of PC in the house. Nothing too powerful. Always in the $3,000 range.</p>
+<p>I remember my first modem was 300 baud. Then I was excited to upgrade to 14,400 baud. That was so I could connect to Compuserve and what was then a very exciting “internet”. No programming though.</p>
+<p>Years later, I remember seeing the first browsers Gopher and Netscape Navigator. Even Internet Explorer. Those were interesting days. Still, no programming. One colleague of mine was pretty absorbed in his computer world and programmed some pretty cool things in Visual Basic. I was impressed. I was more of a power user of applications. Spreadsheets, slide shows and the like. Never real programming though.</p>
+<p>Sometime around 2001 I switched over to the Mac. It was when they switched over to Mac OS X and I still have a powerPC laptop with both System 9.2 and 10.1 on it. Mac was new to me then so I thought the older system looked… older. The newer system was shiny but pretty slow. Not that I cared much though. I was tired of the never-ending reboot -&gt; reinstall program -&gt;reinstall windows -&gt; cycle of misery. Firewalls, antivirus programs, malware detectors… it was a lousy experience. But one that everyone seemed to tolerate. I wanted something different. So I switched.</p>
+<p>Since then I have used Mac OS 10.1 through 10.9 and the switch from powerPC to Intel. And I have seen the resurgence of Apple as a contender for the home PC. I have also seen the emergence and complete dominance of computing with phones and tablets. Android, iOS, windows mobile and the ill-fated web OS and Blackberry. All this time I would call myself a computer enthusiast. Just smart enough to become the family tech guy but not smart enough to make it a career. Maybe a technology enthusiast with a minor in computers. Anyhow, it all led to a slow re-acquaintance with programming.</p>
+<p>You notice after a while, the closer you are to technology, the more you encounter programming. Often it is disguised as something simple. Often it’s called “automation steps” or “scripts” or “macros”. Even formulas in Excel are a form of programming (take this number, multiply by the number to the left and add the number above… do this for every row). These days you find it in web applications (IFTTT comes to mind) and other apps (Hazel, for example). I never felt intimidated by the notion of programming, but it never felt like I was <em>really</em> programming (as I think of it). I always thought of programming as something closer to mathematics or data manipulation. Solving esoteric problems or crunching numbers. Of course it is a whole lot more than that. In it’s entirety, programming (developing software) is at the heart of <em>everything</em> we experience with technology. It is the great enabler.</p>
+<h2 id="the-courtship">The Courtship</h2>
+<p>And so I found myself lured by the siren call of programming. This time that world was much different than the one I left in 1986. Sure, compilers are still around. Even Pascal is still around. However, so are dozens of new, faster, easier, more powerful languages that make the programming experience much less frustrating and much more enjoyable.</p>
+<p>So where does one even begin? Why not use your favorite internet search engine (a powerful set of programs by the way) and ask that very question? I didn’t, but if I do it today I would find the same resources I still use. Turns out, millions of people ask the very same question and there are thousands (probably millions) who are ready to answer or at least point you in the right direction. Welcome to the collective intelligence of the internet!</p>
+<p>The top hits of a search on [Google.com] include an online course called “Getting Started with Programming”, an article titled “What’s the Best Programming Language for a Beginner?” and a YouTube video titled “Beginning Programming - Tutorial 1 Introduction”. And there are 10,000 more search results! As you can guess, it’s a hot topic and the internet is a perfect place to start.</p>
+<p>Like I said earlier, I didn’t begin this way. I approached it in a slightly more indirect way. As I mentioned, I switched to Mac OS in 2001. When you make that switch, you can’t help but notice the complete difference there is between the Windows world and the Unix world. Since Mac OS X is really a fancy layer on top of a Unix operating system (just as Windows is or was a fancy layer on top of DOS) you must relearn some basic computer skills. For those who can find a command prompt on Windows and run a few basic commands (the cmd prompt and the DOS shell), there is a parallel experience on the Mac but in a new language (the terminal and bash). When I first encountered it, it felt like driving on the left side of the road in the UK for the first time. The same, but different.</p>
+<p>Along with a new operating system came new system commands, a new file system, and new toys. Preinstalled on a Mac are things like Apple Script and Xcode. Apple Script is the friendly looking scripting language that allows one to automate nearly anything on a Mac. Only, it isn’t very friendly and can’t (easily) do the things I imagine a <em>real</em> program should do. But to be fair, I haven’t given it much of a chance yet. Maybe someday. Xcode is the intimidating developer application that gives any Mac owner the ability to create any program they can imagine - as long as they learn the lingua franca of the Mac world: Objective-C. Yikes! Have you seen what that looks like?</p>
+<p>However, hidden among the many goodies of the Mac system are a couple of other pre-installed programming languages. And I’m not talking about BASH which is the default terminal shell environment (similar to the command prompt in Windows). Bash is itself a scriptable language (and a pretty powerful one too but focused mainly on system level things). No, I’m talking about Python and Ruby. Two relatively young, dynamic programming languages that come preinstalled and ready to run with just a one word command: “python” or “irb” ( the “irb” comes from “interactive ruby” and ruby files usually end with .rb).</p>
+<p>I was vaguely aware of the dozens of newer programming languages being used by those magical “programmers”. I knew of C, C\++, Java, Perl, PHP, Lisp, Javascript, Python and Ruby to name a few. But I couldn’t tell one from another and I surely couldn’t understand their differences. I was aware of the popular concept of object oriented programming (OOP) but couldn’t describe it in any meaningful way. Still, the attraction was there for me. Right under my fingers was a tool I could learn that could let me do magical things! <em>Real</em> programming languages. How hard could it be?</p>
+<p>Pretty hard. That’s how hard.</p>
+<h2 id="the-wedding">The Wedding</h2>
+<p>Most honest programming teachers will tell you up front: learning to program is hard. It is a new skill much like learning a new language. It takes concentration and commitment. It takes practice and study. It covers many disciplines such as mathematics and logic. It requires attention to detail and it takes a willingness to ask questions and search for answers. But none of this should scare you! Every honest programmer will also tell you: it was hard for them when they started too. And the barrier to learning is lower and lower every year.</p>
+<p>So where did I begin? I began with Python. And Ruby. But mostly Python. And since I was curious as to which was the better one to start with, I read all the “Python vs. Ruby - which is better?” and “Compiled vs. Interpreted - which is better?” and “Learn C first before you learn another language” and “Java gets you more jobs” … blah blah blah blah… blah. As entertaining as all that is, it really isn’t helpful when starting out. After a while, you realize that every programming language has its strengths and weaknesses and no language is perfect for every task. But some languages are easier to learn than others, especially when you’re just a beginner. Python is one of those languages. Easy to grasp the basics and flexible enough to be forgiving. Many will argue that Ruby is better, or that you should start with a real language like C or Java. It comes down to a personal choice - which path will help you learn the basics in a way that makes sense to you. For me it was Python. And I see it is becoming the language of choice for beginning computer science courses and other computation oriented fields. So I think others can recognize its merits too.</p>
+<p>In short: Python it was. I started the usual way: with a tutorial from the main site [python.org]. It does what many tutorials do. It starts with some basic math to show you how it calculates things. Then it introduces variables, functions, loops, branches… and away you go. But where exactly are you going? And why? There is always a point where you lose the purpose and the meaning of what you are shown. What is this used for? Why should I do this? Some of those questions can be answered in another forum. I found that out when I took an online course called CS 101 from [Udacity.com]. This course covered some of my why questions and introduced some good techniques for how to approach programming challenges. And it used Python as its language. Yeah! Things began to make more sense. Concepts began to click. When I finished that course I felt I could begin to program for real. I was hooked. And it was just the beginning.</p>
+<p>Shortly after that class I took a few more similar ones, more practice with the language, more problem solving skills. It’s all a form of mental exercise - and it feels like my brain is the muscle getting a workout. I even branched out into some other areas such as statistics, finance and differential equations. All of those were now accessible to me with my basic programming skills. And I freely admit that <em>basic</em> is the best word to describe my skills.</p>
+<p>In the mean time I have discovered a new language that has challenged my idea of programming. Haskell. Known as an “academic” language based on mathematics and set theory, this language forces me to approach programming in an entirely different way than I would with Python. The main difference is that Python (an imperative language) requires me to describe <em>how</em> to solve a problem, step by step. Haskell (a functional language) requires me to describe <em>what</em> a solution looks like without having to describe <em>how</em> to get it. It is a completely different way of approaching a problem and it forces me to think in a “new” way.</p>
+<p>A language like Haskell appeals to mathematicians (I’m told) because its code looks like mathematical equations. It appeals to many programmers (I’m told) because of its elegant, minimal language and its pure, functional nature. It also has a strong type system that helps one to understand what’s going on in a program. I’ll refer to other resources ([learnyouahaskell.com]) to explain this better than I can. I can only say that it appeals to me because it’s a different way to think about programming and I’m enough of a novice not to harbor any prejudice. Finally, I must also admit that if I describe my Python skills as basic, my Haskell skills would qualify as beginner. Still, it’s so <em>interesting</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>So, all that sounds wonderful but what good is it really? Here’s an example: I am a novice investor who likes to track my investment performance and investigate better methods of investing. Although I follow a “buy and hold” strategy and only think in the long term, I do like to play around with various theories centered around optimum portfolios and efficient investing. This led me to theories on minimum variance portfolios and capital asset pricing models. So I took a course in computational investing so I could see the methods explained. The course relied heavily on Excel and a little R (a mostly statistics oriented language). I could follow the theory and the methods with no trouble. But it was rather tedious to work inside a spreadsheet for all the heavy calculations involved.</p>
+<p>For example, the first few steps involve downloading some price histories of a few stocks, pasting them into a spreadsheet, reordering the prices, calculating returns on the stock and finally calculating the mean and standard deviation of the returns. If you have to do that for more than a few stocks, and for more than a few years worth of data, it gets very tedious and error prone. The next steps include creating a covariance matrix for all the stocks and finally setting up a Solver scenario to find a maximum return for a minimum variance. Have you set up matrix formulas in Excel? (Hint: they can be tricky) This little project alone takes a few hours to set up and run. And if you want to change any of the inputs (like time period, which stocks to include, etc.) it takes almost as long to reset the spreadsheets as it did to set it up in the first place.</p>
+<p>So I decided to try my hand at programming a better solution. With my simple program I am able to input a start and stop date and a list of stocks (or whatever thing you want prices for). The program goes to the web, downloads all the prices you require, and performs all the calculations required to return the same answer as the “manual” Excel method. In seconds. As many times as you want. With as many different inputs as you want. Complete with publication quality graphs!</p>
+<h2 id="happily-ever-after">Happily Ever After?</h2>
+<p>And what else do I learn after an exercise like that? I get to (re)learn about matrices, statistical variance and covariance, maximize/minimize numerical methods and Lagrange multipliers. That’s just one little project! And that’s not including the new experiences with python’s powerful packages such as numpy, scipy, pandas and matplotlib (heavy duty number crunching and plotting packages).</p>
+<p>After an exercise like that, I look around and see what applications are for sale in the app stores that may do something similar. Nothing that I can find. I even looked for finance apps that could calculate rates of return for investments. Again, nothing that I can find. The closest thing I can find is Quicken from Intuit. Way more than I need and it doesn’t do what I would like anyway<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>So there’s an opportunity to create something of value for me to use - and maybe sell someday to others. Once the basic steps are done and tested, it only remains to build an interface that anyone can use and see clear results. What kind of results? How about: Using the last five years of data and a list of stocks and bonds, if I pick ten stocks then what portion should I allocate to each to give me the best return with the lowest risk? Or, which combination of eight stocks and bonds gives me the best return with the lowest risk? How about using only two years of data? What if I only want four stocks? Or, given my investment history, what is my internal rate of return? (Analogous to your average annual return) And how does that compare to the overall market? Doesn’t that sound interesting?</p>
+<p>A project like that is more in the realm of a developer rather than a just a programmer. There are a whole new set of skills to learn to be a developer. Creating data structures, databases, application interfaces, testing and deployment just to name a few. See where this leads? It all started with curiosity about programming and now I’m talking about making an app for sale in the app store. And that’s what is so great about a hobby like this one. It is so powerful. Little by little, the tech around me looks less magical and more attainable, understandable.</p>
+<p>Yes, I’m hooked.</p>
+<h2 id="update--2019">Update (2019)</h2>
+<p>Today I&rsquo;m using macOS 10.14 on a 13-inch MacBook Pro. I use a dozen or so Windows apps at work (on a Windows 10 desktop rig alongside my personal Mac) and a dozen web services of various types. I also use an iPhone X and have an iPad Pro (first gen) in my bag.</p>
+<p>My latest interests (as of June this year) include machine learning, Racket, typography, and EMACS.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Today (2019) I&rsquo;m about 1/3 the way through <em>Haskell Programming from First Principles</em>. I still rate myself a Haskell beginner.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Today (2019) I use Banktivity which does everything I need but is still a bit clunky and bloated. I even dabbled in ledger and beancount&mdash;but they require a <em>lot</em> of care and attention. To much for me right now.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Download data from the web</title>
+			<link>http://localhost:1313/posts/download-data-from-the-web/</link>
+			<pubDate>Fri, 13 Jul 2018 19:16:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/download-data-from-the-web/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<h2 id="task">Task</h2>
+<p>A colleague of mine has been entering meta-data for books through a web-based portal (let&rsquo;s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing. In order to complete the transfer, we needed a way to add the missing data. If we had only 20-50 titles it would be feasible to copy-paste the missing fields into the summary export. But there were 962 titles! This would have taken a long time and would also be prone to errors.
+My task:</p>
+<blockquote>
+<p>Find a way to automatically copy the missing data from the website to a spreadsheet. The spreadsheet shall have a column of ISBNs as an index and each row shall contain the missing data.</p>
+</blockquote>
+<h2 id="steps">Steps</h2>
+<p>My gameplan was to use python to download the webpages with the data, search for the missing data and copy it to a file. I started by using the standard library <code>urllib</code> and tried to download a page. That&rsquo;s where I hit my first snag. The site I was using required a login and was actually an https site and not an http site (which is standard these days (which is standard these days). I found a way to handle this using a library called <code>cookiejar</code> (<a href="https://docs.python.org/3/library/http.cookiejar.html">cookiejar)</a>. Like so:</p>
+<h3 id="logging-in-with-cookiejar">logging in with cookiejar</h3>
+<p>After some searches on Stack Overflow, I found a way to do this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">  <span class="kn">import</span> <span class="nn">http.cookiejar</span>
+</span></span><span class="line"><span class="cl">  <span class="kn">import</span> <span class="nn">urllib.request</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Storing cookies in cj variable</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">cj</span> <span class="o">=</span> <span class="n">http</span><span class="o">.</span><span class="n">cookiejar</span><span class="o">.</span><span class="n">CookieJar</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Defining a handler for later http operations with cookies(cj)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">op</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">build_opener</span><span class="p">(</span><span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">HTTPCookieProcessor</span><span class="p">(</span><span class="n">cj</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Logging in</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">URL</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;https://target_site.com/Account/Login?ReturnUrl=</span><span class="si">%2F</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># login data below should be hidden/deleted before posting</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">VAL</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Username&#39;</span><span class="p">:</span> <span class="s1">&#39;USERNAME&#39;</span><span class="p">,</span> <span class="s1">&#39;Password&#39;</span><span class="p">:</span> <span class="s1">&#39;PASSWORD&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">DATA</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">urlencode</span><span class="p">(</span><span class="n">VAL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ASCII_DATA</span> <span class="o">=</span> <span class="n">DATA</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;ascii&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">RES</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="n">ASCII_DATA</span><span class="p">)</span>
+</span></span></code></pre></div><p>Using two common python libraries, <code>http.cookiejar</code> and <code>urllib.request</code>, I was able to login and maintain my login status in a cookie just like a web browser does. <em>Cool!</em></p>
+<p>Once I could do this, I could open the webpages I needed. Next I needed to figure out how to step through every page (one title per page).</p>
+<h3 id="url-parsing">URL parsing</h3>
+<p>The only way I could see to step through all the titles was to mimic how I would do it in a browser: navigate to the summary page(s) and then click on each title in turn. At each step I examined the URL to see what changed. The summary page URLs looked like this:</p>
+<p><code>https://target_site.com/content/list?pagesize=20&amp;page=1</code></p>
+<p>I could see two variables: <em>pagesize</em> and <em>page</em>. Sure enough, as I navigated through the summary pages, these were the only variables that changed in the URL. Since I knew we had 962 titles, I merely (cough, cough) had to step through the summary pages to see them all. In the end, I chose <code>PAGESIZE = 120</code> and <code>PAGES = 9</code>. But for testing I could use smaller numbers.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># 962 titles can be seen with 9 pages and 120 each page</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># set these smaller when testing</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">PAGES</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="n">PAGESIZE</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># iterate through the pages</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">PAGES</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="n">list_page_url</span> <span class="o">=</span> <span class="s1">&#39;https://target_site.com/content/list?pagesize=&#39;</span>\
+</span></span><span class="line"><span class="cl">                      <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">PAGESIZE</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&amp;page=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="needles-in-haystacks">Needles in Haystacks</h3>
+<p>Now that I could navigate to each title&rsquo;s web page, my next task was to find all the missing data. One way would be to search through each webpage&rsquo;s HTML text and find all the sections containing the missing data. I would have to examine a sample page&rsquo;s HTML code, look for the sections I need, find a way to describe that section using HTML tags or something similar, and then copy the data between the tags. Fortunately, there are already good libraries that can help work with HTML and I chose one called <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>. So instead of searching through the raw HTML text, I could instead search an object. Time for some code!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">      <span class="c1"># create a searchable object for each summary page</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="n">list_page</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">list_page_url</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="n">list_soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">list_page</span><span class="p">,</span> <span class="s1">&#39;html5lib&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="c1"># iterate through the book titles on the page</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">list_soup</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;a[data-content-id]&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">item_page_url</span> <span class="o">=</span> <span class="s1">&#39;https://target_site.com/content/edit/&#39;</span>\
+</span></span><span class="line"><span class="cl">                          <span class="o">+</span> <span class="n">link</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;data-content-id&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="c1"># create a searchable object for each book title</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">item_page</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">item_page_url</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="n">item_soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">item_page</span><span class="p">,</span> <span class="s1">&#39;html5lib&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><p>First I had to open each summary page and turn it into an object. Then I could use the <code>data-content-id</code> to point to each title. Once I opened each title&rsquo;s page I then transformed it into a BeautifulSoup object ready for searching.</p>
+<p>The two important pieces of missing data were a title&rsquo;s long description and any category codes that help define the genre of the book. While I&rsquo;m looking at the page I will also copy the ISBN so I can see which title I&rsquo;m copying from.</p>
+<p>Here&rsquo;s the code for finding the ISBN and the long description:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">          <span class="c1"># extract the meaningful data we&#39;re looking for</span>
+</span></span><span class="line"><span class="cl">          <span class="c1"># (BIC and long description)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">isbn</span> <span class="o">=</span> <span class="n">item_soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="s1">&#39;Identifier&#39;</span><span class="p">)[</span><span class="s1">&#39;value&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">          <span class="n">long_description</span> <span class="o">=</span> <span class="n">item_soup</span><span class="o">.</span><span class="n">textarea</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</span></span></code></pre></div><p>See? Once I had a page&rsquo;s code transformed into a searchable object (<code>item_soup</code>), it only took one line to get the data I needed. It did take some trial and error to see what tags to look for, but once I found them, it worked every time.</p>
+<p>However, the category codes turned out to be a little tricky.</p>
+<h3 id="javascript-oh-my">Javascript, oh my!</h3>
+<p>There were two complications when I started looking for the category codes. The first was that each title could have up to two <em>types</em> of category codes (BIC or Thema) and any <em>number</em> of category codes for each type. And it was also possible for a title to have <em>zero</em> codes (missing data). The second was that the page displayed in the browser had embedded javascript to help render or edit the category data. BeautifulSoup works well with HTML but not with javascript. Oh no!</p>
+<p>After researching how to handle javascript, I decided to simply search the javascript code using python&rsquo;s regex library and find the data I needed. Fortunately, the data was there -  it just needed a way to be found. It would have been much harder if the javascript didn&rsquo;t have the actual codes I was looking for (maybe it pulled the codes from a database somewhere else?).</p>
+<p>There were several <em>chunks</em> of javascript code throughout the page. I had to find the right <em>chunk</em> and then search for what I needed. I searched the page&rsquo;s object for the right <em>chunk</em> and then searched that blob of text for the data.</p>
+<p>Remember the first complication? I needed a way to handle the varying types and codes that could exist for each title. I noticed that the blob looked very much like a python dictionary - so I decided to transform the blob into a python dictionary (using python&rsquo;s <code>exec</code>) and then pull out what I needed from there.</p>
+<p>Time for some more code!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">          <span class="c1"># BIC codes are embedded in javascript so we have to isolate and</span>
+</span></span><span class="line"><span class="cl">          <span class="c1"># search for the part we need. It is found in a variable</span>
+</span></span><span class="line"><span class="cl">          <span class="c1"># called &#34;subjects&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">js_text</span> <span class="o">=</span> <span class="n">item_soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;text/javascript&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="n">var_subj</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;subjects = \[.+\]&#34;</span><span class="p">,</span> <span class="n">js_text</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">get_text</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">          <span class="n">bic_code</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">          <span class="n">description</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">          if we find the variable we convert it to a list of dicts (like below):
+</span></span></span><span class="line"><span class="cl"><span class="s1">              [{&#39;code&#39;: &#39;JFSL1&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;description&#39;: &#39;Etniske minoriteter og multikulturelle studier&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;label&#39;: &#39;JFSL1: &#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;mainSubject&#39;: False,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;qualifier&#39;: False,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;subjectId&#39;: 14110,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;type&#39;: 1},
+</span></span></span><span class="line"><span class="cl"><span class="s1">              {&#39;code&#39;: &#39;JBSL1&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;description&#39;: &#39;Her: racerelationer&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;label&#39;: &#39;JBSL1: Etniske minoriteter og multikulturelle studier&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;mainSubject&#39;: True,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;qualifier&#39;: False,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;subjectId&#39;: 20410,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;type&#39;: 3}]
+</span></span></span><span class="line"><span class="cl"><span class="s1">          &#39;&#39;&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="k">if</span> <span class="n">var_subj</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">              <span class="n">fix_false</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">&#39;false&#39;</span><span class="p">,</span> <span class="s1">&#39;False&#39;</span><span class="p">,</span> <span class="n">var_subj</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">              <span class="n">fix_true</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">&#39;true&#39;</span><span class="p">,</span> <span class="s1">&#39;True&#39;</span><span class="p">,</span> <span class="n">fix_false</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="n">exec</span><span class="p">(</span><span class="n">fix_true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="c1"># create some subject code lists</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">bic_list</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">          <span class="n">thema_list</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">          <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">subjects</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">              <span class="k">if</span> <span class="n">sub</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">bic_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sub</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">              <span class="k">if</span> <span class="n">sub</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">thema_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sub</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">])</span>
+</span></span></code></pre></div><h3 id="wrapping-it-up">Wrapping it up</h3>
+<p>Almost there! To wrap everything together I decided to use this data structure:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">book_data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;isbn&#34;</span> <span class="p">:</span> <span class="p">{</span><span class="s2">&#34;BIC_list&#34;</span> <span class="p">:</span> <span class="p">[</span><span class="n">bic</span> <span class="n">codes</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                        <span class="s2">&#34;Thema_list&#34;</span> <span class="p">:</span> <span class="p">[</span><span class="n">thema</span> <span class="n">codes</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                        <span class="s2">&#34;long description&#34;</span> <span class="p">:</span> <span class="n">long_description</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">              <span class="p">}</span>
+</span></span></code></pre></div><p>Finally, to make everything even easier to work with and export to Excel, I transformed the dictionary into a <a href="http://pandas.pydata.org/index.html">pandas</a> DataFrame which easily exports into Excel formats.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">  <span class="c1"># create a DataFrame object, transpose the data</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># and send it to an Excel sheet</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">BOOK_DF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">book_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">BOOK_DF</span> <span class="o">=</span> <span class="n">BOOK_DF</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">  <span class="n">BOOK_DF</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">&#39;book_data.xlsx&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="final-analysis">Final Analysis</h2>
+<ul>
+<li>Did I accomplish the task?</li>
+</ul>
+<p>Yes. I successfully copied all 962 titles and created an Excel spreadsheet which included ISBN, long description and any category codes.</p>
+<ul>
+<li>What did I learn?
+<ul>
+<li>how to handle cookies and log into an https site in python</li>
+<li>how to use BeautifulSoup to work with HTML downloads</li>
+<li>how to use regex to search a blob of text (in this case JavaScript code-</li>
+<li>how to transform data structures from one type to another (JavaScript -&gt; python dictionary and python dictionary -&gt; pandas DataFrame)</li>
+</ul>
+</li>
+<li>How much time did I save?</li>
+</ul>
+<p>It took me about a day to get all this code working, so I estimate about <strong>6 hours</strong> of work. If I had done it manually, by clicking and cutting and pasting into a spreadsheet - for 962 entries - I estimate it would have taken about</p>
+<p><code>962 titles x 30 seconds/title x 1 hour/60 seconds = 8 hours</code></p>
+<p><strong>8 hours!</strong></p>
+<p>I consider that a <strong>big win!</strong> And not just two hours. Considering I would have probably made a few errors with all the clicking, copying and pasting - not to mention the RSI pain I would have had afterward - the automatic solution is much more reliable. Also, the next time I need to do this kind of thing, I will probably take around half the time to set up the code - now that I am familiar with the tools in python.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Fizz-Buzz: deluxe edition</title>
+			<link>http://localhost:1313/posts/fizz-buzz-deluxe-edition/</link>
+			<pubDate>Fri, 12 May 2017 23:17:00 +0200</pubDate>
+			
+			<guid>http://localhost:1313/posts/fizz-buzz-deluxe-edition/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<h2 id="origin-story">Origin story</h2>
+<p>I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall. It would look something like this:</p>
+<p>&ldquo;one&rdquo; → &ldquo;two&rdquo; → &ldquo;three&rdquo; → &ldquo;four&rdquo; → &ldquo;fizz&rdquo; ← &ldquo;six&rdquo; ← &ldquo;buzz&rdquo; → &ldquo;eight&rdquo; → &ldquo;nine&rdquo; → &ldquo;fizz&rdquo;</p>
+<p>Fast forward many years&hellip; everyone is encouraged to learn computer programming. A favorite exercise often used to teach or learn a programming language is to replicate this game. Another more challenging exercise is to add all the multiples of some numbers, usually 3 and 5, up to some limit. For example:</p>
+<blockquote>
+<p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+<p><em>Find the sum of all the multiples of 3 or 5 below 1000.</em></p>
+</blockquote>
+<p>Check out this link to try it: <a href="https:projecteuler.net/problem=1">Project Euler #1</a></p>
+<h2 id="easy-answers--danger-code-ahead">Easy answers (danger! code ahead)</h2>
+<p>A straight-forward solution uses the basic tools any beginning programmer will quickly learn. In python, using a list comprehension, it might look like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="nb">sum</span> <span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)]))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="mi">233168</span>
+</span></span></code></pre></div><p>This is a correct solution&hellip; but we can do better! The problem with this solution lies here:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">  <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+</span></span></code></pre></div><p>So what is the problem?<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> This technique isn&rsquo;t as efficient as it could be. Its performance (speed) depends on the size of the range. In this example it steps through 1000 numbers, one at a time, checking if each number is evenly divisible by 3 or 5. It then adds the number to a list if either test is true. Finally, it takes that list and adds all the items. What if the question asked for the sum up to 1,000,000? or 1,000,000,000? Even with a fast processor these solutions will take a long time to produce an answer.
+It turns out there is a way to shortcut this march through a long series of numbers.</p>
+<h2 id="math-to-the-rescue">Math to the rescue!</h2>
+<p>There is a mathematical formula that calculates the sum of a series of numbers (of course there is!). A nice explanation is here: <a href="https://en.wikipedia.org/wiki/Triangular_number?oldformat=true">Triangle Numbers</a> where you can see the sum of a series can be rewritten as a formula:</p>
+<p>\(1 + 2 + 3 + … n = n(n+1)/2\)</p>
+<p>With this insight I can find our answer to the sum of multiples question without marching through a list of numbers. Here’s how:</p>
+<p>First let’s look at just the multiples of threes. A list of the multiples of 3 would look like this:</p>
+<p>\(3 + 6 + 9 + … + 999\)</p>
+<p>which can be re-written as</p>
+<p>\(3 * (1 + 2 + 3 + … + 333)\)</p>
+<p>or</p>
+<p>\(3 * n(n+1)/2\)  (where n = 333)</p>
+<p>In this case n = 333 which is 1000 divided by 3 dropping any remainder (called <em>integer division</em> and uses the <code>//</code> symbol in python). So a python function to calculate the sum of multiples of 3 below 1000 would be:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_threes</span> <span class="p">(</span><span class="n">factor</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">1000</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">		  <span class="n">n</span> <span class="o">=</span> <span class="n">limit</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">		  <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="n">sum_of_threes</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="mi">166833</span>
+</span></span></code></pre></div><p>Note that this would work for <em>any</em> factor and <em>any</em> limit. I could also get the answer for multiples of five by passing 5 as an input to the function. So, to keep the function generic I will rename it to <code>sum_of_multiples</code> and use “factor” and “limit” as its inputs.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span> <span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="mi">71071</span>
+</span></span></code></pre></div><h2 id="next-step">Next step</h2>
+<p>Now that I have a quick way to calculate the sum of a series of multiples of one number up to a limit, I need to figure out how to do it with two numbers. I could call the function twice, once with a factor of 3 and again with a factor of 5, then add the two sums together! Let&rsquo;s see what we get:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">easy_answer</span><span class="p">(</span><span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="nb">sum</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">limit</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span><span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n_count</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n_count</span> <span class="o">*</span> <span class="p">(</span><span class="n">n_count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;easy answer &#34;</span><span class="p">,</span> <span class="n">easy_answer</span><span class="p">(</span><span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;faster answer &#34;</span><span class="p">,</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">+</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">easy</span> <span class="n">answer</span>  <span class="mi">233168</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">faster</span> <span class="n">answer</span>  <span class="mi">266333</span>
+</span></span></code></pre></div><p>Wrong answer! My answer is too high. It is because I am counting some numbers twice. Those numbers that are evenly divisible by <em>BOTH</em> 3 <em>AND</em> 5 are counted twice, once in each subtotal. For example the threes list contains 15 and 30 and 45 &hellip; and the fives list contains 15 and 30 and 45&hellip; Therefore I must subtract the sum of the list of <em>common</em> multiples. To find all the common multiples I must use the <em>lowest common multiple</em> (LCM) of the two factors. In this case, using 3 and 5, the LCM is 15. Another example would use the LCM of 4 and 6 which is 12 (not 24).</p>
+<p>So I must adjust our &ldquo;faster answer&rdquo; by subtracting <code>sum_of_multiples(15, 1000)</code>.</p>
+<p>Let&rsquo;s see if it works!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">easy_answer</span><span class="p">(</span><span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="nb">sum</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">limit</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span><span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n_count</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n_count</span> <span class="o">*</span> <span class="p">(</span><span class="n">n_count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;easy answer &#34;</span><span class="p">,</span> <span class="n">easy_answer</span><span class="p">(</span><span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;faster answer &#34;</span><span class="p">,</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">+</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">-</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">easy</span> <span class="n">answer</span>  <span class="mi">233168</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">faster</span> <span class="n">answer</span>  <span class="mi">233168</span>
+</span></span></code></pre></div><p>It works! And to show that it is much faster when the limit is very high, I&rsquo;ll add some code to time each method using factors of 3 and 5 and a limit of 100,000,000.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="kn">import</span> <span class="nn">time</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">easy_answer</span><span class="p">(</span><span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="nb">sum</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">limit</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span><span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n_count</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n_count</span> <span class="o">*</span> <span class="p">(</span><span class="n">n_count</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;easy answer &#34;</span><span class="p">,</span> <span class="n">easy_answer</span><span class="p">(</span><span class="mi">100_000_000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;took &#34;</span><span class="p">,</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">,</span> <span class="s2">&#34;seconds&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;faster answer &#34;</span><span class="p">,</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">100_000_000</span><span class="p">)</span> <span class="o">+</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">100_000_000</span><span class="p">)</span> <span class="o">-</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">100_000_000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;took &#34;</span><span class="p">,</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">,</span> <span class="s2">&#34;seconds&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">easy</span> <span class="n">answer</span>  <span class="mi">2333333316666668</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">took</span>  <span class="mf">13.653634</span> <span class="n">seconds</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">faster</span> <span class="n">answer</span>  <span class="mi">2333333316666668</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">took</span>  <span class="mf">1.100000000064938e-05</span> <span class="n">seconds</span>
+</span></span></code></pre></div><p>There you can see the easy answer method took over 13 seconds to run while the faster method took only 0.000011 seconds! Thanks math!</p>
+<p>But we can do better!</p>
+<h2 id="going-further">Going further</h2>
+<p>Before going further, I will switch over to the haskell programming language for the code examples. Hopefully you won&rsquo;t notice much of a difference (and I get to practice another language).</p>
+<p>First, let&rsquo;s rewrite the python code to haskell code (without the timing):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">easyAnswer</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">easyAnswer</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">sum</span> <span class="p">[</span><span class="n">x</span> <span class="o">|</span> <span class="n">x</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="n">factor</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span> <span class="kr">where</span>
+</span></span><span class="line"><span class="cl">                         <span class="n">n</span> <span class="ow">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="n">factor1</span> <span class="n">factor2</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">triangle</span> <span class="n">factor1</span> <span class="n">limit</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">                                        <span class="n">triangle</span> <span class="n">factor2</span> <span class="n">limit</span> <span class="o">-</span>
+</span></span><span class="line"><span class="cl">                                        <span class="n">triangle</span> <span class="p">(</span><span class="n">lcm</span> <span class="n">factor1</span> <span class="n">factor2</span><span class="p">)</span> <span class="n">limit</span>
+</span></span></code></pre></div><p>You&rsquo;ll hopefully notice many similarities like the list comprehension and the triangle function. Also, you can see a term <code>lcm</code> which is a function that does what I want: find the lowest common multiple of two integers.</p>
+<p>So how can I go further? I can make the <code>sumOfMultiples</code> function truly generic so it can take <em>any number</em> of factors and find the sum of their multiples up to a limit. For example, I could find the sum of the multiples of 3, 5 and 7 below 1,000. Before I start, I&rsquo;ll get the right answer using the easy method so I know what we&rsquo;re looking for. In fact, I&rsquo;ll build up a table of sums as I go along.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">easyAnswer</span> <span class="ow">=</span> <span class="n">sum</span> <span class="p">[</span><span class="n">x</span> <span class="o">|</span> <span class="n">x</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="mi">1000</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span>
+</span></span><span class="line"><span class="cl">                                         <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span>
+</span></span><span class="line"><span class="cl">                                         <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">7</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">easyAnswer</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">271066</span>
+</span></span></code></pre></div><p>My answer is: 271066 (I&rsquo;ll call this my target number)</p>
+<p>And now, using a limit of 1000, I&rsquo;ll make a table of sums of multiples of 3, 5 and 7. I already know we&rsquo;re going to subtract the sum of the LCM&rsquo;s of 3 &amp; 5 (from our previous solution)&hellip; and now I&rsquo;ll have to subtract LCM&rsquo;s for 3 &amp; 7 AND 5 &amp; 7. And for good measure, I&rsquo;ll include the LCM for 3 &amp; 5 &amp; 7 to see if I need it. Finally, I&rsquo;ll add some additional details in the table (I have a feeling I&rsquo;ll need them).</p>
+<table>
+<thead>
+<tr>
+<th>factors</th>
+<th># factors</th>
+<th>LCM</th>
+<th>sum (1000)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+<td>166833</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+<td>5</td>
+<td>99500</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1</td>
+<td>7</td>
+<td>71071</td>
+</tr>
+<tr>
+<td>3, 5</td>
+<td>2</td>
+<td>15</td>
+<td>33165</td>
+</tr>
+<tr>
+<td>3, 7</td>
+<td>2</td>
+<td>21</td>
+<td>23688</td>
+</tr>
+<tr>
+<td>5, 7</td>
+<td>2</td>
+<td>35</td>
+<td>14210</td>
+</tr>
+<tr>
+<td>3, 5, 7</td>
+<td>3</td>
+<td>105</td>
+<td>4725</td>
+</tr>
+</tbody>
+</table>
+<p>If I follow my earlier strategy, I will first add the 3&rsquo;s, 5&rsquo;s and 7&rsquo;s and then subtract the 3&amp;5, 3&amp;7 and 5&amp;7 sums. That result is 266341. Exactly 4725 too low! It turns out that when I subtract all three pairs I need to add back the 3&amp;5&amp;7 triple. When I do, I get a total sum of 271066!</p>
+<p>I feel like I got lucky there, so I am going to go to the next level and try 4 factors and see how it adds up. I&rsquo;ll use 3, 5, 7, and 11 as my factors and a limit of 10,000 this time. Using the <code>easyAnswer</code> method I get a target number of: 29224307.</p>
+<p>I&rsquo;ll build up my table again (using the <code>easyAnswer</code> method for each row):</p>
+<table>
+<thead>
+<tr>
+<th>factors</th>
+<th># factors</th>
+<th>LCM</th>
+<th>sum (10,000)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+<td>16668333</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+<td>5</td>
+<td>9995000</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1</td>
+<td>7</td>
+<td>7142142</td>
+</tr>
+<tr>
+<td>11</td>
+<td>1</td>
+<td>11</td>
+<td>4549545</td>
+</tr>
+<tr>
+<td>3, 5</td>
+<td>2</td>
+<td>15</td>
+<td>3331665</td>
+</tr>
+<tr>
+<td>3, 7</td>
+<td>2</td>
+<td>21</td>
+<td>2384046</td>
+</tr>
+<tr>
+<td>3, 11</td>
+<td>2</td>
+<td>33</td>
+<td>1519848</td>
+</tr>
+<tr>
+<td>5, 7</td>
+<td>2</td>
+<td>35</td>
+<td>1426425</td>
+</tr>
+<tr>
+<td>5, 11</td>
+<td>2</td>
+<td>55</td>
+<td>905905</td>
+</tr>
+<tr>
+<td>7, 11</td>
+<td>2</td>
+<td>77</td>
+<td>645645</td>
+</tr>
+<tr>
+<td>3, 5, 7</td>
+<td>3</td>
+<td>105</td>
+<td>478800</td>
+</tr>
+<tr>
+<td>3, 5, 11</td>
+<td>3</td>
+<td>165</td>
+<td>301950</td>
+</tr>
+<tr>
+<td>3, 7, 11</td>
+<td>3</td>
+<td>231</td>
+<td>218526</td>
+</tr>
+<tr>
+<td>5, 7, 11</td>
+<td>3</td>
+<td>385</td>
+<td>125125</td>
+</tr>
+<tr>
+<td>3, 5, 7, 11</td>
+<td>4</td>
+<td>1155</td>
+<td>41580</td>
+</tr>
+</tbody>
+</table>
+<p>Whew! Things are getting complicated! Now I&rsquo;ll follow my strategy again: add the sums of the single factors, subtract the sums of the pairs LCM, then add back the sums of the triples. I get a total of 29265887. Exactly 41580 too high! So it looks as though I must <em>subtract</em> the last quartet (3&amp;5&amp;7&amp;11) LCM for a total of 29224307: my target number!</p>
+<p>Now I think I have enough examples to build a general case. Here&rsquo;s what my intuition leads me to:</p>
+<p><code>the sum of multiples of all factors =</code></p>
+<p><code>the sum of the LCM sums if the number of factors is odd</code></p>
+<p><code>MINUS</code></p>
+<p><code>the sum of the LCM sums if the number of factors is even</code></p>
+<p>Before I get the to the final code, I should figure out how to generate some of the data in our table automatically. First, I need an easy way to generate the sets of factors in column 1. Searching through the <code>Data.List</code> module I found the function <code>subsequences</code> which takes a list and outputs a list of all subsequences from the input. Just what I need!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="kr">import</span> <span class="nn">Data.List</span> <span class="p">(</span><span class="nf">subsequences</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">subsequences</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="kt">[]</span><span class="p">,[</span><span class="mi">3</span><span class="p">],[</span><span class="mi">5</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="mi">7</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]]</span>
+</span></span></code></pre></div><p>Perfect! (except for the empty list [] at the beginning)</p>
+<p>Second, I need a way to calculate the LCM of not just two factors but <em>any</em> number of factors. Here is where a <code>foldl</code> can help:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">15</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">105</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">1155</span>
+</span></span></code></pre></div><p>Perfect! We&rsquo;re now ready to put it all together:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="kr">import</span> <span class="nn">Data.List</span> <span class="p">(</span><span class="nf">subsequences</span><span class="p">,</span> <span class="nf">length</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">factorsList</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="p">[(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Integer</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">factorsList</span> <span class="n">factors</span> <span class="ow">=</span> <span class="p">[(</span><span class="n">length</span> <span class="n">a</span><span class="p">,</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="n">a</span><span class="p">)</span> <span class="o">|</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">a</span> <span class="ow">&lt;-</span> <span class="n">subsequences</span> <span class="n">factors</span><span class="p">,</span> <span class="n">a</span> <span class="o">/=</span> <span class="kt">[]</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="ow">::</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Integer</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="p">(</span><span class="kr">_</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">b</span> <span class="o">*</span> <span class="p">((</span><span class="n">n</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">b</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span> <span class="n">n</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">b</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListPlus</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListPlus</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="p">[</span><span class="n">triangle</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">|</span>
+</span></span><span class="line"><span class="cl">                                   <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="ow">&lt;-</span> <span class="n">factorsList</span> <span class="n">factors</span><span class="p">,</span> <span class="n">odd</span> <span class="n">a</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListMinus</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListMinus</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="p">[</span><span class="n">triangle</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">|</span>
+</span></span><span class="line"><span class="cl">                                    <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="ow">&lt;-</span> <span class="n">factorsList</span> <span class="n">factors</span><span class="p">,</span> <span class="n">even</span> <span class="n">a</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">sum</span><span class="p">(</span><span class="n">triangleListPlus</span> <span class="n">factors</span> <span class="n">limit</span><span class="p">)</span> <span class="o">-</span>
+</span></span><span class="line"><span class="cl">                                <span class="n">sum</span><span class="p">(</span><span class="n">triangleListMinus</span> <span class="n">factors</span> <span class="n">limit</span><span class="p">)</span>
+</span></span></code></pre></div><p>First I created a <code>factorsList</code> function that put together the <code>subsequences</code> and <code>lcm</code> functions to output a list of all the possible combinations of factors showing their length (number of factors) and their corresponding LCM.</p>
+<p>The <code>triangleListPlus</code> and <code>triangleListMinus</code> functions transformed the factorsList elements to their triangle sums: one list for even number of factors, the other for odd.</p>
+<p>Finally, the <code>sumOfMultiples</code> function takes the <em>plus</em> list and subtracts the <em>minus</em> list to get the final total.</p>
+<p>Not very elegant, but it does the job. To check that it works, I&rsquo;ll try some test cases:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="kt">[]</span> <span class="mi">10000</span>         <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">16668333</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">23331668</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span> <span class="mi">10000</span>      <span class="c1">-- should be the same as [3]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">16668333</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">27142139</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10000</span>    <span class="c1">-- should be the same as [3,5]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">23331668</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">29224307</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">8</span><span class="p">]</span> <span class="mi">25</span>         <span class="c1">-- [4,6,8,12,16,18,20,24] = 108</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">108</span>
+</span></span></code></pre></div><p>Look at that! Even the &ldquo;tricky&rdquo; test cases appear to pass. An empty list (no factors) returns 0, a case where the LCM of two factors <em>is equal to</em> one of the factors (3 and 6), and a case where a factor is repeated (3, 3, 5). The test case <code>sumOfMultiples [3,5,7,11] 10000</code> gives me my expected target answer: 29224307! And the last test case shows me that my method handles factors with overlapping LCMs. Not Bad!</p>
+<p>But we can do better!</p>
+<h2 id="refactoring">Refactoring</h2>
+<p>I&rsquo;m probably not going to get much more improvement in overall performance but I can save a little time and memory space with a few tweaks.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="kr">import</span> <span class="nn">Data.List</span> <span class="p">(</span><span class="nf">foldl&#39;</span><span class="p">,</span> <span class="nf">nub</span><span class="p">,</span> <span class="nf">subsequences</span><span class="p">,</span> <span class="nf">length</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">lcmList</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">lcmList</span> <span class="n">factors</span> <span class="ow">=</span> <span class="n">tail</span> <span class="p">[</span><span class="n">sign</span> <span class="n">fs</span> <span class="o">$</span> <span class="n">lcm&#39;</span> <span class="n">fs</span> <span class="o">|</span> <span class="n">fs</span> <span class="ow">&lt;-</span> <span class="n">subsequences</span> <span class="o">$</span> <span class="n">nub</span> <span class="n">factors</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                   <span class="kr">where</span> <span class="n">sign</span> <span class="n">fs</span> <span class="o">|</span> <span class="n">odd</span> <span class="p">(</span><span class="n">length</span> <span class="n">fs</span><span class="p">)</span> <span class="ow">=</span> <span class="n">id</span>
+</span></span><span class="line"><span class="cl">                                 <span class="o">|</span> <span class="n">otherwise</span>       <span class="ow">=</span> <span class="n">negate</span>
+</span></span><span class="line"><span class="cl">                         <span class="n">lcm&#39;</span> <span class="ow">=</span> <span class="n">foldl&#39;</span> <span class="n">lcm</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangle&#39;</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle&#39;</span> <span class="kr">_</span> <span class="mi">0</span> <span class="ow">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle&#39;</span> <span class="n">n</span> <span class="n">f</span> <span class="ow">=</span> <span class="n">f</span> <span class="o">*</span> <span class="n">n1</span> <span class="o">*</span> <span class="p">(</span><span class="n">n1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">                 <span class="kr">where</span> <span class="n">n1</span> <span class="ow">=</span> <span class="n">n</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">abs</span> <span class="n">f</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">sum</span> <span class="p">(</span><span class="n">triangle&#39;</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="n">lcmList</span> <span class="n">factors</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">main</span> <span class="ow">::</span> <span class="kt">IO</span> <span class="nb">()</span>
+</span></span><span class="line"><span class="cl"> <span class="n">main</span> <span class="ow">=</span>
+</span></span><span class="line"><span class="cl">   <span class="n">mapM_</span>
+</span></span><span class="line"><span class="cl">    <span class="n">print</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="kt">[]</span> <span class="mi">10</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>                 <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="kt">[]</span> <span class="mi">0</span><span class="p">,</span>                   <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="mi">0</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="mi">0</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="mi">3</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>               <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>             <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>           <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>           <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>             <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>           <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>                 <span class="c1">-- should be 5</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">15</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>              <span class="c1">-- should be 5</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>            <span class="c1">-- should be 23331668</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>          <span class="c1">-- should be 27142139</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>       <span class="c1">-- should be 29224307</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">13</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>    <span class="c1">-- should be 30824867</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">13</span><span class="p">,</span><span class="mi">17</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span> <span class="c1">-- should be 31950148</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span> <span class="mi">25</span><span class="p">,</span>               <span class="c1">-- should be 108</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">201</span><span class="p">,</span><span class="mi">203</span><span class="p">,</span><span class="mi">207</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>       <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">17</span><span class="p">,</span><span class="mi">37</span><span class="p">,</span><span class="mi">67</span><span class="p">]</span> <span class="mi">10000000000000000000000000000000000000</span>
+</span></span><span class="line"><span class="cl">                <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">main</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">23331668</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">27142139</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">29224307</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">30824867</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">31950148</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">108</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">4896424079918373158057091331893790194458273022803312531143962223856863266</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">lcmList</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">15</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="o">-</span><span class="mi">21</span><span class="p">,</span><span class="o">-</span><span class="mi">35</span><span class="p">,</span><span class="mi">105</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="o">-</span><span class="mi">33</span><span class="p">,</span><span class="o">-</span><span class="mi">55</span><span class="p">,</span><span class="mi">165</span><span class="p">,</span><span class="o">-</span><span class="mi">77</span><span class="p">,</span><span class="mi">231</span><span class="p">,</span><span class="mi">385</span><span class="p">,</span><span class="o">-</span><span class="mi">1155</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">triangle&#39;</span> <span class="mi">10000</span> <span class="mi">15</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">3331665</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">triangle&#39;</span> <span class="mi">10000</span> <span class="p">(</span><span class="o">-</span><span class="mi">15</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> <span class="o">-</span><span class="mi">3331665</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">triangle&#39;</span> <span class="p">(</span><span class="mi">10000</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="n">lcmList</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="mi">16668333</span><span class="p">,</span><span class="mi">9995000</span><span class="p">,</span><span class="o">-</span><span class="mi">3331665</span><span class="p">,</span><span class="mi">7142142</span><span class="p">,</span><span class="o">-</span><span class="mi">2384046</span><span class="p">,</span><span class="o">-</span><span class="mi">1426425</span><span class="p">,</span><span class="mi">478800</span><span class="p">,</span><span class="mi">4549545</span><span class="p">,</span><span class="o">-</span><span class="mi">1519848</span><span class="p">,</span><span class="o">-</span><span class="mi">905905</span><span class="p">,</span><span class="mi">301950</span><span class="p">,</span><span class="o">-</span><span class="mi">645645</span><span class="p">,</span><span class="mi">218526</span><span class="p">,</span><span class="mi">125125</span><span class="p">,</span><span class="o">-</span><span class="mi">41580</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="sc">&#39;</span>
+</span></span></code></pre></div><p>First, I cleaned up the triangle function for readability and added a case where: if the only factor is zero then it returns zero (otherwise it would return a <code>divide by zero</code> error. I also designed it to negate the sum if the factor is negative. Finally, the new <code>triangle'</code> only takes a limit (Integer) and a list of factors (also Integers).</p>
+<p>Second, I combined the old <code>factorsList, triangleListPlus, triangleListMinus</code> functions into one <code>lcmList</code> function. The subsequences function still creates the desired list of factor combinations I need &ndash; and the <code>lcmList</code> function transforms each sublist into its contribution (plus or minus) to the final sum.</p>
+<p>Finally, the new <code>sumOfMultiples</code> maps the <code>triangle'</code> function over the <code>lcmList</code> and sums the resulting list for the final result.</p>
+<p>You can see in the printout that this function handles empty lists, zero limits, zero factors, duplicate factors, similar factors (e.g. 3 and 6), and many factors as well as very large limits. It even handles negative factors &ndash; treating them as their positive equivalent.</p>
+<h2 id="summary">Summary</h2>
+<p>I started this journey with a simple programming exercise: <em>Find the sum of all the multiples of 3 or 5 below 1000.</em> I showed a simple and correct method of computing the answer using a list comprehension. However, that method took \(O(n)\) space and \(O(n)\) time (where \(n\) is the size of the limit) to compute the answer. Clearly this is not a good method if the limit is very large as it creates a large list in memory and takes tens of seconds or longer to compute when the limit is very large.</p>
+<p>I then found a mathematical shortcut that calculates the sum of a series of natural numbers:</p>
+<p><code>1 + 2 + 3 + ... + n = n(n + 1)/2</code></p>
+<p>From that insight I explored how multiple factors and their lowest common multiples added (or subtracted) to the final total. I then created a series of functions that produced the building blocks to produce the final total: and my final answer for any general case.</p>
+<p>My final step was to refactor (rewrite) my functions and combine them to produce a simpler (and hopefully more readable) set of functions.</p>
+<p>The final method takes \(O(2^k)\) space and \(O(2^k)\) time (which looks very scary) BUT this time \(k\) is the number of <em>factors</em> instead of the size of the limit! Assuming the number of factors is 20 or below (which I think is reasonable), this is a <strong>huge</strong> performance boost!</p>
+<p>My journey began with a well known, easy(?) math/computing problem, solvable with a simple but inefficient solution. I went from a specific solution to a general case. Finally, I ended with a tidy and efficient solution.</p>
+<p><em>Until next time!</em></p>
+<h2 id="list-of-links">List of links</h2>
+<p>Here&rsquo;s a list of things I learned (or at least practiced again):</p>
+<ul>
+<li>python
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html">list comprehensions</a></li>
+<li><a href="https://docs.python.org/3/library/time.html?highlight=time#module-time">time module functions</a></li>
+</ul>
+</li>
+<li>haskell
+<ul>
+<li><a href="http://hackage.haskell.org/package/base-4.9.1.0/docs/Prelude.html#v:lcm">prelude lcm</a></li>
+<li><a href="https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-List.html">Data.List lcm</a></li>
+<li><a href="http://hackage.haskell.org/package/base-4.9.1.0/docs/Prelude.html#v:-36-">prelude ($)</a></li>
+<li><a href="http://hackage.haskell.org/package/base-4.9.1.0/docs/Prelude.html#v:fmap">prelude (&lt;$&gt;)</a></li>
+</ul>
+</li>
+<li><a href="http://www.wikiwand.com/en/Big_O_notation">Big O notation</a></li>
+<li><a href="http://spacemacs.org/doc/QUICK_START.html#learning-spacemacs">Spacemacs</a></li>
+<li><a href="http://orgmode.org/org.html#Summary">Org mode</a></li>
+<li><a href="https://wiki.haskell.org/Emacs">haskell sub mode</a></li>
+<li><a href="https://www.emacswiki.org/emacs/PythonProgrammingInEmacs">python sub mode</a></li>
+<li><a href="https://www.emacswiki.org/emacs/Evil">everything else Emacs and Evil mode related</a></li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I guess technically not a problem. Just that it is an inefficient algorithm. Also, not very memory space efficient since it builds a list before it finds a sum. But now we&rsquo;re getting ahead of ourselves!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

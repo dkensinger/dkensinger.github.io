@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>d.kens</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on d.kens</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>blue oak model license 1.0.0</copyright>
+    <lastBuildDate>Thu, 02 May 2024 13:33:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anatomy of a Blog - update</title>
+      <link>http://localhost:1313/posts/anatomy-of-a-blog-update/</link>
+      <pubDate>Thu, 02 May 2024 13:33:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/anatomy-of-a-blog-update/</guid>
+      <description>Here&amp;rsquo;s how I make this site:&#xA;I write and edit posts in one text file I use Hugo to build the site I use github.io to host the site That&amp;rsquo;s it!&#xA;Here&amp;rsquo;s a bit more detail of the steps above:&#xA;I use Doom Emacs as my text editor. I write in one .org text file. I use an application called Hugo to build the site. I use a package within Emacs called ox-hugo that automatically builds and refreshes the site when I make any changes.</description>
+    </item>
+    <item>
+      <title>Trump&#39;s First Criminal Trial</title>
+      <link>http://localhost:1313/posts/trump-s-first-criminal-trial/</link>
+      <pubDate>Thu, 02 May 2024 10:39:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/trump-s-first-criminal-trial/</guid>
+      <description>At last.&#xA;Donald Trump is now in his third week of a criminal trial in New York. So far, none of the terrible things his MAGA followers predicted has come true. There are no riots in the streets, no mass protests, no stock market crash&amp;hellip; nothing. Instead, there has been an orderly proceeding overseen by an experienced trial judge. Trump has predictably ranted and raved at the &amp;ldquo;unfairness&amp;rdquo; of it all.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/about-me/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/about/about-me/</guid>
+      <description>I&amp;rsquo;m a husband, father of three (four if you count my dog). Former fighter pilot. Degree in Aerospace Engineering and post-grad studies in military science and international relations.&#xA;I&amp;rsquo;m also an ex-pat living in Denmark. Yes, the taxes are high, but the standard of living is worth it.</description>
+    </item>
+    <item>
+      <title>Dune 2024</title>
+      <link>http://localhost:1313/posts/dune-revisited/</link>
+      <pubDate>Wed, 03 Apr 2024 17:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/dune-revisited/</guid>
+      <description>My boys loved the two Dune movies by Denis Villeneuve. We saw the second one in 70mm IMAX at the Chinese theater in Hollywood on our family vacation. Quite the spectacle.&#xA;I&amp;rsquo;m impressed they understood the conflict of the main hero, Paul, and his struggle with accepting his destiny. Once they realized this was only the beginning of a much longer story, they were inspired to read the book. I wonder if this will be the spark that ignites their desire to read more.</description>
+    </item>
+    <item>
+      <title>Racket, Pollen and Fossil… oh my!</title>
+      <link>http://localhost:1313/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
+      <pubDate>Sun, 16 Aug 2020 21:21:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
+      <description>A tale of me discovering, learning and playing with a new set of toys for my blog&amp;hellip;&#xA;Racket Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation.</description>
+    </item>
+    <item>
+      <title>Anatomy of a Blog</title>
+      <link>http://localhost:1313/posts/anatomy-of-a-blog/</link>
+      <pubDate>Sat, 15 Aug 2020 22:42:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/anatomy-of-a-blog/</guid>
+      <description>Originally published on 25-06-2019&#xA;updated: switched from using Netlify to Github.io&#xA;Blogs are a thing&amp;hellip; again. I&amp;rsquo;ve tried doing them over the years with little success. I think it&amp;rsquo;s because I found it more interesting to fiddle with the blog back-end rather than the actual blog itself. This time it&amp;rsquo;s different! (I hope)&#xA;This is how my words get to the site:&#xA;In EMACS I open my blog file called &amp;ldquo;all-posts.</description>
+    </item>
+    <item>
+      <title>The things you learn</title>
+      <link>http://localhost:1313/posts/the-things-you-learn/</link>
+      <pubDate>Fri, 13 Sep 2019 17:51:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-things-you-learn/</guid>
+      <description>Various things I&amp;rsquo;ve learned working at my present job:&#xA;Databases My first contribution to the Press was to create a working database to track and store all the book projects. I used Filemaker and created a working application. During this project I learned about:&#xA;relational databases database theory structured query language installing and maintaining server and client applications training people to use unfamiliar software Subscriptions A major project I was involved in was creating a subscription service for several book series.</description>
+    </item>
+    <item>
+      <title>Finding Patterns in Data</title>
+      <link>http://localhost:1313/posts/finding-patterns-in-data/</link>
+      <pubDate>Sun, 07 Jul 2019 18:01:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/finding-patterns-in-data/</guid>
+      <description>The Photos app in macOS has a feature that can recognize faces of the people in your photo library. It&amp;rsquo;s pretty remarkable. It doesn&amp;rsquo;t do a perfect job but you can correct it and train it to be better and better over time. It can also recognize the faces of my kids as they grow older. Amazing. My phone looks for and recognizes my face to unlock it. Netflix recommends shows I might enjoy based on what I&amp;rsquo;ve already watched.</description>
+    </item>
+    <item>
+      <title>Programming Languages I know</title>
+      <link>http://localhost:1313/posts/programming-languages-i-know/</link>
+      <pubDate>Wed, 26 Jun 2019 11:17:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/programming-languages-i-know/</guid>
+      <description>Here is an annotated list of the programming languages I know (or have used). Listed in the order I first used them:&#xA;MS BASIC ran on my first computer, an IBM PC with an 8088 processor (1981?) used to copy programs from computer magazines first learned the concept of subroutines with GOSUB command PASCAL my first formal computer course used this language had to share a central compiler at school had to take turns on a limited set of terminals don&amp;rsquo;t think I ever got an entire program to run correctly (as intended) hated the whole experience!</description>
+    </item>
+    <item>
+      <title>The Case for EMACS</title>
+      <link>http://localhost:1313/posts/the-case-for-emacs/</link>
+      <pubDate>Mon, 24 Jun 2019 13:14:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-case-for-emacs/</guid>
+      <description>I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&amp;rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&amp;rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&amp;rsquo;ve got Day One as a journaling app but now I use org-mode.</description>
+    </item>
+  </channel>
+</rss>

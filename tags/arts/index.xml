@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arts on d.kens</title>
+    <link>http://localhost:1313/tags/arts/</link>
+    <description>Recent content in Arts on d.kens</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>blue oak model license 1.0.0</copyright>
+    <lastBuildDate>Wed, 03 Apr 2024 17:30:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/arts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dune 2024</title>
+      <link>http://localhost:1313/posts/dune-revisited/</link>
+      <pubDate>Wed, 03 Apr 2024 17:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/dune-revisited/</guid>
+      <description>My boys loved the two Dune movies by Denis Villeneuve. We saw the second one in 70mm IMAX at the Chinese theater in Hollywood on our family vacation. Quite the spectacle.&#xA;I&amp;rsquo;m impressed they understood the conflict of the main hero, Paul, and his struggle with accepting his destiny. Once they realized this was only the beginning of a much longer story, they were inspired to read the book. I wonder if this will be the spark that ignites their desire to read more.</description>
+    </item>
+  </channel>
+</rss>
