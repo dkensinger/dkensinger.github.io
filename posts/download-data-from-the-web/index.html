@@ -1,0 +1,296 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow">
+<meta name="revisit-after" content="15 days"><link rel="author" href="/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="[Dave Kensinger]">
+
+  <meta itemprop="name" content="Download data from the web">
+  <meta itemprop="description" content="Task A colleague of mine has been entering meta-data for books through a web-based portal (let&rsquo;s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing.">
+  <meta itemprop="datePublished" content="2018-07-13T19:16:00+02:00">
+  <meta itemprop="dateModified" content="2018-07-13T19:16:00+02:00">
+  <meta itemprop="wordCount" content="1618">
+  <meta itemprop="keywords" content="Code"><meta property="og:url" content="https://dkensinger.github.io/posts/download-data-from-the-web/">
+  <meta property="og:site_name" content="d.kens">
+  <meta property="og:title" content="Download data from the web">
+  <meta property="og:description" content="Task A colleague of mine has been entering meta-data for books through a web-based portal (let’s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-07-13T19:16:00+02:00">
+    <meta property="article:modified_time" content="2018-07-13T19:16:00+02:00">
+    <meta property="article:tag" content="Code">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Download data from the web">
+<meta name="twitter:description" content="Task A colleague of mine has been entering meta-data for books through a web-based portal (let&rsquo;s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing.">
+<title>Download data from the web</title>
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://dkensinger.github.io/css/style.min.b9b0196180ada2f18e02576d3cdb3bc8754a548453d05e24e7edba2a7084e3ae.css" integrity="sha256-ubAZYYCtovGOAldtPNs7yHVKVIRT0F4k5+26KnCE464=" crossorigin="anonymous">
+	</head>
+<body id="page">
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://dkensinger.github.io/">d.kens</a>
+				</div>
+				<nav class="site-nav hide-in-mobile"><a href="https://dkensinger.github.io/posts/">Posts</a><a href="https://dkensinger.github.io/about/">About</a></nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<button id="share-btn" class="hdr-btn" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+ 
+<div id="share-links" class="animated fast">
+    
+    
+    
+    
+    <ul>
+        <li>
+            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=https%3a%2f%2fdkensinger.github.io%2fposts%2fdownload-data-from-the-web%2f&amp;text=Download%20data%20from%20the%20web" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6"/></svg></a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fdkensinger.github.io%2fposts%2fdownload-data-from-the-web%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </li>
+        <li>
+            <a href="mailto:?subject=Download%20data%20from%20the%20web&amp;body=https%3a%2f%2fdkensinger.github.io%2fposts%2fdownload-data-from-the-web%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fdkensinger.github.io%2fposts%2fdownload-data-from-the-web%2f&amp;source=https%3a%2f%2fdkensinger.github.io%2f&amp;title=Download%20data%20from%20the%20web&amp;summary=Download%20data%20from%20the%20web%2c%20by%20%5bDave%20Kensinger%5d%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        </li>
+        <li>
+            <a href="#" onclick="linkShare(&#34;Download data from the web&#34;,&#34;https://dkensinger.github.io/posts/download-data-from-the-web/&#34;,&#34;Download data from the web, by [Dave Kensinger]\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
+        </li>
+    </ul>
+</div><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://dkensinger.github.io/posts/">Posts</a></li>
+			<li><a href="https://dkensinger.github.io/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jul 13, 2018</span></div>
+				<h1>Download data from the web</h1>
+			</header>
+			<div class="post-info"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg><a href="/about/about-me/" target="_blank">[Dave Kensinger]</a></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://dkensinger.github.io/tags/code">code</a></span></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1618 Words
+    ⏳
+    
+    
+    
+    7 Minutes, 21 Seconds</p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2018-07-13 19:16 &#43;0200</p></div>
+			<hr class="post-end">
+			<div class="content">
+				<h2 id="task">Task<a href="#task" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>A colleague of mine has been entering meta-data for books through a web-based portal (let&rsquo;s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing. In order to complete the transfer, we needed a way to add the missing data. If we had only 20-50 titles it would be feasible to copy-paste the missing fields into the summary export. But there were 962 titles! This would have taken a long time and would also be prone to errors.
+My task:</p>
+<blockquote>
+<p>Find a way to automatically copy the missing data from the website to a spreadsheet. The spreadsheet shall have a column of ISBNs as an index and each row shall contain the missing data.</p>
+</blockquote>
+<h2 id="steps">Steps<a href="#steps" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>My gameplan was to use python to download the webpages with the data, search for the missing data and copy it to a file. I started by using the standard library <code>urllib</code> and tried to download a page. That&rsquo;s where I hit my first snag. The site I was using required a login and was actually an https site and not an http site (which is standard these days (which is standard these days). I found a way to handle this using a library called <code>cookiejar</code> (<a href="https://docs.python.org/3/library/http.cookiejar.html">cookiejar)</a>. Like so:</p>
+<h3 id="logging-in-with-cookiejar">logging in with cookiejar<a href="#logging-in-with-cookiejar" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>After some searches on Stack Overflow, I found a way to do this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">  <span class="kn">import</span> <span class="nn">http.cookiejar</span>
+</span></span><span class="line"><span class="cl">  <span class="kn">import</span> <span class="nn">urllib.request</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Storing cookies in cj variable</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">cj</span> <span class="o">=</span> <span class="n">http</span><span class="o">.</span><span class="n">cookiejar</span><span class="o">.</span><span class="n">CookieJar</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Defining a handler for later http operations with cookies(cj)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">op</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">build_opener</span><span class="p">(</span><span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">HTTPCookieProcessor</span><span class="p">(</span><span class="n">cj</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Logging in</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">URL</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;https://target_site.com/Account/Login?ReturnUrl=</span><span class="si">%2F</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># login data below should be hidden/deleted before posting</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">VAL</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Username&#39;</span><span class="p">:</span> <span class="s1">&#39;USERNAME&#39;</span><span class="p">,</span> <span class="s1">&#39;Password&#39;</span><span class="p">:</span> <span class="s1">&#39;PASSWORD&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">DATA</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">urlencode</span><span class="p">(</span><span class="n">VAL</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">ASCII_DATA</span> <span class="o">=</span> <span class="n">DATA</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;ascii&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">RES</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">URL</span><span class="p">,</span> <span class="n">ASCII_DATA</span><span class="p">)</span>
+</span></span></code></pre></div><p>Using two common python libraries, <code>http.cookiejar</code> and <code>urllib.request</code>, I was able to login and maintain my login status in a cookie just like a web browser does. <em>Cool!</em></p>
+<p>Once I could do this, I could open the webpages I needed. Next I needed to figure out how to step through every page (one title per page).</p>
+<h3 id="url-parsing">URL parsing<a href="#url-parsing" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>The only way I could see to step through all the titles was to mimic how I would do it in a browser: navigate to the summary page(s) and then click on each title in turn. At each step I examined the URL to see what changed. The summary page URLs looked like this:</p>
+<p><code>https://target_site.com/content/list?pagesize=20&amp;page=1</code></p>
+<p>I could see two variables: <em>pagesize</em> and <em>page</em>. Sure enough, as I navigated through the summary pages, these were the only variables that changed in the URL. Since I knew we had 962 titles, I merely (cough, cough) had to step through the summary pages to see them all. In the end, I chose <code>PAGESIZE = 120</code> and <code>PAGES = 9</code>. But for testing I could use smaller numbers.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># 962 titles can be seen with 9 pages and 120 each page</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># set these smaller when testing</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">PAGES</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="n">PAGESIZE</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># iterate through the pages</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">PAGES</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="n">list_page_url</span> <span class="o">=</span> <span class="s1">&#39;https://target_site.com/content/list?pagesize=&#39;</span>\
+</span></span><span class="line"><span class="cl">                      <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">PAGESIZE</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&amp;page=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="needles-in-haystacks">Needles in Haystacks<a href="#needles-in-haystacks" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Now that I could navigate to each title&rsquo;s web page, my next task was to find all the missing data. One way would be to search through each webpage&rsquo;s HTML text and find all the sections containing the missing data. I would have to examine a sample page&rsquo;s HTML code, look for the sections I need, find a way to describe that section using HTML tags or something similar, and then copy the data between the tags. Fortunately, there are already good libraries that can help work with HTML and I chose one called <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>. So instead of searching through the raw HTML text, I could instead search an object. Time for some code!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">      <span class="c1"># create a searchable object for each summary page</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="n">list_page</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">list_page_url</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="n">list_soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">list_page</span><span class="p">,</span> <span class="s1">&#39;html5lib&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="c1"># iterate through the book titles on the page</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">list_soup</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;a[data-content-id]&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">item_page_url</span> <span class="o">=</span> <span class="s1">&#39;https://target_site.com/content/edit/&#39;</span>\
+</span></span><span class="line"><span class="cl">                          <span class="o">+</span> <span class="n">link</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;data-content-id&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="c1"># create a searchable object for each book title</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">item_page</span> <span class="o">=</span> <span class="n">op</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">item_page_url</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="n">item_soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">item_page</span><span class="p">,</span> <span class="s1">&#39;html5lib&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><p>First I had to open each summary page and turn it into an object. Then I could use the <code>data-content-id</code> to point to each title. Once I opened each title&rsquo;s page I then transformed it into a BeautifulSoup object ready for searching.</p>
+<p>The two important pieces of missing data were a title&rsquo;s long description and any category codes that help define the genre of the book. While I&rsquo;m looking at the page I will also copy the ISBN so I can see which title I&rsquo;m copying from.</p>
+<p>Here&rsquo;s the code for finding the ISBN and the long description:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">          <span class="c1"># extract the meaningful data we&#39;re looking for</span>
+</span></span><span class="line"><span class="cl">          <span class="c1"># (BIC and long description)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">isbn</span> <span class="o">=</span> <span class="n">item_soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="s1">&#39;Identifier&#39;</span><span class="p">)[</span><span class="s1">&#39;value&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">          <span class="n">long_description</span> <span class="o">=</span> <span class="n">item_soup</span><span class="o">.</span><span class="n">textarea</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</span></span></code></pre></div><p>See? Once I had a page&rsquo;s code transformed into a searchable object (<code>item_soup</code>), it only took one line to get the data I needed. It did take some trial and error to see what tags to look for, but once I found them, it worked every time.</p>
+<p>However, the category codes turned out to be a little tricky.</p>
+<h3 id="javascript-oh-my">Javascript, oh my!<a href="#javascript-oh-my" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>There were two complications when I started looking for the category codes. The first was that each title could have up to two <em>types</em> of category codes (BIC or Thema) and any <em>number</em> of category codes for each type. And it was also possible for a title to have <em>zero</em> codes (missing data). The second was that the page displayed in the browser had embedded javascript to help render or edit the category data. BeautifulSoup works well with HTML but not with javascript. Oh no!</p>
+<p>After researching how to handle javascript, I decided to simply search the javascript code using python&rsquo;s regex library and find the data I needed. Fortunately, the data was there -  it just needed a way to be found. It would have been much harder if the javascript didn&rsquo;t have the actual codes I was looking for (maybe it pulled the codes from a database somewhere else?).</p>
+<p>There were several <em>chunks</em> of javascript code throughout the page. I had to find the right <em>chunk</em> and then search for what I needed. I searched the page&rsquo;s object for the right <em>chunk</em> and then searched that blob of text for the data.</p>
+<p>Remember the first complication? I needed a way to handle the varying types and codes that could exist for each title. I noticed that the blob looked very much like a python dictionary - so I decided to transform the blob into a python dictionary (using python&rsquo;s <code>exec</code>) and then pull out what I needed from there.</p>
+<p>Time for some more code!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">          <span class="c1"># BIC codes are embedded in javascript so we have to isolate and</span>
+</span></span><span class="line"><span class="cl">          <span class="c1"># search for the part we need. It is found in a variable</span>
+</span></span><span class="line"><span class="cl">          <span class="c1"># called &#34;subjects&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">js_text</span> <span class="o">=</span> <span class="n">item_soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;text/javascript&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="n">var_subj</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&#34;subjects = \[.+\]&#34;</span><span class="p">,</span> <span class="n">js_text</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">get_text</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">          <span class="n">bic_code</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">          <span class="n">description</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">          if we find the variable we convert it to a list of dicts (like below):
+</span></span></span><span class="line"><span class="cl"><span class="s1">              [{&#39;code&#39;: &#39;JFSL1&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;description&#39;: &#39;Etniske minoriteter og multikulturelle studier&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;label&#39;: &#39;JFSL1: &#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;mainSubject&#39;: False,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;qualifier&#39;: False,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;subjectId&#39;: 14110,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;type&#39;: 1},
+</span></span></span><span class="line"><span class="cl"><span class="s1">              {&#39;code&#39;: &#39;JBSL1&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;description&#39;: &#39;Her: racerelationer&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;label&#39;: &#39;JBSL1: Etniske minoriteter og multikulturelle studier&#39;,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;mainSubject&#39;: True,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;qualifier&#39;: False,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;subjectId&#39;: 20410,
+</span></span></span><span class="line"><span class="cl"><span class="s1">              &#39;type&#39;: 3}]
+</span></span></span><span class="line"><span class="cl"><span class="s1">          &#39;&#39;&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="k">if</span> <span class="n">var_subj</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">              <span class="n">fix_false</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">&#39;false&#39;</span><span class="p">,</span> <span class="s1">&#39;False&#39;</span><span class="p">,</span> <span class="n">var_subj</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">              <span class="n">fix_true</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">&#39;true&#39;</span><span class="p">,</span> <span class="s1">&#39;True&#39;</span><span class="p">,</span> <span class="n">fix_false</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="n">exec</span><span class="p">(</span><span class="n">fix_true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="c1"># create some subject code lists</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          <span class="n">bic_list</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">          <span class="n">thema_list</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">          <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">subjects</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">              <span class="k">if</span> <span class="n">sub</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">bic_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sub</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">              <span class="k">if</span> <span class="n">sub</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">thema_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sub</span><span class="p">[</span><span class="s1">&#39;code&#39;</span><span class="p">])</span>
+</span></span></code></pre></div><h3 id="wrapping-it-up">Wrapping it up<a href="#wrapping-it-up" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Almost there! To wrap everything together I decided to use this data structure:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">book_data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;isbn&#34;</span> <span class="p">:</span> <span class="p">{</span><span class="s2">&#34;BIC_list&#34;</span> <span class="p">:</span> <span class="p">[</span><span class="n">bic</span> <span class="n">codes</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                        <span class="s2">&#34;Thema_list&#34;</span> <span class="p">:</span> <span class="p">[</span><span class="n">thema</span> <span class="n">codes</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                        <span class="s2">&#34;long description&#34;</span> <span class="p">:</span> <span class="n">long_description</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">              <span class="p">}</span>
+</span></span></code></pre></div><p>Finally, to make everything even easier to work with and export to Excel, I transformed the dictionary into a <a href="http://pandas.pydata.org/index.html">pandas</a> DataFrame which easily exports into Excel formats.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">  <span class="c1"># create a DataFrame object, transpose the data</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># and send it to an Excel sheet</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">BOOK_DF</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">book_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="n">BOOK_DF</span> <span class="o">=</span> <span class="n">BOOK_DF</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">  <span class="n">BOOK_DF</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">&#39;book_data.xlsx&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="final-analysis">Final Analysis<a href="#final-analysis" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<ul>
+<li>Did I accomplish the task?</li>
+</ul>
+<p>Yes. I successfully copied all 962 titles and created an Excel spreadsheet which included ISBN, long description and any category codes.</p>
+<ul>
+<li>What did I learn?
+<ul>
+<li>how to handle cookies and log into an https site in python</li>
+<li>how to use BeautifulSoup to work with HTML downloads</li>
+<li>how to use regex to search a blob of text (in this case JavaScript code-</li>
+<li>how to transform data structures from one type to another (JavaScript -&gt; python dictionary and python dictionary -&gt; pandas DataFrame)</li>
+</ul>
+</li>
+<li>How much time did I save?</li>
+</ul>
+<p>It took me about a day to get all this code working, so I estimate about <strong>6 hours</strong> of work. If I had done it manually, by clicking and cutting and pasting into a spreadsheet - for 962 entries - I estimate it would have taken about</p>
+<p><code>962 titles x 30 seconds/title x 1 hour/60 seconds = 8 hours</code></p>
+<p><strong>8 hours!</strong></p>
+<p>I consider that a <strong>big win!</strong> And not just two hours. Considering I would have probably made a few errors with all the clicking, copying and pasting - not to mention the RSI pain I would have had afterward - the automatic solution is much more reliable. Also, the next time I need to do this kind of thing, I will probably take around half the time to set up the code - now that I am familiar with the tools in python.</p>
+
+			</div>
+
+<div class="related-posts thin">
+	<h2>See Also</h2>
+	<ul>
+	
+	<li><a href="/posts/fizz-buzz-deluxe-edition/">Fizz-Buzz: deluxe edition</a></li>
+	
+	</ul>
+</div>
+
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://dkensinger.github.io/posts/just-a-hobby/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Just a Hobby</span>
+			</a>
+			<a class="prev-post" href="https://dkensinger.github.io/posts/fizz-buzz-deluxe-edition/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Fizz-Buzz: deluxe edition</span>
+			</a>
+		</div>
+		<div id="comments" class="thin"></div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>
+		&copy; 2024 <a href="https://dkensinger.github.io/">Dave Kensinger</a>
+		&#183; blue oak model license 1.0.0
+		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a></p>
+
+</footer>
+<script async src="https://dkensinger.github.io/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="https://dkensinger.github.io/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
+</body>
+
+</html>
