@@ -26,7 +26,7 @@
 <p>Here&rsquo;s a bit more detail of the steps above:</p>
 <ol>
 <li>I use <a href="https://github.com/doomemacs/doomemacs/blob/master/README.md">Doom Emacs</a> as my text editor. I write in one <code>.org</code> text file.</li>
-<li>I use an application called <a href="https://gohugo.io/">Hugo</a> to build the site. I use a package within Emacs called <a href="https://ox-hugo.scripter.co/">ox-hugo</a> that automatically builds and refreshes the site when I make any changes. I use (and sometimes change) the theme of the site using a hugo-based theme. Currently I use one called <a href="https://github.com/danielroelfs/hugo-theme-typography/blob/main/README.md">typography</a>.</li>
+<li>I use an application called <a href="https://gohugo.io/">Hugo</a> to build the site. I use a package within Emacs called <a href="https://ox-hugo.scripter.co/">ox-hugo</a> that automatically builds and refreshes the site when I make any changes. I use (and sometimes change) the theme of the site using a hugo-based theme. Currently I use one called <code>Hermit-V2</code>.</li>
 <li>Finally, I update the site on github. I use <a href="https://git-scm.com/">Git</a> and <a href="https://magit.vc/">Magit</a> within Emacs to commit and push changes to the site.</li>
 </ol>
 <p>The common thread above is <a href="https://www.gnu.org/software/emacs/">Emacs</a>. Aside from using Emacs for email, news, note taking, calendar, TODO lists, calculator, version control, time tracking and more&hellip; this blog is just another thing I can do within <strong>Emacs</strong>. It&rsquo;s great.</p>
