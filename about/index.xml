@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on d.kens</title>
-    <link>http://localhost:1313/about/</link>
+    <link>https://dkensinger.github.io/about/</link>
     <description>Recent content in Abouts on d.kens</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/about-me/</link>
+      <link>https://dkensinger.github.io/about/about-me/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/about/about-me/</guid>
+      <guid>https://dkensinger.github.io/about/about-me/</guid>
       <description>I&amp;rsquo;m a husband, father of three (four if you count my dog). Former fighter pilot. Degree in Aerospace Engineering and post-grad studies in military science and international relations.&#xA;I&amp;rsquo;m also an ex-pat living in Denmark. Yes, the taxes are high, but the standard of living is worth it.</description>
     </item>
     <item>
       <title>Colophon</title>
-      <link>http://localhost:1313/about/colophon/</link>
+      <link>https://dkensinger.github.io/about/colophon/</link>
       <pubDate>Wed, 24 Apr 2019 19:17:00 +0200</pubDate>
-      <guid>http://localhost:1313/about/colophon/</guid>
+      <guid>https://dkensinger.github.io/about/colophon/</guid>
       <description>I write and edit this site in Emacs.&#xA;But that&amp;rsquo;s not the whole story&amp;hellip;&#xA;Here&amp;rsquo;s what I use to make this site:&#xA;Emacs 29.3 Org mode Hugo (using typography theme) github.io After a little setup, I only need to write|edit in one org-mode file, save, and push.</description>
     </item>
   </channel>

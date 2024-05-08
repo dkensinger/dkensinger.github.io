@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on d.kens</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://dkensinger.github.io/blog/</link>
     <description>Recent content in Blogs on d.kens</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 May 2024 13:33:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dkensinger.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anatomy of a Blog - update</title>
-      <link>http://localhost:1313/blog/anatomy-of-a-blog-update/</link>
+      <link>https://dkensinger.github.io/blog/anatomy-of-a-blog-update/</link>
       <pubDate>Thu, 02 May 2024 13:33:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/anatomy-of-a-blog-update/</guid>
+      <guid>https://dkensinger.github.io/blog/anatomy-of-a-blog-update/</guid>
       <description>Here&amp;rsquo;s how I make this site:&#xA;I write and edit posts in one text file I use Hugo to build the site I use github.io to host the site That&amp;rsquo;s it!&#xA;Here&amp;rsquo;s a bit more detail of the steps above:&#xA;I use Doom Emacs as my text editor. I write in one .org text file. I use an application called Hugo to build the site. I use a package within Emacs called ox-hugo that automatically builds and refreshes the site when I make any changes.</description>
     </item>
     <item>
       <title>Trump&#39;s First Criminal Trial</title>
-      <link>http://localhost:1313/blog/trump-s-first-criminal-trial/</link>
+      <link>https://dkensinger.github.io/blog/trump-s-first-criminal-trial/</link>
       <pubDate>Thu, 02 May 2024 10:39:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/trump-s-first-criminal-trial/</guid>
+      <guid>https://dkensinger.github.io/blog/trump-s-first-criminal-trial/</guid>
       <description>At last.&#xA;Donald Trump is now in his third week of a criminal trial in New York. So far, none of the terrible things his MAGA followers predicted has come true. There are no riots in the streets, no mass protests, no stock market crash&amp;hellip; nothing. Instead, there has been an orderly proceeding overseen by an experienced trial judge. Trump has predictably ranted and raved at the &amp;ldquo;unfairness&amp;rdquo; of it all.</description>
     </item>
     <item>
       <title>Dune 2024</title>
-      <link>http://localhost:1313/blog/dune-2024/</link>
+      <link>https://dkensinger.github.io/blog/dune-2024/</link>
       <pubDate>Fri, 05 Apr 2024 17:30:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/dune-2024/</guid>
+      <guid>https://dkensinger.github.io/blog/dune-2024/</guid>
       <description>My boys loved the two Dune movies by Denis Villeneuve. We saw the second one in 70mm IMAX at the Chinese theater in Hollywood on our family vacation. Quite the spectacle.&#xA;I&amp;rsquo;m impressed they understood the conflict of the main hero, Paul, and his struggle with accepting his destiny. Once they realized this was only the beginning of a much longer story, they were inspired to read the book. I wonder if this will be the spark that ignites their desire to read more.</description>
     </item>
     <item>
       <title>Racket, Pollen and Fossil… oh my!</title>
-      <link>http://localhost:1313/blog/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
+      <link>https://dkensinger.github.io/blog/racket-pollen-and-fossil-dot-dot-dot-oh-my/</link>
       <pubDate>Sun, 16 Aug 2020 21:21:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
+      <guid>https://dkensinger.github.io/blog/racket-pollen-and-fossil-dot-dot-dot-oh-my/</guid>
       <description>A tale of me discovering, learning and playing with a new set of toys for my blog&amp;hellip;&#xA;Racket Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation.</description>
     </item>
     <item>
       <title>Anatomy of a Blog</title>
-      <link>http://localhost:1313/blog/anatomy-of-a-blog/</link>
+      <link>https://dkensinger.github.io/blog/anatomy-of-a-blog/</link>
       <pubDate>Sat, 15 Aug 2020 22:42:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/anatomy-of-a-blog/</guid>
+      <guid>https://dkensinger.github.io/blog/anatomy-of-a-blog/</guid>
       <description>Originally published on 25-06-2019&#xA;updated: switched from using Netlify to Github.io&#xA;Blogs are a thing&amp;hellip; again. I&amp;rsquo;ve tried doing them over the years with little success. I think it&amp;rsquo;s because I found it more interesting to fiddle with the blog back-end rather than the actual blog itself. This time it&amp;rsquo;s different! (I hope)&#xA;This is how my words get to the site:&#xA;In EMACS I open my blog file called &amp;ldquo;all-posts.</description>
     </item>
     <item>
       <title>The things you learn</title>
-      <link>http://localhost:1313/blog/the-things-you-learn/</link>
+      <link>https://dkensinger.github.io/blog/the-things-you-learn/</link>
       <pubDate>Fri, 13 Sep 2019 17:51:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/the-things-you-learn/</guid>
+      <guid>https://dkensinger.github.io/blog/the-things-you-learn/</guid>
       <description>Various things I&amp;rsquo;ve learned working at my present job:&#xA;Databases My first contribution to the Press was to create a working database to track and store all the book projects. I used Filemaker and created a working application. During this project I learned about:&#xA;relational databases database theory structured query language installing and maintaining server and client applications training people to use unfamiliar software Subscriptions A major project I was involved in was creating a subscription service for several book series.</description>
     </item>
     <item>
       <title>Finding Patterns in Data</title>
-      <link>http://localhost:1313/blog/finding-patterns-in-data/</link>
+      <link>https://dkensinger.github.io/blog/finding-patterns-in-data/</link>
       <pubDate>Sun, 07 Jul 2019 18:01:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/finding-patterns-in-data/</guid>
+      <guid>https://dkensinger.github.io/blog/finding-patterns-in-data/</guid>
       <description>The Photos app in macOS has a feature that can recognize faces of the people in your photo library. It&amp;rsquo;s pretty remarkable. It doesn&amp;rsquo;t do a perfect job but you can correct it and train it to be better and better over time. It can also recognize the faces of my kids as they grow older. Amazing. My phone looks for and recognizes my face to unlock it. Netflix recommends shows I might enjoy based on what I&amp;rsquo;ve already watched.</description>
     </item>
     <item>
       <title>Programming Languages I know</title>
-      <link>http://localhost:1313/blog/programming-languages-i-know/</link>
+      <link>https://dkensinger.github.io/blog/programming-languages-i-know/</link>
       <pubDate>Wed, 26 Jun 2019 11:17:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/programming-languages-i-know/</guid>
+      <guid>https://dkensinger.github.io/blog/programming-languages-i-know/</guid>
       <description>Here is an annotated list of the programming languages I know (or have used). Listed in the order I first used them:&#xA;MS BASIC ran on my first computer, an IBM PC with an 8088 processor (1981?) used to copy programs from computer magazines first learned the concept of subroutines with GOSUB command PASCAL my first formal computer course used this language had to share a central compiler at school had to take turns on a limited set of terminals don&amp;rsquo;t think I ever got an entire program to run correctly (as intended) hated the whole experience!</description>
     </item>
     <item>
       <title>The Case for EMACS</title>
-      <link>http://localhost:1313/blog/the-case-for-emacs/</link>
+      <link>https://dkensinger.github.io/blog/the-case-for-emacs/</link>
       <pubDate>Mon, 24 Jun 2019 13:14:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/the-case-for-emacs/</guid>
+      <guid>https://dkensinger.github.io/blog/the-case-for-emacs/</guid>
       <description>I use a mac. I use EMACS. I use a bunch of other apps too; even other word processors and text editors. But I gravitate towards EMACS when I&amp;rsquo;m on my main computer. It has become my primary tool for many things that normally have a flagship app. For example, I&amp;rsquo;ve tried the venerable OmniFocus and Things apps for to-do lists and projects. Now I use org-mode in EMACS. I&amp;rsquo;ve got Day One as a journaling app but now I use org-mode.</description>
     </item>
     <item>
       <title>Just a Hobby</title>
-      <link>http://localhost:1313/blog/just-a-hobby/</link>
+      <link>https://dkensinger.github.io/blog/just-a-hobby/</link>
       <pubDate>Sun, 16 Jun 2019 15:24:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/just-a-hobby/</guid>
+      <guid>https://dkensinger.github.io/blog/just-a-hobby/</guid>
       <description>(original article written in December 2016)&#xA;The Start Programming. It’s my new hobby. Well, also reading about programming. Hacker News, Reddit, all kinds of blogs and other sites. Also computer science. Also a hobby. Algorithms, big O notation, functional versus imperative languages, searching, sorting, data structures, strong versus weak typed languages, operator overloading, etc. Ad infinitum. I think it’s fascinating. Not terribly fun sometimes, not easy to grasp most of the time.</description>
     </item>
     <item>
       <title>Download data from the web</title>
-      <link>http://localhost:1313/blog/download-data-from-the-web/</link>
+      <link>https://dkensinger.github.io/blog/download-data-from-the-web/</link>
       <pubDate>Fri, 13 Jul 2018 19:16:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/download-data-from-the-web/</guid>
+      <guid>https://dkensinger.github.io/blog/download-data-from-the-web/</guid>
       <description>Task A colleague of mine has been entering meta-data for books through a web-based portal (let&amp;rsquo;s call it site A) over the last several years. Earlier this year we found out we needed to transfer a great deal of that data from the website to another place (site B). Unfortunately, even though there was a way to export a summary of all the entries which contained much of the information, there were several important pieces missing.</description>
     </item>
     <item>
       <title>Fizz-Buzz: deluxe edition</title>
-      <link>http://localhost:1313/blog/fizz-buzz-deluxe-edition/</link>
+      <link>https://dkensinger.github.io/blog/fizz-buzz-deluxe-edition/</link>
       <pubDate>Fri, 12 May 2017 23:17:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/fizz-buzz-deluxe-edition/</guid>
+      <guid>https://dkensinger.github.io/blog/fizz-buzz-deluxe-edition/</guid>
       <description>Origin story I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall.</description>
     </item>
   </channel>
