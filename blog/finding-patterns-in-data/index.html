@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta name="description" content="http://localhost:1313/">
+    
+
+    <meta property="og:site_name" content="d.kens">
+    <meta property="og:title" content="d.kens">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:1313/blog/finding-patterns-in-data/">
+    <meta property="og:image" content="http://localhost:1313/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="http://localhost:1313/blog/finding-patterns-in-data/">
+    <meta name="twitter:image" content="http://localhost:1313/">
+
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/style.css">
+    
+    
+    
+
+    <link rel="stylesheet" href="https://use.typekit.net/jxt2fnp.css"> 
+    <link rel="stylesheet" href="https://use.typekit.net/uwd7war.css"> 
+    <link href="https://fonts.cdnfonts.com/css/cooper-hewitt" rel="stylesheet">
+    
+    
+        <meta name="description" content="A personal blog">
+    
+
+    
+        
+            <link rel="shortcut icon" href="/favicon.png">
+        
+    
+
+    
+    
+    
+    
+    <title>finding patterns in data | d.kens</title>
+</head><body><div id="top-stripe"></div><div id="content">
+
+    <div class="article-nav-outer">
+        <div class="article-nav-inner">
+            <a class="internal" hyphens="none" href="/blog">← back to blog</a>
+        </div>
+    </div>
+
+<h2 class="article-title">Finding Patterns in Data</h2>
+<div id="doc">
+    <div class="hanging-subtitle">
+        
+        
+            <p>by [Dave Kensinger]</p>
+                
+        
+            
+                <p>7 July 2019</p>
+            
+        
+    </div>
+<ul>
+<li>The Photos app in macOS has a feature that can recognize faces of the people in your photo library. It&rsquo;s pretty remarkable. It doesn&rsquo;t do a perfect job but you can correct it and train it to be better and better over time. It can also recognize the faces of my kids <em>as they grow older</em>. Amazing.</li>
+<li>My phone looks for and recognizes my face to unlock it.</li>
+<li>Netflix recommends shows I might enjoy based on what I&rsquo;ve already watched.</li>
+<li>Occasionally I will get a warning from my bank about possible fraud on my credit card account.</li>
+<li>I have an app on my phone that can look at a hand written math formula on a piece of paper and attempt to solve it (if it can). Amazing.</li>
+</ul>
+<p>These examples are simple applications of machine learning (or ML for short). I&rsquo;m learning the fundamentals of ML today and I think it&rsquo;s worth writing down what I&rsquo;m discovering.</p>
+<h2 id="what-is-machine-learning">What is machine learning?</h2>
+<p>I understand machine learning (ML) as a way for machines (computers) to build models of data in order to predict or categorize new data they haven&rsquo;t seen before. In essence, <em>learn</em> what it can about the data, see connections and correlations that may not be obvious to us<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. We have many clever techniques and algorithms to find patterns, similarities, or trends in data. Those techniques are improving every day and the amount of data we collect is increasing.</p>
+<p>These are early days in this area of computer science. It looks like every small advance we make in ML brings us closer to real artificial intelligence. We have machines today that can:</p>
+<ul>
+<li>autonomously drive vehicles in city traffic</li>
+<li>discover planets in far away solar systems</li>
+<li>beat grand masters in Chess and Go</li>
+<li>play video games</li>
+<li>create lifelike images and video of people who have never existed</li>
+</ul>
+<h2 id="ml-skill-set">ML skill-set</h2>
+<p>Any ML course today can introduce and explain the basic concepts and techniques involved in applying machine learning. Here is an annotated list of resources I have used so far:</p>
+<ul>
+<li><em>Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow</em> (<a href="https://smile.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=dp_ob_image_bk">O&rsquo;Reilly</a>): A decent intro and plenty of code examples showing many of the popular ML methods</li>
+<li><a href="http://course18.fast.ai/ml">Fast.ai</a> online courses on Machine Learning and Deep Learning by Jeremy Howard: Really good video series covering lots of basics and code examples.
+<ul>
+<li>uses a library developed by Jeremy called fast.ai written in python</li>
+<li>Jeremy gives a <em>lot</em> of practical advice during the classes (e.g. data wrangling, python techniques, choosing hyper-parameters)</li>
+<li>covers both theory and application of several important ML techniques</li>
+</ul>
+</li>
+<li><em>Machine Learning</em> course on <a href="https://www.coursera.org/learn/machine-learning">Coursera</a> by Andrew Ng: Good video series covering theory and application of Deep Learning using Neural Networks.
+<ul>
+<li>uses Octave as code base</li>
+<li>solid theory and lots of code practice</li>
+</ul>
+</li>
+</ul>
+<p>My main learning points so far are:</p>
+<ul>
+<li>hardest part of ML is framing the intent
+<ul>
+<li>what do you want to answer and why?</li>
+<li>how can your predictions be put to practical use?</li>
+<li>what data do you have&mdash;what data can you get?</li>
+</ul>
+</li>
+<li>wrangling data takes most of the effort
+<ul>
+<li>clean the data</li>
+<li>format the data to be useful to ML algorithms</li>
+<li>properly splitting the data for research and testing is hard</li>
+</ul>
+</li>
+<li>choosing the right ML algorithm is important
+<ul>
+<li>also choosing the right hyper-parameters is important</li>
+<li>over or under fitting a model is hard to detect</li>
+</ul>
+</li>
+</ul>
+<p>Learning by doing works best for me. And Jeremy Howard encourages students to practice in <a href="https://www.kaggle.com">Kaggle</a>. Kaggle also provides lots of data sets for practice and research&mdash;as well as forums and such. Reddit has a few subreddits that cover ML and are very helpful for beginners.</p>
+<p>So, that&rsquo;s what I&rsquo;ve been playing with lately. Maybe I&rsquo;ll post a ML problem of my own (for practice) and see what I can do.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>or would take us a long time to discover&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</div>
+
+        </div>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/foundation.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+<script>
+  hljs.highlightAll();
+</script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace()
+</script>
+
+<div id="nav-border" class="container">
+    
+    <div class="nav-outer">
+        <div class="nav-inner">
+            
+                
+                    
+                        <a class="internal" hyphens="none" href="/">
+                            
+                            Home
+                        </a>
+                    
+                
+                    
+                        <a class="internal" hyphens="none" href="/blog">
+                            
+                            Blog
+                        </a>
+                    
+                
+                    
+                        <a class="internal" hyphens="none" href="/about">
+                            
+                            About
+                        </a>
+                    
+                
+                    
+                
+            
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>

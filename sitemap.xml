@@ -2,86 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dkensinger.github.io/posts/anatomy-of-a-blog-update/</loc>
+    <loc>http://localhost:1313/blog/anatomy-of-a-blog-update/</loc>
     <lastmod>2024-05-02T13:33:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-05-02T13:33:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/meta/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-05-02T13:33:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/</loc>
+    <loc>http://localhost:1313/tags/meta/</loc>
     <lastmod>2024-05-02T13:33:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-05-02T13:33:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/politics/</loc>
+    <loc>http://localhost:1313/tags/politics/</loc>
     <lastmod>2024-05-02T10:39:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/trump-s-first-criminal-trial/</loc>
+    <loc>http://localhost:1313/blog/trump-s-first-criminal-trial/</loc>
     <lastmod>2024-05-02T10:39:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/about/about-me/</loc>
+    <loc>http://localhost:1313/about/about-me/</loc>
     <lastmod>2024-04-24T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-04-24T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/arts/</loc>
-    <lastmod>2024-04-03T17:30:00+02:00</lastmod>
+    <loc>http://localhost:1313/tags/arts/</loc>
+    <lastmod>2024-04-05T17:30:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/dune-revisited/</loc>
-    <lastmod>2024-04-03T17:30:00+02:00</lastmod>
+    <loc>http://localhost:1313/blog/dune-2024/</loc>
+    <lastmod>2024-04-05T17:30:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/racket-pollen-and-fossil-dot-dot-dot-oh-my/</loc>
+    <loc>http://localhost:1313/blog/racket-pollen-and-fossil-dot-dot-dot-oh-my/</loc>
     <lastmod>2020-08-16T21:21:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/anatomy-of-a-blog/</loc>
+    <loc>http://localhost:1313/blog/anatomy-of-a-blog/</loc>
     <lastmod>2020-08-15T22:42:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/education/</loc>
+    <loc>http://localhost:1313/tags/education/</loc>
     <lastmod>2019-09-13T17:51:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/tech/</loc>
+    <loc>http://localhost:1313/tags/tech/</loc>
     <lastmod>2019-09-13T17:51:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/the-things-you-learn/</loc>
+    <loc>http://localhost:1313/blog/the-things-you-learn/</loc>
     <lastmod>2019-09-13T17:51:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/finding-patterns-in-data/</loc>
+    <loc>http://localhost:1313/blog/finding-patterns-in-data/</loc>
     <lastmod>2019-07-07T18:01:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2019-06-26T11:17:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/programming-languages-i-know/</loc>
+    <loc>http://localhost:1313/blog/programming-languages-i-know/</loc>
     <lastmod>2019-06-26T11:17:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/apps/</loc>
+    <loc>http://localhost:1313/blog/the-case-for-emacs/</loc>
     <lastmod>2019-06-24T13:14:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/the-case-for-emacs/</loc>
-    <lastmod>2019-06-24T13:14:00+02:00</lastmod>
-  </url><url>
-    <loc>https://dkensinger.github.io/posts/just-a-hobby/</loc>
+    <loc>http://localhost:1313/blog/just-a-hobby/</loc>
     <lastmod>2019-06-16T15:24:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/about/colophon/</loc>
+    <loc>http://localhost:1313/about/colophon/</loc>
     <lastmod>2019-04-24T19:17:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/tags/code/</loc>
+    <loc>http://localhost:1313/blog/download-data-from-the-web/</loc>
     <lastmod>2018-07-13T19:16:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/posts/download-data-from-the-web/</loc>
-    <lastmod>2018-07-13T19:16:00+02:00</lastmod>
-  </url><url>
-    <loc>https://dkensinger.github.io/posts/fizz-buzz-deluxe-edition/</loc>
+    <loc>http://localhost:1313/blog/fizz-buzz-deluxe-edition/</loc>
     <lastmod>2017-05-12T23:17:00+02:00</lastmod>
   </url><url>
-    <loc>https://dkensinger.github.io/contact/contact/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://dkensinger.github.io/contact/</loc>
+    <loc>http://localhost:1313/contact/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
   </url>
 </urlset>

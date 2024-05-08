@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta name="description" content="http://localhost:1313/">
+    
+
+    <meta property="og:site_name" content="d.kens">
+    <meta property="og:title" content="d.kens">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:1313/blog/racket-pollen-and-fossil-dot-dot-dot-oh-my/">
+    <meta property="og:image" content="http://localhost:1313/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="http://localhost:1313/blog/racket-pollen-and-fossil-dot-dot-dot-oh-my/">
+    <meta name="twitter:image" content="http://localhost:1313/">
+
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/style.css">
+    
+    
+    
+
+    <link rel="stylesheet" href="https://use.typekit.net/jxt2fnp.css"> 
+    <link rel="stylesheet" href="https://use.typekit.net/uwd7war.css"> 
+    <link href="https://fonts.cdnfonts.com/css/cooper-hewitt" rel="stylesheet">
+    
+    
+        <meta name="description" content="A personal blog">
+    
+
+    
+        
+            <link rel="shortcut icon" href="/favicon.png">
+        
+    
+
+    
+    
+    
+    
+    <title>racket, pollen and fossil… oh my! | d.kens</title>
+</head><body><div id="top-stripe"></div><div id="content">
+
+    <div class="article-nav-outer">
+        <div class="article-nav-inner">
+            <a class="internal" hyphens="none" href="/blog">← back to blog</a>
+        </div>
+    </div>
+
+<h2 class="article-title">Racket, Pollen and Fossil… oh my!</h2>
+<div id="doc">
+    <div class="hanging-subtitle">
+        
+        
+            <p>by [Dave Kensinger]</p>
+                
+        
+            
+                <p>16 August 2020</p>
+            
+        
+    </div>
+<p>A tale of me discovering, learning and playing with a new set of toys for my blog&hellip;</p>
+<h2 id="racket">Racket</h2>
+<p>Here is where it all started. A new programming language and some youtube videos led me to my first step on this journey. Emacs Lisp is the programming language underlying Emacs. I discovered Racket after exploring all the Lispy type languages available today. The Racket documentation impresses me and that led me to Scribble, the module inside Racket for writing (primarily) documentation. A short hop away led me to discover Pollen.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="pollen">Pollen</h2>
+<p>Once I began exploring Pollen I began to imagine re    -tooling my blog to take complete control over <em>every</em> aspect of the blog. From the writing to the layout to the typography to the version control&hellip; wait version control? That actually didn&rsquo;t enter the picture until I stumbled upon a series of youtube videos demonstrating Pollen. I followed the trail to a site under construction by the video author&hellip; which led me to an example of a version control system called Fossil.</p>
+<h2 id="fossil">Fossil</h2>
+<p>Fossil, like Git, is made <em>by</em> software developers <em>for</em> software developers. Fossil has a few more features that may be worth using behind a blog. Trying out this version control system (application?) will be a parallel effort while I experiment with Pollen and Racket. I expect I will follow the efforts of the developer while he slowly tweaks his new site into existence.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> I like many of the features he has planned for his blog such as adding comments that appear in the main blog feed and the old-fashioned index.</p>
+<h2 id="roadmap">Roadmap</h2>
+<p>The final destination looks like this:</p>
+<ul>
+<li>Writing of blog entries, comments, links, articles is all done in Emacs</li>
+<li>org-mode is easiest but will require some ox-magic to help with syntax translation</li>
+<li>pollen-mode would be harder but will give me more control over the site</li>
+<li>Publishing of the static site is done using either Racket or Hugo</li>
+<li>Racket will give me more control of the site and it&rsquo;s features (e.g. hand crafted theme)</li>
+<li>Hugo will trade ease of use for features (e.g. 3rd party theme<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>)</li>
+<li>Version control uses Git or Fossil</li>
+<li>Hosting is free using Github or something similar</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The short hop included a detour into <a href="https://practicaltypography.com">Typography</a> , a well written intro to the Racket language (written in Pollen) by Matthew Butterick.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://thelocalyarn.com/code/doc/trunk/repo-www/home.wiki">The Local Yarn</a> by Joel Dueck is a hand-crafted blog (published with Textpattern) slowly morphing into a Pollen/Racket run blog.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>However, using an app like Hugo requires keeping <em>it</em> up-to-date along with <em>its</em> underlying dependencies (e.g. go). I would be trading Racket/Pollen for Hugo/go. In the former I would learn and know how it all works. The latter is just a black-box for me; just an application I depend on.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</div>
+
+        </div>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/foundation.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+<script>
+  hljs.highlightAll();
+</script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace()
+</script>
+
+<div id="nav-border" class="container">
+    
+    <div class="nav-outer">
+        <div class="nav-inner">
+            
+                
+                    
+                        <a class="internal" hyphens="none" href="/">
+                            
+                            Home
+                        </a>
+                    
+                
+                    
+                        <a class="internal" hyphens="none" href="/blog">
+                            
+                            Blog
+                        </a>
+                    
+                
+                    
+                        <a class="internal" hyphens="none" href="/about">
+                            
+                            About
+                        </a>
+                    
+                
+                    
+                
+            
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>
