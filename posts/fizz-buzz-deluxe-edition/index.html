@@ -1,0 +1,600 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow">
+<meta name="revisit-after" content="15 days"><link rel="author" href="/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="[Dave Kensinger]">
+
+  <meta itemprop="name" content="Fizz-Buzz: deluxe edition">
+  <meta itemprop="description" content="Origin story I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall.">
+  <meta itemprop="datePublished" content="2017-05-12T23:17:00+02:00">
+  <meta itemprop="dateModified" content="2017-05-12T23:17:00+02:00">
+  <meta itemprop="wordCount" content="3219">
+  <meta itemprop="keywords" content="Programming"><meta property="og:url" content="https://dkensinger.github.io/posts/fizz-buzz-deluxe-edition/">
+  <meta property="og:site_name" content="d.kens">
+  <meta property="og:title" content="Fizz-Buzz: deluxe edition">
+  <meta property="og:description" content="Origin story I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-05-12T23:17:00+02:00">
+    <meta property="article:modified_time" content="2017-05-12T23:17:00+02:00">
+    <meta property="article:tag" content="Programming">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Fizz-Buzz: deluxe edition">
+<meta name="twitter:description" content="Origin story I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall.">
+<title>Fizz-Buzz: deluxe edition</title>
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://dkensinger.github.io/css/style.min.b9b0196180ada2f18e02576d3cdb3bc8754a548453d05e24e7edba2a7084e3ae.css" integrity="sha256-ubAZYYCtovGOAldtPNs7yHVKVIRT0F4k5+26KnCE464=" crossorigin="anonymous">
+	</head>
+<body id="page">
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://dkensinger.github.io/">d.kens</a>
+				</div>
+				<nav class="site-nav hide-in-mobile"><a href="https://dkensinger.github.io/posts/">Posts</a><a href="https://dkensinger.github.io/about/">About</a></nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<button id="share-btn" class="hdr-btn" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+ 
+<div id="share-links" class="animated fast">
+    
+    
+    
+    
+    <ul>
+        <li>
+            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=https%3a%2f%2fdkensinger.github.io%2fposts%2ffizz-buzz-deluxe-edition%2f&amp;text=Fizz-Buzz%3a%20deluxe%20edition" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6"/></svg></a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fdkensinger.github.io%2fposts%2ffizz-buzz-deluxe-edition%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </li>
+        <li>
+            <a href="mailto:?subject=Fizz-Buzz%3a%20deluxe%20edition&amp;body=https%3a%2f%2fdkensinger.github.io%2fposts%2ffizz-buzz-deluxe-edition%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fdkensinger.github.io%2fposts%2ffizz-buzz-deluxe-edition%2f&amp;source=https%3a%2f%2fdkensinger.github.io%2f&amp;title=Fizz-Buzz%3a%20deluxe%20edition&amp;summary=Fizz-Buzz%3a%20deluxe%20edition%2c%20by%20%5bDave%20Kensinger%5d%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        </li>
+        <li>
+            <a href="#" onclick="linkShare(&#34;Fizz-Buzz: deluxe edition&#34;,&#34;https://dkensinger.github.io/posts/fizz-buzz-deluxe-edition/&#34;,&#34;Fizz-Buzz: deluxe edition, by [Dave Kensinger]\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
+        </li>
+    </ul>
+</div><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://dkensinger.github.io/posts/">Posts</a></li>
+			<li><a href="https://dkensinger.github.io/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>May 12, 2017</span></div>
+				<h1>Fizz-Buzz: deluxe edition</h1>
+			</header>
+			<div class="post-info"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg><a href="/about/about-me/" target="_blank">[Dave Kensinger]</a></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://dkensinger.github.io/tags/programming">programming</a></span></p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>3219 Words
+    ⏳
+    
+    
+    
+    14 Minutes, 37 Seconds</p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2017-05-12 23:17 &#43;0200</p></div>
+			<hr class="post-end">
+			<div class="content">
+				<h2 id="origin-story">Origin story<a href="#origin-story" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>I remember a game I played in school called “Fizz Buzz” where we sat in a circle and progressed around the circle by counting up from “one”. The rule was: replace the number with “Fizz” if it was a multiple of 5, “Buzz” if it was a multiple of 7 and “FizzBuzz” if it was a multiple of both 5 and 7. There may have been some direction changes (and possibly drinking) involved but I can’t recall. It would look something like this:</p>
+<p>&ldquo;one&rdquo; → &ldquo;two&rdquo; → &ldquo;three&rdquo; → &ldquo;four&rdquo; → &ldquo;fizz&rdquo; ← &ldquo;six&rdquo; ← &ldquo;buzz&rdquo; → &ldquo;eight&rdquo; → &ldquo;nine&rdquo; → &ldquo;fizz&rdquo;</p>
+<p>Fast forward many years&hellip; everyone is encouraged to learn computer programming. A favorite exercise often used to teach or learn a programming language is to replicate this game. Another more challenging exercise is to add all the multiples of some numbers, usually 3 and 5, up to some limit. For example:</p>
+<blockquote>
+<p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+<p><em>Find the sum of all the multiples of 3 or 5 below 1000.</em></p>
+</blockquote>
+<p>Check out this link to try it: <a href="https:projecteuler.net/problem=1">Project Euler #1</a></p>
+<h2 id="easy-answers--danger-code-ahead">Easy answers (danger! code ahead)<a href="#easy-answers--danger-code-ahead" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>A straight-forward solution uses the basic tools any beginning programmer will quickly learn. In python, using a list comprehension, it might look like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="nb">sum</span> <span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)]))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="mi">233168</span>
+</span></span></code></pre></div><p>This is a correct solution&hellip; but we can do better! The problem with this solution lies here:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">  <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+</span></span></code></pre></div><p>So what is the problem?<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> This technique isn&rsquo;t as efficient as it could be. Its performance (speed) depends on the size of the range. In this example it steps through 1000 numbers, one at a time, checking if each number is evenly divisible by 3 or 5. It then adds the number to a list if either test is true. Finally, it takes that list and adds all the items. What if the question asked for the sum up to 1,000,000? or 1,000,000,000? Even with a fast processor these solutions will take a long time to produce an answer.
+It turns out there is a way to shortcut this march through a long series of numbers.</p>
+<h2 id="math-to-the-rescue">Math to the rescue!<a href="#math-to-the-rescue" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>There is a mathematical formula that calculates the sum of a series of numbers (of course there is!). A nice explanation is here: <a href="https://en.wikipedia.org/wiki/Triangular_number?oldformat=true">Triangle Numbers</a> where you can see the sum of a series can be rewritten as a formula:</p>
+<p>\(1 + 2 + 3 + … n = n(n+1)/2\)</p>
+<p>With this insight I can find our answer to the sum of multiples question without marching through a list of numbers. Here’s how:</p>
+<p>First let’s look at just the multiples of threes. A list of the multiples of 3 would look like this:</p>
+<p>\(3 + 6 + 9 + … + 999\)</p>
+<p>which can be re-written as</p>
+<p>\(3 * (1 + 2 + 3 + … + 333)\)</p>
+<p>or</p>
+<p>\(3 * n(n+1)/2\)  (where n = 333)</p>
+<p>In this case n = 333 which is 1000 divided by 3 dropping any remainder (called <em>integer division</em> and uses the <code>//</code> symbol in python). So a python function to calculate the sum of multiples of 3 below 1000 would be:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_threes</span> <span class="p">(</span><span class="n">factor</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">1000</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">		  <span class="n">n</span> <span class="o">=</span> <span class="n">limit</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">		  <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="n">sum_of_threes</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="mi">166833</span>
+</span></span></code></pre></div><p>Note that this would work for <em>any</em> factor and <em>any</em> limit. I could also get the answer for multiples of five by passing 5 as an input to the function. So, to keep the function generic I will rename it to <code>sum_of_multiples</code> and use “factor” and “limit” as its inputs.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span> <span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="mi">71071</span>
+</span></span></code></pre></div><h2 id="next-step">Next step<a href="#next-step" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Now that I have a quick way to calculate the sum of a series of multiples of one number up to a limit, I need to figure out how to do it with two numbers. I could call the function twice, once with a factor of 3 and again with a factor of 5, then add the two sums together! Let&rsquo;s see what we get:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">easy_answer</span><span class="p">(</span><span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="nb">sum</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">limit</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span><span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n_count</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n_count</span> <span class="o">*</span> <span class="p">(</span><span class="n">n_count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;easy answer &#34;</span><span class="p">,</span> <span class="n">easy_answer</span><span class="p">(</span><span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;faster answer &#34;</span><span class="p">,</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">+</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">easy</span> <span class="n">answer</span>  <span class="mi">233168</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">faster</span> <span class="n">answer</span>  <span class="mi">266333</span>
+</span></span></code></pre></div><p>Wrong answer! My answer is too high. It is because I am counting some numbers twice. Those numbers that are evenly divisible by <em>BOTH</em> 3 <em>AND</em> 5 are counted twice, once in each subtotal. For example the threes list contains 15 and 30 and 45 &hellip; and the fives list contains 15 and 30 and 45&hellip; Therefore I must subtract the sum of the list of <em>common</em> multiples. To find all the common multiples I must use the <em>lowest common multiple</em> (LCM) of the two factors. In this case, using 3 and 5, the LCM is 15. Another example would use the LCM of 4 and 6 which is 12 (not 24).</p>
+<p>So I must adjust our &ldquo;faster answer&rdquo; by subtracting <code>sum_of_multiples(15, 1000)</code>.</p>
+<p>Let&rsquo;s see if it works!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">easy_answer</span><span class="p">(</span><span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="nb">sum</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">limit</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span><span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n_count</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n_count</span> <span class="o">*</span> <span class="p">(</span><span class="n">n_count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;easy answer &#34;</span><span class="p">,</span> <span class="n">easy_answer</span><span class="p">(</span><span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;faster answer &#34;</span><span class="p">,</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">+</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">-</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">easy</span> <span class="n">answer</span>  <span class="mi">233168</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">faster</span> <span class="n">answer</span>  <span class="mi">233168</span>
+</span></span></code></pre></div><p>It works! And to show that it is much faster when the limit is very high, I&rsquo;ll add some code to time each method using factors of 3 and 5 and a limit of 100,000,000.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"> <span class="kn">import</span> <span class="nn">time</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">easy_answer</span><span class="p">(</span><span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="nb">sum</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">limit</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">def</span> <span class="nf">sum_of_multiples</span><span class="p">(</span><span class="n">factor</span><span class="p">,</span> <span class="n">limit</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">     <span class="n">n_count</span> <span class="o">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">     <span class="k">return</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n_count</span> <span class="o">*</span> <span class="p">(</span><span class="n">n_count</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;easy answer &#34;</span><span class="p">,</span> <span class="n">easy_answer</span><span class="p">(</span><span class="mi">100_000_000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;took &#34;</span><span class="p">,</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">,</span> <span class="s2">&#34;seconds&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;faster answer &#34;</span><span class="p">,</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">100_000_000</span><span class="p">)</span> <span class="o">+</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">100_000_000</span><span class="p">)</span> <span class="o">-</span> <span class="n">sum_of_multiples</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">100_000_000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;took &#34;</span><span class="p">,</span> <span class="n">time</span><span class="o">.</span><span class="n">clock</span><span class="p">()</span><span class="o">-</span><span class="n">t0</span><span class="p">,</span> <span class="s2">&#34;seconds&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">easy</span> <span class="n">answer</span>  <span class="mi">2333333316666668</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">took</span>  <span class="mf">13.653634</span> <span class="n">seconds</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">faster</span> <span class="n">answer</span>  <span class="mi">2333333316666668</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&gt;&gt;&gt;</span> <span class="n">took</span>  <span class="mf">1.100000000064938e-05</span> <span class="n">seconds</span>
+</span></span></code></pre></div><p>There you can see the easy answer method took over 13 seconds to run while the faster method took only 0.000011 seconds! Thanks math!</p>
+<p>But we can do better!</p>
+<h2 id="going-further">Going further<a href="#going-further" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Before going further, I will switch over to the haskell programming language for the code examples. Hopefully you won&rsquo;t notice much of a difference (and I get to practice another language).</p>
+<p>First, let&rsquo;s rewrite the python code to haskell code (without the timing):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">easyAnswer</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">easyAnswer</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">sum</span> <span class="p">[</span><span class="n">x</span> <span class="o">|</span> <span class="n">x</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="n">factor</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">factor</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span> <span class="kr">where</span>
+</span></span><span class="line"><span class="cl">                         <span class="n">n</span> <span class="ow">=</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">factor</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="n">factor1</span> <span class="n">factor2</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">triangle</span> <span class="n">factor1</span> <span class="n">limit</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">                                        <span class="n">triangle</span> <span class="n">factor2</span> <span class="n">limit</span> <span class="o">-</span>
+</span></span><span class="line"><span class="cl">                                        <span class="n">triangle</span> <span class="p">(</span><span class="n">lcm</span> <span class="n">factor1</span> <span class="n">factor2</span><span class="p">)</span> <span class="n">limit</span>
+</span></span></code></pre></div><p>You&rsquo;ll hopefully notice many similarities like the list comprehension and the triangle function. Also, you can see a term <code>lcm</code> which is a function that does what I want: find the lowest common multiple of two integers.</p>
+<p>So how can I go further? I can make the <code>sumOfMultiples</code> function truly generic so it can take <em>any number</em> of factors and find the sum of their multiples up to a limit. For example, I could find the sum of the multiples of 3, 5 and 7 below 1,000. Before I start, I&rsquo;ll get the right answer using the easy method so I know what we&rsquo;re looking for. In fact, I&rsquo;ll build up a table of sums as I go along.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">easyAnswer</span> <span class="ow">=</span> <span class="n">sum</span> <span class="p">[</span><span class="n">x</span> <span class="o">|</span> <span class="n">x</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="mi">1000</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span>
+</span></span><span class="line"><span class="cl">                                         <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span>
+</span></span><span class="line"><span class="cl">                                         <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">7</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">easyAnswer</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">271066</span>
+</span></span></code></pre></div><p>My answer is: 271066 (I&rsquo;ll call this my target number)</p>
+<p>And now, using a limit of 1000, I&rsquo;ll make a table of sums of multiples of 3, 5 and 7. I already know we&rsquo;re going to subtract the sum of the LCM&rsquo;s of 3 &amp; 5 (from our previous solution)&hellip; and now I&rsquo;ll have to subtract LCM&rsquo;s for 3 &amp; 7 AND 5 &amp; 7. And for good measure, I&rsquo;ll include the LCM for 3 &amp; 5 &amp; 7 to see if I need it. Finally, I&rsquo;ll add some additional details in the table (I have a feeling I&rsquo;ll need them).</p>
+<table>
+<thead>
+<tr>
+<th>factors</th>
+<th># factors</th>
+<th>LCM</th>
+<th>sum (1000)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+<td>166833</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+<td>5</td>
+<td>99500</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1</td>
+<td>7</td>
+<td>71071</td>
+</tr>
+<tr>
+<td>3, 5</td>
+<td>2</td>
+<td>15</td>
+<td>33165</td>
+</tr>
+<tr>
+<td>3, 7</td>
+<td>2</td>
+<td>21</td>
+<td>23688</td>
+</tr>
+<tr>
+<td>5, 7</td>
+<td>2</td>
+<td>35</td>
+<td>14210</td>
+</tr>
+<tr>
+<td>3, 5, 7</td>
+<td>3</td>
+<td>105</td>
+<td>4725</td>
+</tr>
+</tbody>
+</table>
+<p>If I follow my earlier strategy, I will first add the 3&rsquo;s, 5&rsquo;s and 7&rsquo;s and then subtract the 3&amp;5, 3&amp;7 and 5&amp;7 sums. That result is 266341. Exactly 4725 too low! It turns out that when I subtract all three pairs I need to add back the 3&amp;5&amp;7 triple. When I do, I get a total sum of 271066!</p>
+<p>I feel like I got lucky there, so I am going to go to the next level and try 4 factors and see how it adds up. I&rsquo;ll use 3, 5, 7, and 11 as my factors and a limit of 10,000 this time. Using the <code>easyAnswer</code> method I get a target number of: 29224307.</p>
+<p>I&rsquo;ll build up my table again (using the <code>easyAnswer</code> method for each row):</p>
+<table>
+<thead>
+<tr>
+<th>factors</th>
+<th># factors</th>
+<th>LCM</th>
+<th>sum (10,000)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+<td>16668333</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+<td>5</td>
+<td>9995000</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1</td>
+<td>7</td>
+<td>7142142</td>
+</tr>
+<tr>
+<td>11</td>
+<td>1</td>
+<td>11</td>
+<td>4549545</td>
+</tr>
+<tr>
+<td>3, 5</td>
+<td>2</td>
+<td>15</td>
+<td>3331665</td>
+</tr>
+<tr>
+<td>3, 7</td>
+<td>2</td>
+<td>21</td>
+<td>2384046</td>
+</tr>
+<tr>
+<td>3, 11</td>
+<td>2</td>
+<td>33</td>
+<td>1519848</td>
+</tr>
+<tr>
+<td>5, 7</td>
+<td>2</td>
+<td>35</td>
+<td>1426425</td>
+</tr>
+<tr>
+<td>5, 11</td>
+<td>2</td>
+<td>55</td>
+<td>905905</td>
+</tr>
+<tr>
+<td>7, 11</td>
+<td>2</td>
+<td>77</td>
+<td>645645</td>
+</tr>
+<tr>
+<td>3, 5, 7</td>
+<td>3</td>
+<td>105</td>
+<td>478800</td>
+</tr>
+<tr>
+<td>3, 5, 11</td>
+<td>3</td>
+<td>165</td>
+<td>301950</td>
+</tr>
+<tr>
+<td>3, 7, 11</td>
+<td>3</td>
+<td>231</td>
+<td>218526</td>
+</tr>
+<tr>
+<td>5, 7, 11</td>
+<td>3</td>
+<td>385</td>
+<td>125125</td>
+</tr>
+<tr>
+<td>3, 5, 7, 11</td>
+<td>4</td>
+<td>1155</td>
+<td>41580</td>
+</tr>
+</tbody>
+</table>
+<p>Whew! Things are getting complicated! Now I&rsquo;ll follow my strategy again: add the sums of the single factors, subtract the sums of the pairs LCM, then add back the sums of the triples. I get a total of 29265887. Exactly 41580 too high! So it looks as though I must <em>subtract</em> the last quartet (3&amp;5&amp;7&amp;11) LCM for a total of 29224307: my target number!</p>
+<p>Now I think I have enough examples to build a general case. Here&rsquo;s what my intuition leads me to:</p>
+<p><code>the sum of multiples of all factors =</code></p>
+<p><code>the sum of the LCM sums if the number of factors is odd</code></p>
+<p><code>MINUS</code></p>
+<p><code>the sum of the LCM sums if the number of factors is even</code></p>
+<p>Before I get the to the final code, I should figure out how to generate some of the data in our table automatically. First, I need an easy way to generate the sets of factors in column 1. Searching through the <code>Data.List</code> module I found the function <code>subsequences</code> which takes a list and outputs a list of all subsequences from the input. Just what I need!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="kr">import</span> <span class="nn">Data.List</span> <span class="p">(</span><span class="nf">subsequences</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">subsequences</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="kt">[]</span><span class="p">,[</span><span class="mi">3</span><span class="p">],[</span><span class="mi">5</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="mi">7</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]]</span>
+</span></span></code></pre></div><p>Perfect! (except for the empty list [] at the beginning)</p>
+<p>Second, I need a way to calculate the LCM of not just two factors but <em>any</em> number of factors. Here is where a <code>foldl</code> can help:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">15</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">105</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">1155</span>
+</span></span></code></pre></div><p>Perfect! We&rsquo;re now ready to put it all together:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="kr">import</span> <span class="nn">Data.List</span> <span class="p">(</span><span class="nf">subsequences</span><span class="p">,</span> <span class="nf">length</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">factorsList</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="p">[(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Integer</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">factorsList</span> <span class="n">factors</span> <span class="ow">=</span> <span class="p">[(</span><span class="n">length</span> <span class="n">a</span><span class="p">,</span> <span class="n">foldl</span> <span class="n">lcm</span> <span class="mi">1</span> <span class="n">a</span><span class="p">)</span> <span class="o">|</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">a</span> <span class="ow">&lt;-</span> <span class="n">subsequences</span> <span class="n">factors</span><span class="p">,</span> <span class="n">a</span> <span class="o">/=</span> <span class="kt">[]</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="ow">::</span> <span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Integer</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle</span> <span class="p">(</span><span class="kr">_</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="n">n</span> <span class="ow">=</span> <span class="n">b</span> <span class="o">*</span> <span class="p">((</span><span class="n">n</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">b</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span> <span class="n">n</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">b</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListPlus</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListPlus</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="p">[</span><span class="n">triangle</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">|</span>
+</span></span><span class="line"><span class="cl">                                   <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="ow">&lt;-</span> <span class="n">factorsList</span> <span class="n">factors</span><span class="p">,</span> <span class="n">odd</span> <span class="n">a</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListMinus</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangleListMinus</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="p">[</span><span class="n">triangle</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">|</span>
+</span></span><span class="line"><span class="cl">                                    <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="ow">&lt;-</span> <span class="n">factorsList</span> <span class="n">factors</span><span class="p">,</span> <span class="n">even</span> <span class="n">a</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">sum</span><span class="p">(</span><span class="n">triangleListPlus</span> <span class="n">factors</span> <span class="n">limit</span><span class="p">)</span> <span class="o">-</span>
+</span></span><span class="line"><span class="cl">                                <span class="n">sum</span><span class="p">(</span><span class="n">triangleListMinus</span> <span class="n">factors</span> <span class="n">limit</span><span class="p">)</span>
+</span></span></code></pre></div><p>First I created a <code>factorsList</code> function that put together the <code>subsequences</code> and <code>lcm</code> functions to output a list of all the possible combinations of factors showing their length (number of factors) and their corresponding LCM.</p>
+<p>The <code>triangleListPlus</code> and <code>triangleListMinus</code> functions transformed the factorsList elements to their triangle sums: one list for even number of factors, the other for odd.</p>
+<p>Finally, the <code>sumOfMultiples</code> function takes the <em>plus</em> list and subtracts the <em>minus</em> list to get the final total.</p>
+<p>Not very elegant, but it does the job. To check that it works, I&rsquo;ll try some test cases:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="kt">[]</span> <span class="mi">10000</span>         <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">16668333</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">23331668</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span> <span class="mi">10000</span>      <span class="c1">-- should be the same as [3]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">16668333</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">27142139</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10000</span>    <span class="c1">-- should be the same as [3,5]</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">23331668</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span> <span class="mi">10000</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">29224307</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">8</span><span class="p">]</span> <span class="mi">25</span>         <span class="c1">-- [4,6,8,12,16,18,20,24] = 108</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">108</span>
+</span></span></code></pre></div><p>Look at that! Even the &ldquo;tricky&rdquo; test cases appear to pass. An empty list (no factors) returns 0, a case where the LCM of two factors <em>is equal to</em> one of the factors (3 and 6), and a case where a factor is repeated (3, 3, 5). The test case <code>sumOfMultiples [3,5,7,11] 10000</code> gives me my expected target answer: 29224307! And the last test case shows me that my method handles factors with overlapping LCMs. Not Bad!</p>
+<p>But we can do better!</p>
+<h2 id="refactoring">Refactoring<a href="#refactoring" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>I&rsquo;m probably not going to get much more improvement in overall performance but I can save a little time and memory space with a few tweaks.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-haskell" data-lang="haskell"><span class="line"><span class="cl"> <span class="kr">import</span> <span class="nn">Data.List</span> <span class="p">(</span><span class="nf">foldl&#39;</span><span class="p">,</span> <span class="nf">nub</span><span class="p">,</span> <span class="nf">subsequences</span><span class="p">,</span> <span class="nf">length</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">lcmList</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">lcmList</span> <span class="n">factors</span> <span class="ow">=</span> <span class="n">tail</span> <span class="p">[</span><span class="n">sign</span> <span class="n">fs</span> <span class="o">$</span> <span class="n">lcm&#39;</span> <span class="n">fs</span> <span class="o">|</span> <span class="n">fs</span> <span class="ow">&lt;-</span> <span class="n">subsequences</span> <span class="o">$</span> <span class="n">nub</span> <span class="n">factors</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                   <span class="kr">where</span> <span class="n">sign</span> <span class="n">fs</span> <span class="o">|</span> <span class="n">odd</span> <span class="p">(</span><span class="n">length</span> <span class="n">fs</span><span class="p">)</span> <span class="ow">=</span> <span class="n">id</span>
+</span></span><span class="line"><span class="cl">                                 <span class="o">|</span> <span class="n">otherwise</span>       <span class="ow">=</span> <span class="n">negate</span>
+</span></span><span class="line"><span class="cl">                         <span class="n">lcm&#39;</span> <span class="ow">=</span> <span class="n">foldl&#39;</span> <span class="n">lcm</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">triangle&#39;</span> <span class="ow">::</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle&#39;</span> <span class="kr">_</span> <span class="mi">0</span> <span class="ow">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="n">triangle&#39;</span> <span class="n">n</span> <span class="n">f</span> <span class="ow">=</span> <span class="n">f</span> <span class="o">*</span> <span class="n">n1</span> <span class="o">*</span> <span class="p">(</span><span class="n">n1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">                 <span class="kr">where</span> <span class="n">n1</span> <span class="ow">=</span> <span class="n">n</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="n">abs</span> <span class="n">f</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="ow">::</span> <span class="p">[</span><span class="kt">Integer</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span> <span class="ow">-&gt;</span> <span class="kt">Integer</span>
+</span></span><span class="line"><span class="cl"> <span class="n">sumOfMultiples</span> <span class="n">factors</span> <span class="n">limit</span> <span class="ow">=</span> <span class="n">sum</span> <span class="p">(</span><span class="n">triangle&#39;</span> <span class="p">(</span><span class="n">limit</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="n">lcmList</span> <span class="n">factors</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">main</span> <span class="ow">::</span> <span class="kt">IO</span> <span class="nb">()</span>
+</span></span><span class="line"><span class="cl"> <span class="n">main</span> <span class="ow">=</span>
+</span></span><span class="line"><span class="cl">   <span class="n">mapM_</span>
+</span></span><span class="line"><span class="cl">    <span class="n">print</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="kt">[]</span> <span class="mi">10</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>                 <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="kt">[]</span> <span class="mi">0</span><span class="p">,</span>                   <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="mi">0</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="mi">0</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="mi">3</span><span class="p">,</span>                  <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>               <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>             <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>           <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>           <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>             <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span> <span class="mi">1000</span><span class="p">,</span>           <span class="c1">-- should be 166833</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>                 <span class="c1">-- should be 5</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">15</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>              <span class="c1">-- should be 5</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>            <span class="c1">-- should be 23331668</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>          <span class="c1">-- should be 27142139</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>       <span class="c1">-- should be 29224307</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">13</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span>    <span class="c1">-- should be 30824867</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">13</span><span class="p">,</span><span class="mi">17</span><span class="p">]</span> <span class="mi">10000</span><span class="p">,</span> <span class="c1">-- should be 31950148</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span> <span class="mi">25</span><span class="p">,</span>               <span class="c1">-- should be 108</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">201</span><span class="p">,</span><span class="mi">203</span><span class="p">,</span><span class="mi">207</span><span class="p">]</span> <span class="mi">10</span><span class="p">,</span>       <span class="c1">-- should be 0</span>
+</span></span><span class="line"><span class="cl">     <span class="n">sumOfMultiples</span> <span class="p">[</span><span class="mi">17</span><span class="p">,</span><span class="mi">37</span><span class="p">,</span><span class="mi">67</span><span class="p">]</span> <span class="mi">10000000000000000000000000000000000000</span>
+</span></span><span class="line"><span class="cl">                <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">main</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">166833</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">23331668</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">27142139</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">29224307</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">30824867</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">31950148</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">108</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">4896424079918373158057091331893790194458273022803312531143962223856863266</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">lcmList</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="o">-</span><span class="mi">15</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="o">-</span><span class="mi">21</span><span class="p">,</span><span class="o">-</span><span class="mi">35</span><span class="p">,</span><span class="mi">105</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="o">-</span><span class="mi">33</span><span class="p">,</span><span class="o">-</span><span class="mi">55</span><span class="p">,</span><span class="mi">165</span><span class="p">,</span><span class="o">-</span><span class="mi">77</span><span class="p">,</span><span class="mi">231</span><span class="p">,</span><span class="mi">385</span><span class="p">,</span><span class="o">-</span><span class="mi">1155</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">triangle&#39;</span> <span class="mi">10000</span> <span class="mi">15</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">3331665</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">triangle&#39;</span> <span class="mi">10000</span> <span class="p">(</span><span class="o">-</span><span class="mi">15</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> <span class="o">-</span><span class="mi">3331665</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="n">triangle&#39;</span> <span class="p">(</span><span class="mi">10000</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="n">lcmList</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="mi">16668333</span><span class="p">,</span><span class="mi">9995000</span><span class="p">,</span><span class="o">-</span><span class="mi">3331665</span><span class="p">,</span><span class="mi">7142142</span><span class="p">,</span><span class="o">-</span><span class="mi">2384046</span><span class="p">,</span><span class="o">-</span><span class="mi">1426425</span><span class="p">,</span><span class="mi">478800</span><span class="p">,</span><span class="mi">4549545</span><span class="p">,</span><span class="o">-</span><span class="mi">1519848</span><span class="p">,</span><span class="o">-</span><span class="mi">905905</span><span class="p">,</span><span class="mi">301950</span><span class="p">,</span><span class="o">-</span><span class="mi">645645</span><span class="p">,</span><span class="mi">218526</span><span class="p">,</span><span class="mi">125125</span><span class="p">,</span><span class="o">-</span><span class="mi">41580</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="n">λ</span><span class="o">&gt;</span> <span class="sc">&#39;</span>
+</span></span></code></pre></div><p>First, I cleaned up the triangle function for readability and added a case where: if the only factor is zero then it returns zero (otherwise it would return a <code>divide by zero</code> error. I also designed it to negate the sum if the factor is negative. Finally, the new <code>triangle'</code> only takes a limit (Integer) and a list of factors (also Integers).</p>
+<p>Second, I combined the old <code>factorsList, triangleListPlus, triangleListMinus</code> functions into one <code>lcmList</code> function. The subsequences function still creates the desired list of factor combinations I need &ndash; and the <code>lcmList</code> function transforms each sublist into its contribution (plus or minus) to the final sum.</p>
+<p>Finally, the new <code>sumOfMultiples</code> maps the <code>triangle'</code> function over the <code>lcmList</code> and sums the resulting list for the final result.</p>
+<p>You can see in the printout that this function handles empty lists, zero limits, zero factors, duplicate factors, similar factors (e.g. 3 and 6), and many factors as well as very large limits. It even handles negative factors &ndash; treating them as their positive equivalent.</p>
+<h2 id="summary">Summary<a href="#summary" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>I started this journey with a simple programming exercise: <em>Find the sum of all the multiples of 3 or 5 below 1000.</em> I showed a simple and correct method of computing the answer using a list comprehension. However, that method took \(O(n)\) space and \(O(n)\) time (where \(n\) is the size of the limit) to compute the answer. Clearly this is not a good method if the limit is very large as it creates a large list in memory and takes tens of seconds or longer to compute when the limit is very large.</p>
+<p>I then found a mathematical shortcut that calculates the sum of a series of natural numbers:</p>
+<p>\(1 + 2 + 3 + &hellip; + n = n(n + 1)/2\)</p>
+<p>From that insight I explored how multiple factors and their lowest common multiples added (or subtracted) to the final total. I then created a series of functions that produced the building blocks to produce the final total: and my final answer for any general case.</p>
+<p>My final step was to refactor (rewrite) my functions and combine them to produce a simpler (and hopefully more readable) set of functions.</p>
+<p>The final method takes \(O(2^k)\) space and \(O(2^k)\) time (which looks very scary) BUT this time \(k\) is the number of <em>factors</em> instead of the size of the limit! Assuming the number of factors is 20 or below (which I think is reasonable), this is a <strong>huge</strong> performance boost!</p>
+<p>My journey began with a well known, easy(?) math/computing problem, solvable with a simple but inefficient solution. I went from a specific solution to a general case. Finally, I ended with a tidy and efficient solution.</p>
+<p><em>Until next time!</em></p>
+<h2 id="list-of-links">List of links<a href="#list-of-links" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Here&rsquo;s a list of things I learned (or at least practiced again):</p>
+<ul>
+<li>python
+<ul>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html">list comprehensions</a></li>
+<li><a href="https://docs.python.org/3/library/time.html?highlight=time#module-time">time module functions</a></li>
+</ul>
+</li>
+<li>haskell
+<ul>
+<li><a href="http://hackage.haskell.org/package/base-4.9.1.0/docs/Prelude.html#v:lcm">prelude lcm</a></li>
+<li><a href="https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-List.html">Data.List lcm</a></li>
+<li><a href="http://hackage.haskell.org/package/base-4.9.1.0/docs/Prelude.html#v:-36-">prelude ($)</a></li>
+<li><a href="http://hackage.haskell.org/package/base-4.9.1.0/docs/Prelude.html#v:fmap">prelude (&lt;$&gt;)</a></li>
+</ul>
+</li>
+<li><a href="http://www.wikiwand.com/en/Big_O_notation">Big O notation</a></li>
+<li><a href="http://spacemacs.org/doc/QUICK_START.html#learning-spacemacs">Spacemacs</a></li>
+<li><a href="http://orgmode.org/org.html#Summary">Org mode</a></li>
+<li><a href="https://wiki.haskell.org/Emacs">haskell sub mode</a></li>
+<li><a href="https://www.emacswiki.org/emacs/PythonProgrammingInEmacs">python sub mode</a></li>
+<li><a href="https://www.emacswiki.org/emacs/Evil">everything else Emacs and Evil mode related</a></li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I guess technically not a problem. Just that it is an inefficient algorithm. Also, not very memory space efficient since it builds a list before it finds a sum. But now we&rsquo;re getting ahead of ourselves!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+			</div>
+
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://dkensinger.github.io/posts/download-data-from-the-web/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Download data from the web</span>
+			</a>
+		</div>
+		<div id="comments" class="thin"></div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>
+		&copy; 2024 <a href="https://dkensinger.github.io/">Dave Kensinger</a>
+		&#183; blue oak model license 1.0.0
+		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a></p>
+
+</footer>
+
+<a href="#" class="scroll-up"><svg xmlns="http://www.w3.org/2000/svg" fill="#3B3E48" width="64px" height="64px" viewBox="-2.4 -2.4 28.80 28.80" id="up-circle" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color" stroke="#3B3E48" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.9600000000000002"><circle id="primary" cx="12" cy="12" r="10" style="fill: #3B3E48;"></circle><path id="secondary" d="M15,14a1,1,0,0,1-.71-.29L12,11.41l-2.29,2.3a1,1,0,0,1-1.42-1.42l3-3a1,1,0,0,1,1.42,0l3,3a1,1,0,0,1,0,1.42A1,1,0,0,1,15,14Z" style="fill: #018574;"></path></g><g id="SVGRepo_iconCarrier"><circle id="primary" cx="12" cy="12" r="10" style="fill: #3B3E48;"></circle><path id="secondary" d="M15,14a1,1,0,0,1-.71-.29L12,11.41l-2.29,2.3a1,1,0,0,1-1.42-1.42l3-3a1,1,0,0,1,1.42,0l3,3a1,1,0,0,1,0,1.42A1,1,0,0,1,15,14Z" style="fill: #018574;"></path></g></svg></a>
+<noscript>
+    <a href="#" class="scroll-up show"><svg xmlns="http://www.w3.org/2000/svg" fill="#3B3E48" width="64px" height="64px" viewBox="-2.4 -2.4 28.80 28.80" id="up-circle" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color" stroke="#3B3E48" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.9600000000000002"><circle id="primary" cx="12" cy="12" r="10" style="fill: #3B3E48;"></circle><path id="secondary" d="M15,14a1,1,0,0,1-.71-.29L12,11.41l-2.29,2.3a1,1,0,0,1-1.42-1.42l3-3a1,1,0,0,1,1.42,0l3,3a1,1,0,0,1,0,1.42A1,1,0,0,1,15,14Z" style="fill: #018574;"></path></g><g id="SVGRepo_iconCarrier"><circle id="primary" cx="12" cy="12" r="10" style="fill: #3B3E48;"></circle><path id="secondary" d="M15,14a1,1,0,0,1-.71-.29L12,11.41l-2.29,2.3a1,1,0,0,1-1.42-1.42l3-3a1,1,0,0,1,1.42,0l3,3a1,1,0,0,1,0,1.42A1,1,0,0,1,15,14Z" style="fill: #018574;"></path></g></svg></a>
+</noscript>
+<script async src="https://dkensinger.github.io/js/scrollwatcher.min.11bd2ce6f91dfb64095448b76ac1930124a42dc7133488e6d3d5aae7badaf562.js" integrity="sha256-Eb0s5vkd+2QJVEi3asGTASSkLccTNIjm09Wq57ra9WI=" crossorigin="anonymous"></script>
+<script async src="https://dkensinger.github.io/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="https://dkensinger.github.io/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://dkensinger.github.io/js/mathjaxs.min.ca29e9d446b2a6cb6c6e3eb0d47e9693f5c306c146eaccb43047afbf31b07a6f.js" integrity="sha256-yinp1Eaypstsbj6w1H6Wk/XDBsFG6sy0MEevvzGwem8=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
